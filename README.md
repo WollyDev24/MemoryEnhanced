@@ -1,6 +1,6 @@
 # Samsung Memory Enhanced 🚀
 
-Enhanced, standalone port of Samsung's **One UI Memory** app (`com.samsung.android.app.memory`) with Shizuku-based screen capture, cloud Gemini AI analysis, smart action extraction, and Material You dynamic themed icon support.
+Enhanced, standalone port of Samsung's **One UI Memory** app with Shizuku-based screen capture, cloud Gemini AI analysis, smart action extraction, and a Added Quick Tile!
 
 ---
 
@@ -31,7 +31,7 @@ Enhanced, standalone port of Samsung's **One UI Memory** app (`com.samsung.andro
 
 ## 📲 Prerequisites & Setup
 
-1. **Android 14 or 15** (One UI 6.x / 7.x recommended).
+1. **Android 16 or 17** (One UI 8.5 or Higher recommended, not tested on Older versions).
 2. **[Shizuku](https://shizuku.rikka.app/)**:
    - Installed and running (via Wireless Debugging or ADB).
    - In Shizuku's Authorized Applications menu, authorize **Memory**.
