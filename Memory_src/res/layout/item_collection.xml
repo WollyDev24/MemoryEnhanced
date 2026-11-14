@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/item_collection_container" android:background="@drawable/item_collection_container_background" android:layout_width="match_parent" android:layout_height="@dimen/collection_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/collection_item_checkbox_reorder_handle_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="4.0dp">
+        <CheckBox android:layout_gravity="center|top" android:id="@id/collection_item_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dp" android:layout_height="32.0dp" android:checked="false" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center|bottom" android:id="@id/collection_item_reorder_handle" android:padding="4.0dp" android:focusable="false" android:visibility="gone" android:duplicateParentState="true" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_margin="4.0dp" android:src="@drawable/ic_reorder_handle_4directions" android:tint="@color/basic_token_sys_on_surface_container_highest" android:contentDescription="@string/collections_reorder_handle_content_description" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/collection_item_container" android:padding="@dimen/collection_item_content_padding" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/collection_item_title_text_size" android:textStyle="bold" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:ellipsize="end" android:gravity="start" android:id="@id/collection_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:textDirection="locale" android:textAlignment="viewStart" android:textFontWeight="600" />
+            <TextView android:textSize="@dimen/collection_item_subtitle_text_size" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:ellipsize="end" android:gravity="start|center" android:id="@id/collection_sub_title" android:paddingTop="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" android:textAlignment="viewStart" android:textFontWeight="400" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="end|bottom" android:id="@id/thumbnail_container" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/memory_list_image_border" android:clipToOutline="true">
+            <ImageView android:id="@id/thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" android:clipToOutline="true" />
+            <com.samsung.android.app.memory.core.ui.view.DropShadowImageView android:layout_gravity="center" android:id="@id/memory_type_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_memo" android:importantForAccessibility="no" app:dropShadowColor="#80000000" app:dropShadowRadius="1.0dp" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|bottom" android:id="@id/previewStackContainer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dp">
+            <FrameLayout android:id="@id/previewLayoutViewThird" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/memory_list_image_border" android:layout_marginStart="24.0dp">
+                <ImageView android:id="@id/previewRightBottomImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+                <com.samsung.android.app.memory.core.ui.view.DropShadowImageView android:layout_gravity="center" android:id="@id/previewRightBottomTypeIconView" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:tint="#fcfcff" android:importantForAccessibility="no" app:dropShadowColor="#80000000" app:dropShadowRadius="1.0dp" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/previewLayoutViewSecond" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/memory_list_image_border" android:layout_marginHorizontal="12.0dp">
+                <ImageView android:id="@id/previewRightTopImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+                <com.samsung.android.app.memory.core.ui.view.DropShadowImageView android:layout_gravity="center" android:id="@id/previewRightTopTypeIconView" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:tint="#fcfcff" android:importantForAccessibility="no" app:dropShadowColor="#80000000" app:dropShadowRadius="1.0dp" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/previewLayoutViewFirst" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/memory_list_image_border" android:layout_marginEnd="24.0dp">
+                <ImageView android:id="@id/previewLeftImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+                <com.samsung.android.app.memory.core.ui.view.DropShadowImageView android:layout_gravity="center" android:id="@id/previewLeftTypeIconView" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:tint="#fcfcff" android:importantForAccessibility="no" app:dropShadowColor="#80000000" app:dropShadowRadius="1.0dp" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

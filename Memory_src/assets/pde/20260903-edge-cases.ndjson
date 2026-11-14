@@ -1,0 +1,11 @@
+{"id":"staying_1787086800000","type":"staying","startTimestamp":1787065200000,"endTimestamp":1787086800000,"payloadVersion":1,"payload":{"latitude":37.5665,"longitude":126.978,"label":"HOME","visitCount":1}}
+{"id":"sleeping_1787092200000","type":"sleeping","startTimestamp":1787086800000,"endTimestamp":1787092200000,"payloadVersion":1,"payload":{"sleepScore":-1,"confidence":0.2}}
+{"id":"speakingOnPhone_1787094900000","type":"speakingOnPhone","startTimestamp":1787094900000,"endTimestamp":1787094900000,"payloadVersion":1,"payload":{"durationMillis":0,"direction":"MISSED","phoneNumber":"+821000000000"}}
+{"id":"watchingVideo_1787103000000","type":"watchingVideo","startTimestamp":1787097600000,"endTimestamp":1787103000000,"payloadVersion":1,"payload":{"appPackage":"com.netflix.mediaclient","title":"채널명이 없는 콘텐츠"}}
+{"id":"moving_1787107500000","type":"moving","startTimestamp":1787104800000,"endTimestamp":1787107500000,"payloadVersion":1,"payload":{"movingState":"UNKNOWN","transportMode":"UNKNOWN","confidence":0.31}}
+{"id":"staying_1787112000000","type":"staying","startTimestamp":1787108400000,"endTimestamp":1787112000000,"payloadVersion":1,"payload":{"latitude":37.5443,"longitude":127.0557,"label":"NONE","visitCount":7,"futureField":"무시되어야 함","anotherNew":123}}
+{"id":"listeningToMusic_1787118000000","type":"listeningToMusic","startTimestamp":1787115600000,"endTimestamp":1787118000000,"payloadVersion":9,"payload":{"appPackage":"com.spotify.music","title":"미래 버전 payload","artist":"테스트"}}
+{"id":"payment_1787119320000","type":"payment","startTimestamp":1787119200000,"endTimestamp":1787119320000,"payloadVersion":1,"payload":{"amount":12900,"merchant":"테스트 상점"}}
+{"id":"exercise_1787126400000","type":"exercise","startTimestamp":1787122800000,"endTimestamp":1787126400000,"payloadVersion":1,"payload":{}}
+{"id":"staying_1787176800000","type":"staying","startTimestamp":1787146200000,"endTimestamp":1787176800000,"payloadVersion":1,"payload":{"latitude":37.5665,"longitude":126.978,"label":"HOME","visitCount":2}}
+{"id":"browsing_1787151599999","type":"webBrowsing","startTimestamp":1787151599999,"endTimestamp":1787151599999,"payloadVersion":1,"payload":{"url":"https://example.com/edge","title":"23:59:59.999 에 시작한 시점형","keyword":"edge case test"}}

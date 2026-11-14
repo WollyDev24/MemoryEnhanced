@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_detail_action_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:paddingStart="10.0dp" android:paddingEnd="8.0dp" android:paddingVertical="@dimen/detail_action_item_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/detail_action_item_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/detail_action_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textIsSelectable="true" android:textFontWeight="400" />
+        <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center_vertical" android:id="@id/detail_action_icon" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/detail_action_icon_size" android:layout_height="@dimen/detail_action_icon_size" android:stateListAnimator="?seslSmallTouchAnimator" />
+    </LinearLayout>
+    <include android:id="@id/expandable_button" layout="@layout/view_expandable_button" />
+</LinearLayout>

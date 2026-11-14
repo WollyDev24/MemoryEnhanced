@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <TextView android:textSize="10.0sp" android:textColor="?android:textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="대표" android:layout_marginEnd="4.0dp" />
+            <ImageView android:id="@id/iv_representative" android:visibility="gone" android:layout_width="48.0dp" android:layout_height="48.0dp" android:scaleType="centerCrop" />
+        </LinearLayout>
+        <TextView android:textSize="10.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tv_images_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="이미지 목록" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_images" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <TextView android:textSize="10.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tv_voices_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Voice URI" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_add_voice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="추가" />
+            <Button android:id="@id/btn_edit_voice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="편집" android:layout_marginStart="4.0dp" />
+            <Button android:id="@id/btn_delete_voice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="삭제" android:layout_marginStart="4.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="11.0sp" android:id="@id/tv_voices" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" />
+        <TextView android:textSize="13.0sp" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/tv_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+            <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/tv_memo" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_add_memo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="추가" android:layout_marginStart="4.0dp" />
+            <Button android:id="@id/btn_edit_memo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="편집" android:layout_marginStart="4.0dp" />
+            <Button android:id="@id/btn_delete_memo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="삭제" android:layout_marginStart="4.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="11.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tv_origin_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" />
+        <TextView android:textSize="11.0sp" android:ellipsize="end" android:id="@id/tv_deep_link" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:maxLines="1" />
+        <TextView android:textSize="11.0sp" android:id="@id/tv_created_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textSize="11.0sp" android:id="@id/tv_meta" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/btn_toggle_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="☆ Favorite" android:layout_marginStart="8.0dp" />
+            <Button android:id="@id/btn_toggle_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔓 Lock" android:layout_marginStart="4.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tv_tags_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="태그" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_tags" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <EditText android:id="@id/et_add_tag" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="태그 입력" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" />
+            <Button android:id="@id/btn_add_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="추가" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tv_collections_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="컬렉션" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_collections" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" />
+        <Button android:id="@id/btn_add_collection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="컬렉션 추가" />
+        <TextView android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tv_actions_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="액션" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_actions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <EditText android:id="@id/et_add_action" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="타입|정보 (예: CALL|010-1234)" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" />
+            <Button android:id="@id/btn_add_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="추가" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+        <Button android:id="@id/btn_next_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="다음 상태로" />
+    </LinearLayout>
+</ScrollView>

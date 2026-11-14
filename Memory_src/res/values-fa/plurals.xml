@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">”موارد دلخواه“ و %d مجموعه دیگر حذف شوند؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">”موارد دلخواه“ و %d مجموعه دیگر حذف شوند؟</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d مجموعه حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d مجموعه حذف شود؟</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d خاطره</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d خاطره</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز گذشته</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d روز گذشته</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مجموعه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مجموعه</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ساعت</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دقیقه</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">%d kcal</item>
+        <item quantity="one">%d ک.کال</item>
+        <item quantity="two">%d kcal</item>
+        <item quantity="few">%d kcal</item>
+        <item quantity="many">%d kcal</item>
+        <item quantity="other">%d ک.کال</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پیام</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پیام</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نفر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d نفر</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d عکس</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d عکس</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مرتبه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مرتبه</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ویدیو</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ویدیو</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d صفحه وب</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d صفحه وب</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d مورد برجسته در %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d مورد برجسته در %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d فعالیت مخفی شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d فعالیت مخفی شود؟</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d مورد برجسته مخفی شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d مورد برجسته مخفی شود؟</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d خاطره حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d خاطره حذف شود؟</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">۱ مجموعه، %d خاطره</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">۱ مجموعه، %d خاطره</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d خاطره حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d خاطره حذف شود؟</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d خاطره به ”سطل زباله“ منتقل شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d خاطره به ”سطل زباله“ منتقل شوند؟</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد انتخاب شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مجموعه جدید برایتان پیشنهاد شده است</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مجموعه جدید برایتان پیشنهاد شده است</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">برای استفاده از ویژگی‌های هوش‌مصنوعی پیشرفته Galaxy AI باید حداقل %d سال داشته باشید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">برای استفاده از ویژگی‌های هوش‌مصنوعی پیشرفته Galaxy AI باید حداقل %d سال داشته باشید.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هر خاطره‌ای که حذف می‌کنید به‌مدت %d روز در ”سطل زباله“ می‌ماند و بعد از آن برای همیشه حذف می‌شود.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هر خاطره‌ای که حذف می‌کنید به‌مدت %d روز در ”سطل زباله“ می‌ماند و بعد از آن برای همیشه حذف می‌شود.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">افزودن بیش از %d برچسب ممکن نیست. برای حذف برچسب‌ها، به ویرایشگر عکس در ”گالری“ بروید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">افزودن بیش از %d برچسب ممکن نیست. برای حذف برچسب‌ها، به ویرایشگر عکس در ”گالری“ بروید.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">۱ مجموعه حذف و %d خاطره به ”سطل زباله“ منتقل شوند؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">۱ مجموعه حذف و %d خاطره به ”سطل زباله“ منتقل شوند؟</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مجموعه حذف و ۱ خاطره به ”سطل زباله“ منتقل شوند؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مجموعه حذف و ۱ خاطره به ”سطل زباله“ منتقل شوند؟</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">۱ مجموعه و %d خاطره برای همیشه حذف می‌شوند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">۱ مجموعه و %d خاطره برای همیشه حذف می‌شوند.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مجموعه و ۱ خاطره برای همیشه حذف می‌شوند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مجموعه و ۱ خاطره برای همیشه حذف می‌شوند.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نتیجه یافت شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d نتیجه یافت شد</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d تصویر در %2$s ذخیره شد. برخی از فرمت‌های تصویر انتخاب‌شده پشتیبانی نمی‌شوند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d تصویر در %2$s ذخیره شد. برخی از فرمت‌های تصویر انتخاب‌شده پشتیبانی نمی‌شوند.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d خاطره حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این %d خاطره حذف شود؟</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">خاطرات موجود در ”سطل زباله“ پس از %d روز به‌طور دائمی حذف می‌شوند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">خاطرات موجود در ”سطل زباله“ پس از %d روز به‌طور دائمی حذف می‌شوند.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d خاطره بازنشانی شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d خاطره بازیابی شد.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این خاطره ظرف %d روز حذف خواهد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">این خاطره ظرف %d روز حذف خواهد شد.</item>
+    </plurals>
+</resources>

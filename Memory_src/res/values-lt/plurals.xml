@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti parankinius ir dar %d kolekciją?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti parankinius ir dar %d kolekcijas?</item>
+        <item quantity="many">Ištrinti parankinius ir dar %d kolekcijų?</item>
+        <item quantity="other">Ištrinti parankinius ir dar %d kolekcijų?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti %d kolekciją?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti %d kolekcijas?</item>
+        <item quantity="many">Ištrinti %d kolekcijų?</item>
+        <item quantity="other">Ištrinti %d kolekcijų?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d prisiminimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d prisiminimai</item>
+        <item quantity="many">%d prisiminimų</item>
+        <item quantity="other">%d prisiminimų</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pastaroji %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pastarosios %d d.</item>
+        <item quantity="many">Pastarosios %d d.</item>
+        <item quantity="other">Pastarosios %d d.</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolekcija</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kolekcijos</item>
+        <item quantity="many">%d kolekcijų</item>
+        <item quantity="other">%d kolekcijų</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d val.</item>
+        <item quantity="many">%d val.</item>
+        <item quantity="other">%d val.</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kcal</item>
+        <item quantity="many">%d kcal</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d žinutė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d žinutės</item>
+        <item quantity="many">%d žinučių</item>
+        <item quantity="other">%d žinučių</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d žmogus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d žmonės</item>
+        <item quantity="many">%d žmonių</item>
+        <item quantity="other">%d žmonių</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nuotrauka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nuotraukos</item>
+        <item quantity="many">%d nuotraukų</item>
+        <item quantity="other">%d nuotraukų</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kartas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kartai</item>
+        <item quantity="many">%d kartų</item>
+        <item quantity="other">%d kartų</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašų</item>
+        <item quantity="other">%d vaizdo įrašų</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tinklalapis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d tinklalapiai</item>
+        <item quantity="many">%d tinklalapių</item>
+        <item quantity="other">%d tinklalapių</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d svarbiausia akimirka %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d svarbiausios akimirkos %2$s</item>
+        <item quantity="many">%1$d svarbiausių akimirkų %2$s</item>
+        <item quantity="other">%1$d svarbiausių akimirkų %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Slėpti %d veiklą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Slėpti %d veiklas?</item>
+        <item quantity="many">Slėpti %d veiklų?</item>
+        <item quantity="other">Slėpti %d veiklų?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Slėpti %d paryškinimą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Slėpti %d paryškinimus?</item>
+        <item quantity="many">Slėpti %d paryškinimų?</item>
+        <item quantity="other">Slėpti %d paryškinimų?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti %d prisiminimą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti %d prisiminimus?</item>
+        <item quantity="many">Ištrinti %d prisiminimų?</item>
+        <item quantity="other">Ištrinti %d prisiminimų?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 rinkinys, %d prisiminimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 rinkinys, %d prisiminimai</item>
+        <item quantity="many">1 rinkinys, %d prisiminimų</item>
+        <item quantity="other">1 rinkinys, %d prisiminimų</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti %d prisiminimą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti %d prisiminimus?</item>
+        <item quantity="many">Ištrinti %d prisiminimų?</item>
+        <item quantity="other">Ištrinti %d prisiminimų?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %d prisiminimą į šiukšlinę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %d prisiminimus į šiukšlinę?</item>
+        <item quantity="many">Perkelti %d prisiminimų į šiukšlinę?</item>
+        <item quantity="other">Perkelti %d prisiminimų į šiukšlinę?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Parinkta: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Parinkta: %d</item>
+        <item quantity="many">Parinkta: %d</item>
+        <item quantity="other">Parinkta: %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jums siūloma %d nauja kolekcija</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jums siūlomos %d naujos kolekcijos</item>
+        <item quantity="many">Jums siūloma %d naujų kolekcijų</item>
+        <item quantity="other">Jums siūloma %d naujų kolekcijų</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+        <item quantity="many">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+        <item quantity="other">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Visi ištrinti prisiminimai bus saugomi šiukšlinėje %d d., o tada bus ištrinti visam laikui.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Visi ištrinti prisiminimai liks šiukšlinėje %d d., o tada bus ištrinti visam laikui.</item>
+        <item quantity="many">Visi ištrinti prisiminimai liks šiukšlinėje %d d., o tada bus ištrinti visam laikui.</item>
+        <item quantity="other">Visi ištrinti prisiminimai liks šiukšlinėje %d d., o tada bus ištrinti visam laikui.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d lipduko. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d lipdukų. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d lipdukų. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+        <item quantity="other">Negalima pridėti daugiau nei %d lipdukų. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti 1 kolekciją ir perkelti %d prisiminimą į šiukšlinę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti 1 kolekciją ir perkelti %d prisiminimus į šiukšlinę?</item>
+        <item quantity="many">Ištrinti 1 kolekciją ir perkelti %d prisiminimų į šiukšlinę?</item>
+        <item quantity="other">Ištrinti 1 kolekciją ir perkelti %d prisiminimų į šiukšlinę?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti %d kolekciją ir perkelti 1 prisiminimą į šiukšlinę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti %d kolekcijas ir perkelti 1 prisiminimą į šiukšlinę?</item>
+        <item quantity="many">Ištrinti %d kolekcijų ir perkelti 1 prisiminimą į šiukšlinę?</item>
+        <item quantity="other">Ištrinti %d kolekcijų ir perkelti 1 prisiminimą į šiukšlinę?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 kolekcija ir %d prisiminimas bus ištrinti visam laikui.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 kolekcija ir %d prisiminimai bus ištrinti visam laikui.</item>
+        <item quantity="many">1 kolekcija ir %d prisiminimų bus ištrinta visam laikui.</item>
+        <item quantity="other">1 kolekcija ir %d prisiminimų bus ištrinta visam laikui.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolekcija ir 1 prisiminimas bus ištrinti visam laikui.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kolekcijos ir 1 prisiminimas bus ištrinti visam laikui.</item>
+        <item quantity="many">%d kolekcijų ir 1 prisiminimas bus ištrinti visam laikui.</item>
+        <item quantity="other">%d kolekcijų ir 1 prisiminimas bus ištrinti visam laikui.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Rastas %d rezultatas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Rasti %d rezultatai</item>
+        <item quantity="many">Rasta %d rezultato</item>
+        <item quantity="other">Rasta %d rezultatų</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d vaizdas išsaugotas %2$s. Kai kurie pasirinktų vaizdų formatai nepalaikomi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d vaizdai išsaugoti %2$s. Kai kurie pasirinktų vaizdų formatai nepalaikomi.</item>
+        <item quantity="many">%1$d vaizdų išsaugota %2$s. Kai kurie pasirinktų vaizdų formatai nepalaikomi.</item>
+        <item quantity="other">%1$d vaizdų išsaugota %2$s. Kai kurie pasirinktų vaizdų formatai nepalaikomi.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d prisiminimą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d prisiminimus?</item>
+        <item quantity="many">Trinti %d prisiminimų?</item>
+        <item quantity="other">Trinti %d prisiminimų?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po %d d. šiukšlinėje esantys prisiminimai bus ištrinti visam laikui.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Prisiminimai šiukšlinėje bus visam laikui pašalinti po %d d.</item>
+        <item quantity="many">Prisiminimai šiukšlinėje bus visam laikui pašalinti po %d d.</item>
+        <item quantity="other">Prisiminimai šiukšlinėje bus visam laikui pašalinti po %d d.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atkurtas %d prisiminimas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atkurti %d prisiminimai.</item>
+        <item quantity="many">Atkurta %d prisiminimų.</item>
+        <item quantity="other">Atkurta %d prisiminimų.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šis prisiminimas bus ištrintas po %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šis prisiminimas bus ištrintas po %d d.</item>
+        <item quantity="many">Šis prisiminimas bus ištrintas po %d d.</item>
+        <item quantity="other">Šis prisiminimas bus ištrintas po %d d.</item>
+    </plurals>
+</resources>

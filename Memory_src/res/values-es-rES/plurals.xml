@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">No se puede introducir más de %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">No se pueden introducir más de %d caracteres.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">No se puede introducir más de %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">No se pueden introducir más de %d caracteres.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar Favoritos y %d colección más?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar Favoritos y %d colecciones más?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar %d colección?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar %d colecciones?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d recuerdo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d recuerdos</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d día (el último)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Últimos %d días</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d colección</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d colecciones</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mensaje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mensajes</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d persona</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d personas</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d foto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fotos</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d veces</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vídeo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas web</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d momento destacado el %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d momentos destacados el %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">No se puede introducir más de %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">No se pueden introducir más de %d caracteres.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres ocultar %d actividad?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres ocultar %d actividades?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres ocultar %d momento destacado?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres ocultar %d momentos destacados?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar %d recuerdo?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar %d recuerdos?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 colección, %d recuerdo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 colección, %d recuerdos</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar %d recuerdo?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar %d recuerdos?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres mover %d recuerdo a la Papelera?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres mover %d recuerdos a la Papelera?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seleccionado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d seleccionados</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nueva colección sugerida para ti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nuevas colecciones sugeridas para ti</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Debes tener al menos %d año para usar las funciones de inteligencia avanzada de Galaxy AI.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Debes tener al menos %d años para usar las funciones de inteligencia avanzada de Galaxy AI.</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Los recuerdos que elimines permanecerán en la Papelera durante %d día antes de que se eliminen para siempre.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Los recuerdos que elimines permanecerán en la Papelera durante %d días antes de que se eliminen para siempre.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">No se puede añadir más de %d sticker. Ve al editor de fotos en Galería para eliminar algunos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">No se pueden añadir más de %d stickers. Ve al editor de fotos en Galería para eliminar algunos.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar 1 colección y mover %d recuerdo a la Papelera?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar 1 colección y mover %d recuerdos a la Papelera?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar %d colección y mover 1 recuerdo a la Papelera?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar %d colecciones y mover 1 recuerdo a la Papelera?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Se eliminarán 1 colección y %d recuerdo de forma permanente.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Se eliminarán 1 colección y %d recuerdos de forma permanente.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Se eliminarán %d colección y 1 recuerdo de forma permanente.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Se eliminarán %d colecciones y 1 recuerdo de forma permanente.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d resultado encontrado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d resultados encontrados</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Se ha guardado %1$d imagen en %2$s. Algunos formatos de imagen seleccionados no se admiten.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Se han guardado %1$d imágenes en %2$s. Algunos formatos de imagen seleccionados no se admiten.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">¿Quieres eliminar %d recuerdo?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">¿Quieres eliminar %d recuerdos?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Los recuerdos de la Papelera se eliminarán de forma permanente después de %d día.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Los recuerdos de la Papelera se eliminarán de forma permanente después de %d días.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Se ha restaurado %d recuerdo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Se han restaurado %d recuerdos.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Este recuerdo se eliminará dentro de %d día.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Este recuerdo se eliminará dentro de %d días.</item>
+    </plurals>
+</resources>

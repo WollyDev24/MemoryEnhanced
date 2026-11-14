@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/collection_add_container" android:background="@drawable/item_collection_container_background" android:padding="@dimen/collection_item_content_padding" android:layout_width="match_parent" android:layout_height="@dimen/collection_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/collection_item_title_text_size" android:textStyle="bold" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:ellipsize="end" android:gravity="start" android:id="@id/collection_add_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/collections_suggestion_add_collection" android:maxLines="2" android:textDirection="locale" android:textAlignment="viewStart" android:textFontWeight="600" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/collection_add_icon_container" android:background="@drawable/bg_collection_add_icon" android:layout_width="36.0dp" android:layout_height="36.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_create_folder_plus" android:importantForAccessibility="no" app:tint="@color/basic_token_sys_on_surface_container_highest" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_container" android:paddingTop="@dimen/search_related_results_divider_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.memory.core.ui.view.DottedLineView android:layout_width="match_parent" android:layout_height="1.5dp" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/search_related_results_divider_margin_horizontal" />
+    <TextView android:textSize="@dimen/search_related_results_header_text_size" android:id="@id/header_text_view" android:paddingTop="@dimen/list_sub_header_margin_top" android:paddingBottom="@dimen/list_sub_header_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_string_related_results" android:paddingHorizontal="@dimen/search_related_results_header_padding_horizontal" style="@style/Widget.Memory.List.SubHeader" />
+</LinearLayout>

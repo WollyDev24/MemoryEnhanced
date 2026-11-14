@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/processing_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/processing_icon_animation" android:layout_width="@dimen/detail_processing_animation_size" android:layout_height="@dimen/detail_processing_animation_size" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/processing_icon_animation" />
+    <FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_processing_text_margin_top">
+        <TextView android:textSize="14.0sp" android:textColor="@color/basic_token_sys_on_surface_container_lowest" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/processing_status_text_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/basic_token_sys_on_surface_container_lowest" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/processing_status_text_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    </FrameLayout>
+</LinearLayout>

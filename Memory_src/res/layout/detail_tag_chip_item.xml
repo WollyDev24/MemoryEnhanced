@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:theme="@style/SeslPeoplePickerStyle" android:textAppearance="@style/TextAppearance.Memory.Detail.Tag" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="?seslSmallTouchAnimator" app:checkedIconVisible="false" app:chipBackgroundColor="@android:color/transparent" app:chipIconVisible="false" app:chipStrokeColor="@color/basic_token_sys_surface_container" app:chipStrokeWidth="1.0dp" app:closeIconVisible="false" app:ensureMinTouchTargetSize="false" style="@style/SeslChipStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

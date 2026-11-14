@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory app:key="more_galaxy_ai_category">
+        <androidx.preference.Preference android:title="@string/settings_more_galaxy_ai_features" android:key="@string/pref_key_more_galaxy_ai_features" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

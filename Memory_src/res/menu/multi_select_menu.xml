@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_favorite" android:id="@id/menu_favorite" android:visible="false" android:title="@string/favorites" app:contentDescription="@string/favorites" app:showAsAction="ifRoom" app:tooltipText="@string/favorites" />
+    <item android:icon="@drawable/ic_unfavorite" android:id="@id/menu_unfavorite" android:visible="false" android:title="@string/bottom_menu_unfavorites" app:contentDescription="@string/bottom_menu_unfavorites" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_unfavorites" />
+    <item android:icon="@drawable/ic_add_collection" android:id="@id/menu_add_collection" android:visible="false" android:title="@string/bottom_menu_add_collection" app:contentDescription="@string/bottom_menu_add_collection" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_add_collection" />
+    <item android:icon="@drawable/ic_lock" android:id="@id/menu_lock" android:visible="false" android:title="@string/bottom_menu_lock" app:contentDescription="@string/bottom_menu_lock" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_lock" />
+    <item android:icon="@drawable/ic_unlock" android:id="@id/menu_unlock" android:visible="false" android:title="@string/bottom_menu_unlock" app:contentDescription="@string/bottom_menu_unlock" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_unlock" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/menu_delete" android:visible="false" android:title="@string/bottom_menu_delete" app:contentDescription="@string/bottom_menu_delete" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_delete" />
+    <item android:icon="@drawable/ic_remove" android:id="@id/menu_remove" android:visible="false" android:title="@string/bottom_menu_remove" app:contentDescription="@string/bottom_menu_remove" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_remove" />
+    <item android:icon="@drawable/ic_restore" android:id="@id/menu_restore" android:visible="false" android:title="@string/bottom_menu_restore" app:contentDescription="@string/bottom_menu_restore" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_restore" />
+    <item android:icon="@drawable/ic_edit_rename_pencil" android:id="@id/menu_rename" android:visible="false" android:title="@string/bottom_menu_rename" app:contentDescription="@string/bottom_menu_rename" app:showAsAction="ifRoom" app:tooltipText="@string/bottom_menu_rename" />
+    <item android:id="@id/action_cancel" android:title="@string/menu_action_cancel" android:contentDescription="@string/menu_action_cancel" app:showAsAction="always" />
+</menu>

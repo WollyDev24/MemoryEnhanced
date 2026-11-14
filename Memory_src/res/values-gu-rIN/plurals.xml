@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે અક્ષર દાખલ કરી શકાતા નથી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે અક્ષર દાખલ કરી શકાતા નથી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">મનપસંદો અને અન્ય %d સંગ્રહ કાઢી નાખવો છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">મનપસંદો અને અન્ય %d સંગ્રહો કાઢી નાખવા છે?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંગ્રહ કાઢી નાખવો છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંગ્રહો કાઢી નાખવાં છે?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેમરી</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મેમરીઝ</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">અંતિમ %d દિવસ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">અંતિમ %d દિવસ</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંગ્રહ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંગ્રહો</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કલાક</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મિનિટ્સ</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંદેશ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંદેશા</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વ્યક્તિ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d લોકો</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ફોટો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ફોટા</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વાર</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d વાર</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વિડિયો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d વિડિયોઝ</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વેબપેજ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d વેબપેજીસ</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sના રોજ %1$d હાઇલાઇટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$sના રોજ %1$d હાઇલાઇટ્સ</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે અક્ષર દાખલ કરી શકાતા નથી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d પ્રવૃત્તિ છુપાવવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d પ્રવૃત્તિઓ છુપાવવી છે?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d હાઇલાઇટ છુપાવવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d હાઇલાઇટ્સ છુપાવવી છે?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેમરી કાઢી નાખવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મેમરીઝ કાઢી નાખવી છે?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 સંગ્રહ, %d મેમરી</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 સંગ્રહ, %d મેમરીઝ</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેમરી કાઢી નાખવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મેમરીઝ કાઢી નાખવી છે?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેમરીને ટ્રૅશમાં ખસેડીએ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મેમરીઝને ટ્રૅશમાં ખસેડીએ?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d પસંદ કરેલ છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d પસંદ કરેલ છે</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમારા માટે %d નવો સંગ્રહ સૂચવવામાં આવ્યો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમારા માટે %d નવા સંગ્રહો સૂચવવામાં આવ્યા</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galaxy AIની પ્રગત બુદ્ધિ-સુવિધાઓનો ઉપયોગ કરવા માટે, તમારી વય ઓછામાં ઓછી %d વર્ષ હોવી જરૂરી છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Galaxy AIની પ્રગત બુદ્ધિ-સુવિધાઓનો ઉપયોગ કરવા માટે, તમારી વય ઓછામાં ઓછી %d વર્ષ હોવી જરૂરી છે.</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમે કાઢી નાખેલી કોઈ પણ મેમરી, હંમેશ માટે કાઢી નાખવામાં આવે તે પહેલાં %d દિવસ માટે ટ્રૅશમાં રહેશે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમે કાઢી નાખેલી કોઈ પણ મેમરી, હંમેશ માટે કાઢી નાખવામાં આવે તે પહેલાં %d દિવસ માટે ટ્રૅશમાં રહેશે.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે સ્ટીકર ઉમેરી ન શકાય. સ્ટીકરો દૂર કરવા માટે ગૅલેરીમાં ફોટો એડિટર પર જાઓ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કરતાં વધારે સ્ટીકરો ઉમેરી ન શકાય. સ્ટીકરો દૂર કરવા માટે ગૅલેરીમાં ફોટો એડિટર પર જાઓ.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 સંગ્રહ કાઢી નાખીને %d મેમરી ટ્રૅશમાં ખસેડવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 સંગ્રહ કાઢી નાખીને %d મેમરીઝ ટ્રૅશમાં ખસેડવી છે?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંગ્રહ કાઢી નાખીને 1 મેમરી ટ્રૅશમાં ખસેડવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંગ્રહો કાઢી નાખીને 1 મેમરી ટ્રૅશમાં ખસેડવી છે?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 સંગ્રહ અને %d મેમરી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 સંગ્રહ અને %d મેમરીઝ કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંગ્રહ અને 1 મેમરી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંગ્રહો અને 1 મેમરી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d પરિણામ મળ્યું</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d પરિણામો મળ્યાં</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ઇમેજ %2$sમાં સાચવવામાં આવી. કેટલાંક પસંદ કરેલાં ઇમેજ ફૉર્મેટો સમર્થિત નથી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ઇમેજો %2$sમાં સાચવવામાં આવી. કેટલાંક પસંદ કરેલાં ઇમેજ ફૉર્મેટો સમર્થિત નથી.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેમરી કાઢી નાખવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કાઢી નાખવી છે?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ટ્રૅશમાં રહેલી મેમરીઝ %d દિવસ બાદ હંમેશ માટે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ટ્રૅશમાં રહેલી મેમરીઝ %d દિવસ બાદ હંમેશ માટે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેમરી પાછી મેળવવામાં આવી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મેમરીઝ પાછી મેળવવામાં આવી.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">આ મેમરી %d દિવસમાં કાઢી નાખવામાં આવશે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">આ મેમરી %d દિવસમાં કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+</resources>

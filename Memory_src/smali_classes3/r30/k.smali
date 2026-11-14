@@ -1,0 +1,17 @@
+.class public interface abstract Lr30/k;
+.super Ljava/lang/Object;
+.source "r8-map-id-e93a72792c972cad17e84e22058bc4948ad789ab8e61ec7b26e7bd8c8fdadfa3"
+
+# interfaces
+.implements Lr30/u;
+
+
+# virtual methods
+.method public abstract j()Lr30/j;
+.end method
+
+.method public abstract v()Z
+.end method
+
+.method public abstract w()Lr30/f;
+.end method

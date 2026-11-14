@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="one">"Can't add more than %d sticker. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="two">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="few">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="many">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="other">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+    </plurals>
+</resources>

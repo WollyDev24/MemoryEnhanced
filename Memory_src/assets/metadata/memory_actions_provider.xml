@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action
+        tag="memory.perform.createMemory"
+        defaultLabel="Create a Memory record"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.CreateMemoryToolActionHandlerFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="text"
+                    defaultName="text"
+                    description="Original text to save as a new text Memory record. Supply exactly one of text or imageUri."
+                    type="STRING">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="100000"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+                <parameter
+                    key="imageUri"
+                    defaultName="imageUri"
+                    description="One image that the Memory app can read. Supply exactly one of imageUri or text; keep the image URI unchanged."
+                    type="IMAGE">
+                    <domain>
+                        <object additionalProperties="false">
+                            <property
+                                key="id"
+                                type="STRING" />
+                            <property
+                                key="image"
+                                type="OBJECT"
+                                required="true" />
+                            <property
+                                key="location"
+                                type="STRING" />
+                            <property
+                                key="starred"
+                                type="BOOLEAN" />
+                            <property
+                                key="album_id"
+                                type="STRING" />
+                        </object>
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="UUID of the newly created Memory record."
+                    type="STRING"
+                    isRequired="true" />
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Editing an existing record, adding a note to an existing record, searching, deleting, or opening a record."
+            selection_boundary="Choose this only for new content. Provide exactly one of text or imageUri, never both."
+            what_it_controls="Creates one Memory record and starts the app's normal analysis flow. It does not open the detail screen."
+            when_to_use="Use when the user asks to save new text or one readable image in the Memory app and return its UUID. Use memory.perform.getMemory when record details are needed." />
+    </action>
+
+    <action
+        tag="memory.perform.deleteMemory"
+        defaultLabel="Delete a Memory record"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.DeleteMemoryToolActionHandlerFactory"
+        needsApproval="ASK_EVERY_TIME">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="Exact uuid returned by CreateMemory, FindMemory, ReadMemory, or GetMemory. Do not invent or alter it."
+                    type="STRING"
+                    isRequired="true">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="200"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="The uuid of the record moved to the Memory app trash."
+                    type="STRING"
+                    isRequired="true" />
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Permanent deletion, deleting multiple records, clearing trash, hiding a result, or merely closing its detail screen."
+            selection_boundary="The exact uuid is required. Find the record first if its uuid is unknown."
+            what_it_controls="Moves one active Memory record to the app trash, where the user may restore it."
+            when_to_use="Use only when the user asks to delete a known Memory record." />
+    </action>
+
+    <action
+        tag="memory.perform.findMemory"
+        defaultLabel="Find Memory records"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.FindMemoryToolActionHandlerFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="query"
+                    defaultName="query"
+                    description="Concise content keywords to search across active Memory records. Extract only the relevant search terms from the user's request and omit command phrases such as 'find' or 'show'. Relative-date and structured-condition filtering are not supported."
+                    type="STRING"
+                    isRequired="true">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="1000"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+                <parameter
+                    key="max_count"
+                    defaultName="max_count"
+                    description="Maximum result count from 1 to 50. Omit to return up to 10 records."
+                    type="NUMBER">
+                    <domain>
+                        <range
+                            min="1"
+                            max="50" />
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="uuids"
+                    defaultName="uuids"
+                    description="UUIDs of matching active Memory records in relevance order. Returns an empty list when nothing matches."
+                    type="LIST_STRING"
+                    isRequired="true" />
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Relative-date or other structured-condition filtering; creating, updating, deleting, or opening records; and exact retrieval by uuid."
+            selection_boundary="Choose this for content keyword search. Pass only concise search terms because the tool does not interpret request phrases or relative dates. Use memory.perform.queryMemoriesByTag for exact tag-name lookup and memory.perform.getMemory for a known UUID."
+            what_it_controls="Runs the app's read-only keyword and relevance search using the provided query as-is."
+            when_to_use="Use when the user provides content keywords for a Memory record but its UUID or exact tag is not known. Returns UUIDs; use memory.perform.getMemory for record details when needed." />
+    </action>
+
+    <action
+        tag="memory.perform.getMemory"
+        defaultLabel="Get a Memory record"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.GetMemoryToolActionHandlerFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="uuids"
+                    defaultName="uuids"
+                    description="Exact uuid returned by CreateMemory, FindMemory, ReadMemory, or GetMemory. Do not invent or alter it. Provide 1 to 50 UUIDs per call."
+                    type="LIST_STRING"
+                    isRequired="true">
+                    <domain>
+                        <size
+                            min_items="1"
+                            max_items="50">
+                            <string
+                                min_length="1"
+                                max_length="200"
+                                pattern=""
+                                classification="PLAIN_TEXT" />
+                        </size>
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="memories"
+                    defaultName="memories"
+                    description="The requested active Memory record as a structured object."
+                    type="LIST_OBJECT"
+                    isRequired="true">
+                    <domain>
+                        <size>
+                            <object
+                                additionalProperties="false"
+                                description="One active Memory record. Optional properties are omitted when unavailable. List properties are omitted when empty.">
+                                <property
+                                    key="uuid"
+                                    type="STRING"
+                                    description="Stable record ID. Use this exact value as uuid when getting, updating, deleting, or showing this record."
+                                    required="true">
+                                    <domain>
+                                        <string
+                                            min_length="1"
+                                            max_length="200"
+                                            pattern=""
+                                            classification="ID" />
+                                    </domain>
+                                </property>
+                                <property
+                                    key="title"
+                                    type="STRING"
+                                    description="Preferred display title: the representative title when available, otherwise the stored title." />
+                                <property
+                                    key="summary"
+                                    type="STRING"
+                                    description="Analyzed summary, falling back to sourceText, userNote, then the representative voice transcript." />
+                                <property
+                                    key="usefulInformation"
+                                    type="STRING"
+                                    description="Additional analyzed guidance or useful information derived from the saved content." />
+                                <property
+                                    key="informationAssets"
+                                    type="LIST_OBJECT"
+                                    description="Structured analyzed facts grouped into assets, each with a subtitle and ordered contents.">
+                                    <domain>
+                                        <size>
+                                            <object
+                                                additionalProperties="false"
+                                                description="One analyzed information asset.">
+                                                <property
+                                                    key="subtitle"
+                                                    type="STRING"
+                                                    description="Group label for the analyzed information in contents, when available." />
+                                                <property
+                                                    key="contents"
+                                                    type="LIST_STRING"
+                                                    description="Ordered list of analyzed information strings belonging to this asset."
+                                                    required="true" />
+                                            </object>
+                                        </size>
+                                    </domain>
+                                </property>
+                                <property
+                                    key="sourceText"
+                                    type="STRING"
+                                    description="Original captured text. UpdateMemory can replace this field only for records with creationType TEXT." />
+                                <property
+                                    key="userNote"
+                                    type="STRING"
+                                    description="The user's personal note, separate from the original sourceText and analyzed summary." />
+                                <property
+                                    key="voiceTranscripts"
+                                    type="LIST_STRING"
+                                    description="Recognized speech transcripts from stored voice recordings; blank transcripts are omitted." />
+                                <property
+                                    key="creationType"
+                                    type="STRING"
+                                    description="Creation source enum name indicating how the record was saved, such as TEXT or IMAGE."
+                                    required="true" />
+                                <property
+                                    key="originInfo"
+                                    type="STRING"
+                                    description="Originating app package name or source identifier, when available." />
+                                <property
+                                    key="deepLink"
+                                    type="STRING"
+                                    description="URI that opens this record or related source content.">
+                                    <domain>
+                                        <string classification="URI" />
+                                    </domain>
+                                </property>
+                                <property
+                                    key="createdTimeMillis"
+                                    type="NUMBER"
+                                    description="Time the record was created as Unix epoch milliseconds."
+                                    required="true" />
+                                <property
+                                    key="modifiedTimeMillis"
+                                    type="NUMBER"
+                                    description="Time the record was last modified as Unix epoch milliseconds."
+                                    required="true" />
+                                <property
+                                    key="analysisStatus"
+                                    type="STRING"
+                                    description="Current analysis state enum name, such as PENDING or COMPLETE. Analyzed fields may be unavailable before completion."
+                                    required="true" />
+                                <property
+                                    key="tags"
+                                    type="LIST_STRING"
+                                    description="Names of tags assigned to this record. Use the exact name for ReadMemory tag lookup." />
+                                <property
+                                    key="collections"
+                                    type="LIST_STRING"
+                                    description="Names of collections containing this record." />
+                                <property
+                                    key="images"
+                                    type="LIST_IMAGE"
+                                    description="Stored images exposed as SDK image parameters containing image IDs and image URIs." />
+                                <property
+                                    key="location"
+                                    type="LIST_OBJECT"
+                                    description="Places extracted from the saved content, with available names, addresses, and coordinates.">
+                                    <domain>
+                                        <size>
+                                            <object
+                                                additionalProperties="false"
+                                                description="One extracted place.">
+                                                <property
+                                                    key="name"
+                                                    type="STRING"
+                                                    description="Name of the extracted place or point of interest." />
+                                                <property
+                                                    key="address"
+                                                    type="STRING"
+                                                    description="Street address of the extracted place." />
+                                                <property
+                                                    key="latitude"
+                                                    type="NUMBER"
+                                                    description="Latitude of the extracted place in decimal degrees." />
+                                                <property
+                                                    key="longitude"
+                                                    type="NUMBER"
+                                                    description="Longitude of the extracted place in decimal degrees." />
+                                            </object>
+                                        </size>
+                                    </domain>
+                                </property>
+                                <property
+                                    key="schedule"
+                                    type="LIST_OBJECT"
+                                    description="Actions extracted from the saved content, with their types, titles, event times, and supporting text.">
+                                    <domain>
+                                        <size>
+                                            <object
+                                                additionalProperties="false"
+                                                description="One extracted schedule action.">
+                                                <property
+                                                    key="type"
+                                                    type="STRING"
+                                                    description="Action type enum name identifying the kind of extracted action."
+                                                    required="true" />
+                                                <property
+                                                    key="title"
+                                                    type="STRING"
+                                                    description="Title or primary text of the extracted action." />
+                                                <property
+                                                    key="startTimeMillis"
+                                                    type="NUMBER"
+                                                    description="Start time of the extracted event as Unix epoch milliseconds." />
+                                                <property
+                                                    key="endTimeMillis"
+                                                    type="NUMBER"
+                                                    description="End time of the extracted event as Unix epoch milliseconds." />
+                                                <property
+                                                    key="details"
+                                                    type="STRING"
+                                                    description="Additional supporting text for the extracted action." />
+                                            </object>
+                                        </size>
+                                    </domain>
+                                </property>
+                            </object>
+                        </size>
+                    </domain>
+                </parameter>
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Searching without UUIDs, opening the detail screen, or changing records."
+            selection_boundary="Choose this when UUIDs are known and their record details are needed in chat. Use memory.perform.findMemory or memory.perform.queryMemoriesByTag to find UUIDs; use memory.perform.showMemory to open the UI."
+            what_it_controls="Read-only retrieval of the active Memory records identified by the supplied UUIDs. It does not open the Memory app UI."
+            when_to_use="Use when an agent needs the current stored information for one or more known Memory UUIDs." />
+    </action>
+
+    <action
+        tag="memory.perform.queryMemoriesByTag"
+        defaultLabel="Read Memory records by tag"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.ReadMemoryToolActionHandlerFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="tag"
+                    defaultName="tag"
+                    description="Exact Memory app tag name. Use the tag text as-is; do not translate, summarize, or infer a nearby tag."
+                    type="STRING"
+                    isRequired="true">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="200"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="uuids"
+                    defaultName="uuids"
+                    description="UUIDs of matching active Memory records, ordered newest first by created time. Returns an empty list when the tag has no records."
+                    type="LIST_STRING"
+                    isRequired="true" />
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Creating, updating, deleting, opening, or searching Memory records without a known exact tag name."
+            selection_boundary="Choose this only for exact tag-name lookup, not for free-text search across record content."
+            what_it_controls="Read-only retrieval of matching active Memory records. It does not modify records or open the Memory app UI."
+            when_to_use="Use when an agent has a specific Memory app tag name and needs the UUIDs of associated records. Use memory.perform.getMemory when record details are needed." />
+    </action>
+
+    <action
+        tag="memory.perform.showMemory"
+        defaultLabel="Show a Memory record"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.ShowMemoryToolActionHandlerFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="Exact uuid returned by CreateMemory, FindMemory, ReadMemory, or GetMemory. Do not invent or alter it."
+                    type="STRING"
+                    isRequired="true">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="200"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="The uuid of the record whose detail screen was opened."
+                    type="STRING"
+                    isRequired="true" />
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Returning record content to the agent, searching for a record, or changing the record."
+            selection_boundary="Choose this for visible UI navigation. Use memory.perform.getMemory when record data is needed in the agent conversation."
+            what_it_controls="Launches the Memory app and opens the detail screen for one active record."
+            when_to_use="Use when the user asks to open or show a known Memory record in the Memory app UI." />
+    </action>
+
+    <action
+        tag="memory.perform.updateMemory"
+        defaultLabel="Update a Memory record"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="always_supported"
+        version="1"
+        handlerFactory="com.samsung.android.app.memory.routine.UpdateMemoryToolActionHandlerFactory"
+        needsApproval="ASK_EVERY_TIME">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="The existing Memory record to update. Exact uuid returned by CreateMemory, FindMemory, ReadMemory, or GetMemory. Do not invent or alter it."
+                    type="STRING"
+                    isRequired="true">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="200"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+                <parameter
+                    key="target"
+                    defaultName="target"
+                    description="The Memory object field that text will replace. Choose userNote when the user wants to write or replace their personal note. Choose sourceText only when the user explicitly wants to replace the original captured text of a text-created record. Do not use sourceText for a note, title, summary, or analyzed information."
+                    type="ENUM"
+                    isRequired="true">
+                    <domain>
+                        <enum_entries>
+                            <enum_entry value="sourceText" />
+                            <enum_entry value="userNote" />
+                        </enum_entries>
+                    </domain>
+                </parameter>
+                <parameter
+                    key="text"
+                    defaultName="text"
+                    description="The complete new value for the field selected by target. If target is userNote, this becomes memory.userNote. If target is sourceText, this becomes memory.sourceText. This replaces the existing value; it does not append to it."
+                    type="STRING"
+                    isRequired="true">
+                    <domain>
+                        <string
+                            min_length="1"
+                            max_length="100000"
+                            pattern=""
+                            classification="PLAIN_TEXT" />
+                    </domain>
+                </parameter>
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="uuid"
+                    defaultName="uuid"
+                    description="UUID of the updated Memory record."
+                    type="STRING"
+                    isRequired="true" />
+            </output_parameters>
+        </configuration>
+        <tool_descriptions
+            not_for="Changing title, summary, tags, images, or analyzed information; appending text without first constructing the complete replacement value; or creating a new record. Do not choose sourceText unless the user explicitly asks to replace the original text and creationType is TEXT."
+            selection_boundary="Update exactly one field of an existing Memory record. First choose target, then provide the complete replacement value for that field in text. Send uuid, target, and text together in one call. For 'set my note to buy milk', use target=userNote and text='buy milk'. For 'replace the original text with meeting at 3 PM', use target=sourceText and text='meeting at 3 PM'."
+            what_it_controls="Replaces sourceText or userNote on one active record. A sourceText change requests reanalysis."
+            when_to_use="Use when the user asks to replace original text or set a user note on a known Memory record and return its UUID. Use memory.perform.getMemory when updated details are needed." />
+    </action>
+</actions>

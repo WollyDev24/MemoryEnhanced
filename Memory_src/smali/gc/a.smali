@@ -1,0 +1,10 @@
+.class public abstract Lgc/a;
+.super Laj/a;
+.source "r8-map-id-e93a72792c972cad17e84e22058bc4948ad789ab8e61ec7b26e7bd8c8fdadfa3"
+
+# interfaces
+.implements Lgc/e;
+
+
+# static fields
+.field public static final synthetic d:I

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പ്രിയപ്പെട്ടവയും മറ്റ് %d ശേഖരവും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">പ്രിയപ്പെട്ടവയും മറ്റ് %d ശേഖരങ്ങളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ശേഖരം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ശേഖരങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഓർമ്മകൾ</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">കഴിഞ്ഞ %d ദിവസം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">കഴിഞ്ഞ %d ദിവസം</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ശേഖരം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ശേഖരങ്ങൾ</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സന്ദേശം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സന്ദേശങ്ങൾ</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വ്യക്തി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആളുകൾ</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഫോട്ടോ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഫോട്ടോകള്‍</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d തവണ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d തവണകൾ</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വീഡിയോ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d വീഡിയോകൾ</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വെബ്പേജ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d വെബ്പേജുകൾ</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$d ഹൈലൈറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ന് %1$d ഹൈലൈറ്റുകൾ</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പ്രവർത്തനം മറയ്ക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പ്രവർത്തനങ്ങൾ മറയ്ക്കണോ?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഹൈലൈറ്റ് മറയ്ക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഹൈലൈറ്റുകൾ മറയ്ക്കണോ?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഓർമ്മകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ശേഖരം, %d ഓർമ്മ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ശേഖരം, %d ഓർമ്മകൾ</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഓർമ്മകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഓർമ്മകൾ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങൾക്കായി %d പുതിയ ശേഖരം നിർദ്ദേശിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങൾക്കായി %d പുതിയ ശേഖരങ്ങൾ നിർദ്ദേശിക്കുന്നു</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galaxy AI-യുടെ നൂതനമായ ഇന്റലിജൻസ് സവിശേഷതകൾ ഉപയോഗിക്കുന്നതിന് നിങ്ങൾക്ക് കുറഞ്ഞത് %d വയസ്സ് പ്രായമുണ്ടായിരിക്കണം.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Galaxy AI-യുടെ നൂതനമായ ഇന്റലിജൻസ് സവിശേഷതകൾ ഉപയോഗിക്കുന്നതിന് നിങ്ങൾക്ക് കുറഞ്ഞത് %d വയസ്സ് പ്രായമുണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങൾ ഇല്ലാതാക്കുന്ന ഏത് ഓർമ്മകളും അവ എന്നന്നേയ്ക്കുമായി ഇല്ലാതാക്കപ്പെടുന്നതിന് മുമ്പ് %d ദിവസം ട്രാഷിൽ നിലനിൽക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങൾ ഇല്ലാതാക്കുന്ന ഏത് ഓർമ്മകളും അവ എന്നന്നേയ്ക്കുമായി ഇല്ലാതാക്കപ്പെടുന്നതിന് മുമ്പ് %d ദിവസം ട്രാഷിൽ നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സ്‌റ്റിക്കറിൽ കൂടുതൽ ചേർക്കാനാകില്ല. സ്റ്റിക്കറുകൾ നീക്കം ചെയ്യാൻ ഗാലറിയിലെ ഫോട്ടോ എഡിറ്ററിലേക്ക് പോകുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സ്‌റ്റിക്കറുകളിൽ കൂടുതൽ ചേർക്കാനാകില്ല. സ്റ്റിക്കറുകൾ നീക്കം ചെയ്യാൻ ഗാലറിയിലെ ഫോട്ടോ എഡിറ്ററിലേക്ക് പോകുക.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ശേഖരം നീക്കംചെയ്ത് %d ഓർമ്മയെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ശേഖരം നീക്കംചെയ്ത് %d ഓർമ്മകളെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ശേഖരം നീക്കംചെയ്ത് 1 ഓർമ്മയെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ശേഖരങ്ങൾ നീക്കംചെയ്ത് 1 ഓർമ്മയെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ശേഖരവും %d ഓർമ്മയും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ശേഖരവും %d ഓർമ്മകളും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ശേഖരവും 1 ഓർമ്മയും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ശേഖരങ്ങളും 1 ഓർമ്മയും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഫലം കണ്ടെത്തി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഫലങ്ങൾ കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ചിത്രം %2$s-ൽ സംരക്ഷിച്ചു. തിരഞ്ഞെടുത്ത ഏതാനും ചിത്ര ഫോർമാറ്റുകൾ പിന്തുണയ്ക്കുന്നില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ചിത്രങ്ങൾ %2$s-ൽ സംരക്ഷിച്ചു. തിരഞ്ഞെടുത്ത ഏതാനും ചിത്ര ഫോർമാറ്റുകൾ പിന്തുണയ്ക്കുന്നില്ല.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സ്മരണ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സ്മരണകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ട്രാഷിലെ ഓർമ്മകൾ %d ദിവസത്തിന് ശേഷം എന്നന്നേയ്ക്കുമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ട്രാഷിലെ ഓർമ്മകൾ %d ദിവസത്തിന് ശേഷം എന്നന്നേയ്ക്കുമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മ പുനഃസ്ഥാപിച്ചു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഓർമ്മകൾ പുനഃസ്ഥാപിച്ചു.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസത്തിനുള്ളിൽ ഈ ഓർമ്മ ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ദിവസത്തിനുള്ളിൽ ഈ ഓർമ്മ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+</resources>

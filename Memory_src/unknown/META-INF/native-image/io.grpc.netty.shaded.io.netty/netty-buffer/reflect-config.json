@@ -1,0 +1,74 @@
+[
+  {
+    "name": "io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+    "fields": [
+      {
+        "name": "producerLimit"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+    "fields": [
+      {
+        "name": "consumerIndex"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+    "fields": [
+      {
+        "name": "producerIndex"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.MpmcArrayQueueConsumerIndexField",
+    "fields": [
+      {
+        "name": "consumerIndex"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.MpmcArrayQueueProducerIndexField",
+    "fields": [
+      {
+        "name": "producerIndex"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.buffer.AbstractReferenceCountedByteBuf",
+    "fields": [
+      {
+        "name": "refCnt"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.buffer.AdaptivePoolingAllocator$Chunk",
+    "fields": [
+      {
+        "name": "refCnt"
+      }
+    ]
+  },
+  {
+    "name": "io.grpc.netty.shaded.io.netty.buffer.AdaptivePoolingAllocator$Magazine",
+    "fields": [
+      {
+        "name": "nextInLine"
+      }
+    ]
+  },
+  {
+    "name":"io.grpc.netty.shaded.io.netty.util.ReferenceCountUtil",
+    "queryAllDeclaredMethods":true
+  }
+]

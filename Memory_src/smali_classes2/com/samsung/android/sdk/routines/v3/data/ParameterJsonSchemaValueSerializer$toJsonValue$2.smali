@@ -1,0 +1,93 @@
+.class final synthetic Lcom/samsung/android/sdk/routines/v3/data/ParameterJsonSchemaValueSerializer$toJsonValue$2;
+.super Lkotlin/jvm/internal/k;
+.source "r8-map-id-e93a72792c972cad17e84e22058bc4948ad789ab8e61ec7b26e7bd8c8fdadfa3"
+
+# interfaces
+.implements Lb30/k;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/k;",
+        "Lb30/k;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/sdk/routines/v3/data/ParameterJsonSchemaValueSerializer;)V
+    .locals 7
+
+    .line 1
+    const-string v6, "toJsonValue(Lcom/samsung/android/sdk/routines/v3/data/parameter/type/Parameter;)Lkotlinx/serialization/json/JsonElement;"
+
+    .line 2
+    .line 3
+    const/4 v2, 0x0
+
+    .line 4
+    const/4 v1, 0x1
+
+    .line 5
+    const-class v3, Lcom/samsung/android/sdk/routines/v3/data/ParameterJsonSchemaValueSerializer;
+
+    .line 6
+    .line 7
+    const-string v5, "toJsonValue"
+
+    .line 8
+    .line 9
+    move-object v0, p0
+
+    .line 10
+    move-object v4, p1
+
+    .line 11
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/j;-><init>(IILjava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/samsung/android/sdk/routines/v3/data/parameter/type/Parameter;
+
+    invoke-virtual {p0, p1}, Lcom/samsung/android/sdk/routines/v3/data/ParameterJsonSchemaValueSerializer$toJsonValue$2;->invoke(Lcom/samsung/android/sdk/routines/v3/data/parameter/type/Parameter;)Ln60/m;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invoke(Lcom/samsung/android/sdk/routines/v3/data/parameter/type/Parameter;)Ln60/m;
+    .locals 0
+
+    const-string p0, "p0"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    invoke-static {p1}, Lcom/samsung/android/sdk/routines/v3/data/ParameterJsonSchemaValueSerializer;->access$toJsonValue(Lcom/samsung/android/sdk/routines/v3/data/parameter/type/Parameter;)Ln60/m;
+
+    move-result-object p0
+
+    return-object p0
+.end method

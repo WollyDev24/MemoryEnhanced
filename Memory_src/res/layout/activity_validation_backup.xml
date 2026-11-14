@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Validation data transfer" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="Exports a plain ZIP validation archive containing the database, preferences, embeddings, collection suggestions, images, and voice files. Import replaces the current state. Do not leave this page until the operation finishes. If Home is pressed accidentally, the foreground service continues the operation, but its notification may not be visible." />
+        <Button android:id="@id/validationBackupExport" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="Export validation backup" />
+        <Button android:id="@id/validationBackupImport" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="Import and replace data" />
+        <ProgressBar android:id="@id/validationBackupProgress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:max="100" style="?android:progressBarStyleHorizontal" />
+        <TextView android:id="@id/validationBackupStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="Ready" android:textIsSelectable="true" />
+    </LinearLayout>
+</ScrollView>

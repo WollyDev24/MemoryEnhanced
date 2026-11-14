@@ -1,0 +1,121 @@
+.class public Lorg/bouncycastle/cms/KEMRecipientId;
+.super Lorg/bouncycastle/cms/PKIXRecipientId;
+
+
+# direct methods
+.method public constructor <init>(Lorg/bouncycastle/asn1/x500/X500Name;Ljava/math/BigInteger;)V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x4
+
+    const/4 v1, 0x0
+
+    invoke-direct {p0, v0, p1, p2, v1}, Lorg/bouncycastle/cms/PKIXRecipientId;-><init>(ILorg/bouncycastle/asn1/x500/X500Name;Ljava/math/BigInteger;[B)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/bouncycastle/asn1/x500/X500Name;Ljava/math/BigInteger;[B)V
+    .locals 1
+
+    .line 2
+    const/4 v0, 0x4
+
+    invoke-direct {p0, v0, p1, p2, p3}, Lorg/bouncycastle/cms/PKIXRecipientId;-><init>(ILorg/bouncycastle/asn1/x500/X500Name;Ljava/math/BigInteger;[B)V
+
+    return-void
+.end method
+
+.method private constructor <init>(Lorg/bouncycastle/cert/selector/X509CertificateHolderSelector;)V
+    .locals 1
+
+    .line 3
+    const/4 v0, 0x4
+
+    invoke-direct {p0, v0, p1}, Lorg/bouncycastle/cms/PKIXRecipientId;-><init>(ILorg/bouncycastle/cert/selector/X509CertificateHolderSelector;)V
+
+    return-void
+.end method
+
+.method public constructor <init>([B)V
+    .locals 2
+
+    .line 4
+    const/4 v0, 0x4
+
+    const/4 v1, 0x0
+
+    invoke-direct {p0, v0, v1, v1, p1}, Lorg/bouncycastle/cms/PKIXRecipientId;-><init>(ILorg/bouncycastle/asn1/x500/X500Name;Ljava/math/BigInteger;[B)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public clone()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lorg/bouncycastle/cms/KEMRecipientId;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lorg/bouncycastle/cms/PKIXRecipientId;->baseSelector:Lorg/bouncycastle/cert/selector/X509CertificateHolderSelector;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, p0}, Lorg/bouncycastle/cms/KEMRecipientId;-><init>(Lorg/bouncycastle/cert/selector/X509CertificateHolderSelector;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method
+
+.method public match(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    instance-of v0, p1, Lorg/bouncycastle/cms/KEMRecipientInformation;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    check-cast p1, Lorg/bouncycastle/cms/KEMRecipientInformation;
+
+    .line 6
+    .line 7
+    invoke-virtual {p1}, Lorg/bouncycastle/cms/RecipientInformation;->getRID()Lorg/bouncycastle/cms/RecipientId;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    invoke-virtual {p1, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p0
+
+    .line 15
+    return p0
+
+    .line 16
+    :cond_0
+    invoke-super {p0, p1}, Lorg/bouncycastle/cms/PKIXRecipientId;->match(Ljava/lang/Object;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result p0
+
+    .line 20
+    return p0
+.end method

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">Vai dzēst izlasi un %d citas kolekcijas?</item>
+        <item quantity="one">Vai dzēst izlasi un %d citu kolekciju?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst izlasi un %d citas kolekcijas?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">Vai dzēst %d kolekcijas?</item>
+        <item quantity="one">Vai dzēst %d kolekciju?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst %d kolekcijas?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">%d atmiņas</item>
+        <item quantity="one">%d atmiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atmiņas</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">Pēdējās %d dienas</item>
+        <item quantity="one">Pēdējā %d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pēdējās %d dienas</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">%d kolekcijas</item>
+        <item quantity="one">%d kolekcija</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kolekcijas</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">%d stun.</item>
+        <item quantity="one">%d stun.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stun.</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">%d kcal</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">%d ziņas</item>
+        <item quantity="one">%d ziņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ziņas</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">%d personas</item>
+        <item quantity="one">%d persona</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d personas</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">%d fotoattēli</item>
+        <item quantity="one">%d fotoattēls</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fotoattēli</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">%d reizes</item>
+        <item quantity="one">%d reize</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d reizes</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">%d videoklipi</item>
+        <item quantity="one">%d videoklips</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d videoklipi</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">%d tīmekļa lapas</item>
+        <item quantity="one">%d tīmekļa lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tīmekļa lapas</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">%1$d svarīgākie mirkļi šādā datumā: %2$s</item>
+        <item quantity="one">%1$d svarīgākais mirklis šādā datumā: %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d svarīgākie mirkļi šādā datumā: %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">Vai paslēpt %d darbības?</item>
+        <item quantity="one">Vai paslēpt %d darbību?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai paslēpt %d darbības?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">Vai paslēpt %d aktualitātes?</item>
+        <item quantity="one">Vai paslēpt %d aktualitāti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai paslēpt %d aktualitātes?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">Vai izdzēst %d atmiņas?</item>
+        <item quantity="one">Vai izdzēst %d atmiņu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d atmiņas?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">1 kolekcija, %d atmiņas</item>
+        <item quantity="one">1 kolekcija, %d atmiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 kolekcija, %d atmiņas</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">Vai izdzēst %d atmiņas?</item>
+        <item quantity="one">Vai izdzēst %d atmiņu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d atmiņas?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">Vai pārvietot %d atmiņas uz atkritni?</item>
+        <item quantity="one">Vai pārvietot %d atmiņu uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai pārvietot %d atmiņas uz atkritni?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlēti %d vienumi</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">Jums ieteiktas %d jaunas kolekcijas</item>
+        <item quantity="one">Jums ieteikta %d jauna kolekcija</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jums ieteiktas %d jaunas kolekcijas</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">Izdzēstās atmiņas atradīsies atkritnē %d dienas, pēc tam tās tiks neatgriezeniski izdzēstas.</item>
+        <item quantity="one">Izdzēstās atmiņas atradīsies atkritnē %d dienu, pēc tam tās tiks neatgriezeniski izdzēstas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izdzēstās atmiņas atradīsies atkritnē %d dienas, pēc tam tās tiks neatgriezeniski izdzēstas.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">Var pievienot ne vairāk kā %d uzlīmes. Lai noņemtu uzlīmes, atveriet fotoattēlu redaktoru programmā Galerija.</item>
+        <item quantity="one">Var pievienot ne vairāk kā %d uzlīmi. Lai noņemtu uzlīmes, atveriet fotoattēlu redaktoru programmā Galerija.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var pievienot ne vairāk kā %d uzlīmes. Lai noņemtu uzlīmes, atveriet fotoattēlu redaktoru programmā Galerija.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">Vai dzēst 1 kolekciju un pārvietot %d atmiņas uz atkritni?</item>
+        <item quantity="one">Vai dzēst 1 kolekciju un pārvietot %d atmiņu uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst 1 kolekciju un pārvietot %d atmiņas uz atkritni?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">Vai dzēst %d kolekcijas un pārvietot 1 atmiņu uz atkritni?</item>
+        <item quantity="one">Vai dzēst %d kolekciju un pārvietot 1 atmiņu uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst %d kolekcijas un pārvietot 1 atmiņu uz atkritni?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">1 kolekcija un %d atmiņas tiks neatgriezeniski izdzēstas.</item>
+        <item quantity="one">1 kolekcija un %d atmiņa tiks neatgriezeniski izdzēsta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 kolekcija un %d atmiņas tiks neatgriezeniski izdzēstas.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">%d kolekcijas un 1 atmiņa tiks neatgriezeniski izdzēstas.</item>
+        <item quantity="one">%d kolekcija un 1 atmiņa tiks neatgriezeniski izdzēsta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kolekcijas un 1 atmiņa tiks neatgriezeniski izdzēstas.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">Atrasti %d rezultāti</item>
+        <item quantity="one">Atrasts %d rezultāts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atrasti %d rezultāti</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">%1$d attēli ir saglabāti programmā %2$s. Daži izvēlētie attēlu formāti netiek atbalstīti.</item>
+        <item quantity="one">%1$d attēls ir saglabāts programmā %2$s. Daži izvēlētie attēlu formāti netiek atbalstīti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d attēli ir saglabāti programmā %2$s. Daži izvēlētie attēlu formāti netiek atbalstīti.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">Vai izdzēst %d atmiņas?</item>
+        <item quantity="one">Vai izdzēst %d atmiņu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d atmiņas?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">Atkritnē esošās atmiņas pēc %d dienām tiks neatgriezeniski izdzēstas.</item>
+        <item quantity="one">Atkritnē esošās atmiņas pēc %d dienas tiks neatgriezeniski izdzēstas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkritnē esošās atmiņas pēc %d dienām tiks neatgriezeniski izdzēstas.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">%d atmiņas ir atjaunotas.</item>
+        <item quantity="one">%d atmiņa ir atjaunota.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atmiņas ir atjaunotas.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">Šī atmiņa tiks izdzēsta pēc %d dienām.</item>
+        <item quantity="one">Šī atmiņa tiks izdzēsta pēc %d dienas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šī atmiņa tiks izdzēsta pēc %d dienām.</item>
+    </plurals>
+</resources>

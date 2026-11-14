@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="17.0sp" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:id="@id/detail_analysis_send_feedback_button" android:background="@drawable/bg_send_feedback_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/detail_analysis_send_feedback_button" android:layout_weight="1.0" android:layout_marginStart="12.0dp" android:layout_marginEnd="8.0dp" android:paddingVertical="12.0dp" android:textFontWeight="600" />
+    <include android:id="@id/detail_analysis_retry_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="12.0dp" layout="@layout/detail_analysis_retry_button" />
+</LinearLayout>

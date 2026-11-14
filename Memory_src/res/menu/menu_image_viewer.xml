@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_save_arrow_down_square" android:id="@id/menu_save" android:title="@string/menu_action_save" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share_point_3_connected_dotted" android:id="@id/menu_share" android:title="@string/menu_action_share" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_open_qr" android:id="@id/menu_open_qr" android:visible="false" android:title="@string/menu_action_open_qr" app:showAsAction="always" />
+</menu>

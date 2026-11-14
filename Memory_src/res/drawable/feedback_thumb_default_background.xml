@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="#14000000"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:height="36.0dp" android:width="36.0dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/basic_token_sys_surface_brightest" />
+        </shape>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

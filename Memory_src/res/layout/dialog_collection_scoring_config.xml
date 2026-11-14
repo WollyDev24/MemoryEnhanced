@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="Collection routing" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="Broad collection 최소 멤버 수" />
+        <EditText android:id="@id/et_broad_collection_minimum_member_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="number" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="Specific seed embedding 임계값" />
+        <EditText android:id="@id/et_specific_seed_embedding_threshold" android:layout_width="match_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="numberDecimal" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="Specific collection 최소 멤버 수" />
+        <EditText android:id="@id/et_specific_collection_minimum_member_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="number" />
+    </LinearLayout>
+</ScrollView>

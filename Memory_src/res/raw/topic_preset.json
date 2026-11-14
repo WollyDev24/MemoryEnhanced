@@ -1,0 +1,16 @@
+{
+    "default": {
+        "com.android.settings": [
+            {
+                "com.samsung.android.settings.intelligence.TAG_BRAND_NEW": [
+                    "key_memory"
+                ]
+            },
+            {
+                "com.samsung.android.settings.intelligence.TAG_ADVANCED_INTELLIGENCE": [
+                    "key_memory"
+                ]
+            }
+        ]
+    }
+}

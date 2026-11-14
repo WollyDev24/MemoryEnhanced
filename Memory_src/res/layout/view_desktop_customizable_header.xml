@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/desktop_header_bar" android:background="@android:color/transparent" android:paddingTop="@dimen/desktop_header_content_top_spacing" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/desktop_header_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.Memory.DesktopHeaderToolbar" android:id="@id/desktop_header_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" android:paddingEnd="@dimen/desktop_header_action_slot_size" app:background="@android:color/transparent" app:contentInsetEndWithActions="@dimen/desktop_header_action_slot_size">
+            <FrameLayout android:layout_gravity="start|center" android:id="@id/desktop_header_selection_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <androidx.appcompat.widget.SearchView android:layout_gravity="end|center" android:id="@id/desktop_header_search" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="@dimen/desktop_header_search_width" android:layout_height="@dimen/desktop_header_search_height" android:minWidth="@dimen/desktop_header_search_min_width" android:maxLines="1" android:iconifiedByDefault="false" app:seslSearchViewApplyBlur="false" app:seslSemanticSearchTextVi="false" style="@style/BottomSearchViewStyle" />
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
+    <FrameLayout android:id="@id/desktop_header_detail_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.Memory.DesktopHeaderToolbar" android:id="@id/desktop_header_detail_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" android:paddingEnd="@dimen/desktop_header_action_slot_size" app:background="@android:color/transparent" app:contentInsetEndWithActions="@dimen/desktop_header_action_slot_size">
+            <FrameLayout android:layout_gravity="start|center" android:id="@id/desktop_header_detail_selection_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
+    <FrameLayout android:id="@id/desktop_header_popup" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.Memory.DesktopHeaderToolbar" android:id="@id/desktop_header_popup_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" android:paddingEnd="@dimen/desktop_header_action_slot_size" app:contentInsetEndWithActions="@dimen/desktop_header_action_slot_size" />
+    </FrameLayout>
+</FrameLayout>

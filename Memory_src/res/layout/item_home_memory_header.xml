@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/home_memory_filter_recoil_background" android:paddingTop="@dimen/list_sub_header_margin_top" android:paddingBottom="@dimen/list_sub_header_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="24.0dp" android:stateListAnimator="?seslMediumTouchAnimator" android:paddingHorizontal="@dimen/list_sub_header_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/headerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Memory.List.SubHeader" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dropdownImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/all_expand_icon" android:importantForAccessibility="no" android:layout_marginStart="8.0dp" />
+</LinearLayout>

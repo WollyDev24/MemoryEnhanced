@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.memory.feature.settings.preference.MemoryAssistHeaderPreference android:key="@string/pref_key_memory_assist" />
+    <androidx.preference.PreferenceCategory android:title="AI Service" app:key="AI_category">
+        <androidx.preference.Preference android:title="@string/settings_title_content_language" android:key="@string/pref_key_content_language" />
+        <androidx.preference.Preference android:title="AI Model" android:key="pref_key_ai_model" />
+        <androidx.preference.Preference android:title="AI API Key" android:key="pref_key_ai_api_key" />
+        <SwitchPreferenceCompat android:title="Auto-create Collections" android:summary="Automatically group related memories into collections" android:key="pref_key_auto_collection" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory app:key="PUI_category">
+        <SwitchPreferenceCompat android:title="@string/settings_title_screen_memory_gesture" android:key="@string/pref_key_screen_memory_gesture" android:defaultValue="true" />
+        <androidx.preference.SeslPreferenceCaption android:title="@string/settings_caption_screen_memory_gesture" android:key="@string/pref_key_screen_memory_gesture_caption" />
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/settings_title_voice_memo_shortcut" android:key="@string/pref_key_voice_memo_shortcut" android:defaultValue="true" />
+        <androidx.preference.SeslPreferenceCaption android:title="@string/settings_caption_voice_memo_shortcut" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory app:key="app_functions">
+        <SwitchPreferenceCompat android:title="@string/settings_title_trash" android:key="@string/pref_key_trash_enabled" android:defaultValue="true" />
+        <androidx.preference.SeslPreferenceCaption android:title="@string/settings_caption_trash" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_category_title_privacy" app:key="Privacy_category">
+        <androidx.preference.Preference android:title="@string/settings_title_privacy_notice" android:key="@string/pref_key_privacy_notice" />
+        <androidx.preference.Preference android:title="@string/settings_title_permissions" android:key="@string/pref_key_permissions" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="Common_category">
+        <androidx.preference.Preference android:title="@string/settings_title_about_memory" android:key="@string/pref_key_about_memory" />
+        <androidx.preference.Preference android:title="@string/settings_title_contact_us" android:key="@string/pref_key_contact_us" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory app:key="galaxy_AI_basic_category">
+        <androidx.preference.Preference android:title="@string/settings_more_galaxy_ai_features" android:key="@string/pref_key_more_galaxy_ai_features" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="">
+        <androidx.preference.Preference android:layout="@layout/view_preference_layout_dummy_padding" android:key="setting_dummy_view" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

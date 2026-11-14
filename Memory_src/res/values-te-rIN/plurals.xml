@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇష్టమైనవి మరియు మరో %d సేకరణను తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఇష్టమైనవి మరియు మరో %d సేకరణలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సేకరణని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సేకరణలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d జ్ఞాపకం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d జ్ఞాపకాలు</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">గత %d రోజు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">గత %d రోజులు</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సేకరణ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సేకరణలు</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d గంటలు</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d నిమిషాలు</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సందేశాలు</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వ్యక్తి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d మంది వ్యక్తులు</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫోటో</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఫోటోలు</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సారి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సార్లు</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వీడియో</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d వీడియోలు</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వెబ్‌పేజీ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d వెబ్‌పేజీలు</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sన %1$d హైలైట్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$sన %1$d హైలైట్‌లు</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కార్యాచరణను దాచాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కార్యాచరణలను దాచాలా?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d హైలైట్‌ను దాచాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d హైలైట్‌లను దాచాలా?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d జ్ఞాపకాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d జ్ఞాపకాలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 సేకరణ, %d జ్ఞాపకం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 సేకరణ, %d జ్ఞాపకాలు</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d జ్ఞాపకాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d జ్ఞాపకాలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d జ్ఞాపకాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d జ్ఞాపకాలను ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ కోసం %d కొత్త సేకరణ సూచించబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీ కోసం %d కొత్త సేకరణలు సూచించబడ్డాయి</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు Galaxy AI యొక్క ఆధునిక ఇంటెలిజెన్స్ ఫీచర్‌లను ఉపయోగించడానికి కనీసం %d సంవత్సరం వయస్సును కలిగి ఉండాలి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు Galaxy AI యొక్క ఆధునిక ఇంటెలిజెన్స్ ఫీచర్‌లను ఉపయోగించడానికి కనీసం %d సంవత్సరాల వయస్సును కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు తొలగించే ఏవైనా జ్ఞాపకాలు అవి శాశ్వతంగా తొలగించబడటానికి ముందు %d రోజు పాటు ట్రాష్‌లో ఉంటాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు తొలగించే ఏవైనా జ్ఞాపకాలు అవి శాశ్వతంగా తొలగించబడటానికి ముందు %d రోజుల పాటు ట్రాష్‌లో ఉంటాయి.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ స్టిక్కర్‌ని జోడించలేరు. స్టిక్కర్‌లను తీసివేయడానికి గ్యాలరీలో ఫోటో ఎడిటర్‌కి వెళ్లండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ స్టిక్కర్‌లను జోడించలేరు. స్టిక్కర్‌లను తీసివేయడానికి గ్యాలరీలో ఫోటో ఎడిటర్‌కి వెళ్లండి.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 సేకరణను తొలగించి, %d జ్ఞాపకాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 సేకరణను తొలగించి, %d జ్ఞాపకాలను ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సేకరణను తొలగించి, 1 జ్ఞాపకాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సేకరణలను తొలగించి, 1 జ్ఞాపకాన్ని ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 సేకరణ మరియు %d జ్ఞాపకం శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 సేకరణ మరియు %d జ్ఞాపకాలు శాశ్వతంగా తొలగించబడతాయి.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సేకరణ మరియు 1 జ్ఞాపకం శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సేకరణలు మరియు 1 జ్ఞాపకం శాశ్వతంగా తొలగించబడతాయి.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫలితం కనుగొనబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఫలితాలు కనుగొనబడ్డాయి</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d చిత్రం %2$sకు సేవ్ చేయబడింది. ఎంచుకోబడిన కొన్ని చిత్రం ఫార్మాట్‌లకు మద్దతు లేదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d చిత్రాలు %2$sకు సేవ్ చేయబడ్డాయి. ఎంచుకోబడిన కొన్ని చిత్రం ఫార్మాట్‌లకు మద్దతు లేదు.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d జ్ఞాపకాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d జ్ఞాపకాలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ట్రాష్‌లో ఉన్న జ్ఞాపకాలు %d రోజు తర్వాత శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ట్రాష్‌లో ఉన్న జ్ఞాపకాలు %d రోజుల తర్వాత శాశ్వతంగా తొలగించబడతాయి.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d జ్ఞాపకం పునరుద్ధరించబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d జ్ఞాపకాలు పునరుద్ధరించబడ్డాయి.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ జ్ఞాపకం %d రోజులో తొలగించబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఈ జ్ఞాపకం %d రోజులలో తొలగించబడుతుంది.</item>
+    </plurals>
+</resources>

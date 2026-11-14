@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="@color/basic_token_sys_on_surface_container_high" android:id="@id/noticeTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/list_date_header_horizontal_margin" android:paddingVertical="10.0dp" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

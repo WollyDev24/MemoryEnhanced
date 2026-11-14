@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/trash_info_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_trash_info_margin_top" android:layout_marginBottom="@dimen/detail_trash_info_margin_bottom" android:paddingHorizontal="@dimen/detail_trash_info_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/detail_trash_info_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:gravity="center" android:id="@id/trash_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

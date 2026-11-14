@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/basic_token_sys_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/base_fragment_appbar_list" layout="@layout/base_fragment_appbar_list" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bottom_action_container" android:paddingTop="@dimen/collection_suggestion_preview_actions_top_padding" android:paddingBottom="@dimen/collection_suggestion_preview_actions_bottom_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/collection_suggestion_preview_actions_horizontal_padding" android:paddingEnd="@dimen/collection_suggestion_preview_actions_horizontal_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <Button android:id="@id/skip" android:layout_width="0.0dp" android:layout_height="@dimen/collection_suggestion_preview_actions_button_height" android:text="@string/feedback_skip" android:layout_weight="1.0" style="@style/Widget.Memory.ContainedButton.Bottom.Secondary" />
+        <Space android:layout_width="@dimen/collection_suggestion_preview_actions_spacing" android:layout_height="0.0dp" />
+        <Button android:id="@id/send_feedback" android:layout_width="0.0dp" android:layout_height="@dimen/collection_suggestion_preview_actions_button_height" android:text="@string/feedback_send" android:layout_weight="1.0" style="@style/Widget.Memory.ContainedButton.Bottom.Primary" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

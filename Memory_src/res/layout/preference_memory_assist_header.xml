@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/memory_assist_switch_container" android:background="@drawable/bg_memory_assist_switch_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="12.0dp" android:layout_marginVertical="8.0dp" android:paddingHorizontal="18.0dp" android:paddingVertical="14.0dp">
+        <TextView android:textSize="@dimen/settings_list_item_text_size" android:textStyle="bold" android:id="@id/memory_assist_status_text_view" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/memory_assist_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="12.0dp" android:paddingHorizontal="16.0dp" android:paddingVertical="16.0dp">
+        <TextView android:textSize="@dimen/settings_list_description_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:id="@id/memory_assist_caption_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+        <TextView android:textSize="@dimen/settings_list_description_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:id="@id/memory_assist_caption_processing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:lineSpacingMultiplier="1.2" />
+        <TextView android:textSize="@dimen/settings_list_description_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:id="@id/memory_assist_caption_policy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+</LinearLayout>

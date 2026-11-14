@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да унесете највише %d карактер.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да унесете највише %d карактера.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да унесете највише %d карактера.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да унесете највише %d карактер.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да унесете највише %d карактера.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да унесете највише %d карактера.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да избришете Омиљене и још %d колекцију?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да избришете Омиљене и још %d колекције?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да избришете Омиљене и још %d колекција?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да избришете %d колекцију?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да избришете %d колекције?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да избришете %d колекција?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d успомена</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d успомене</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d успомена</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Последњи %d дан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Последња %d дана</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Последњих %d дана</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">%d колекција</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">%d колекције</item>
+        <item quantity="many">N/А</item>
+        <item quantity="other">%d колекција</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d сата</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d сати</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d минута</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kcal</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d порука</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d поруке</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d порука</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">%d особа</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">%d особе</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d особа</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d фотографија</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d фотографије</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d фотографија</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d пут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d пута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d пута</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d видео запис</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d видео записа</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d видео записа</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d веб страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d веб странице</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d веб страница</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d истицање на дан %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d истицања на дан %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d истицања на дан %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да унесете највише %d карактер.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да унесете највише %d карактера.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да унесете највише %d карактера.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да сакријете %d активност?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да сакријете %d активности?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да сакријете %d активности?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да сакријете %d истицање?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да сакријете %d истицања?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да сакријете %d истицања?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да избришете %d успомену?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да избришете %d успомене?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да избришете %d успомена?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 колекција, %d успомена</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 колекција, %d успомене</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 колекција, %d успомена</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да избришете %d успомену?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да избришете %d успомене?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да избришете %d успомена?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да преместите %d успомену у Смеће?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да преместите %d успомене у Смеће?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да преместите %d успомена у Смеће?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Изабрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Изабрано: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Изабрано: %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d нова колекција је предложена за вас</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d нове колекције су предложене за вас</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d нових колекција је предложено за вас</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Морате имати најмање %d годину да бисте користили функције напредне интелигенције услуге Galaxy AI.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Морате имати најмање %d године да бисте користили функције напредне интелигенције услуге Galaxy AI.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Морате имати најмање %d година да бисте користили функције напредне интелигенције услуге Galaxy AI.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+        <item quantity="other">%d нових обавештења</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Све успомене које обришете ће остати у Смећу %d дан пре него што буду заувек избрисане.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Све успомене које обришете ће остати у Смећу %d дана пре него што буду заувек избрисане.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Све успомене које обришете ће остати у Смећу %d дана пре него што буду заувек избрисане.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да додате највише %d налепницу. Идите у уређивач фотографија у Галерији да бисте уклонили налепнице.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да додате највише %d налепнице. Идите у уређивач фотографија у Галерији да бисте уклонили налепнице.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да додате највише %d налепница. Идите у уређивач фотографија у Галерији да бисте уклонили налепнице.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да избришете 1 колекцију и преместите %d успомену у Смеће?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да избришете 1 колекцију и преместите %d успомене у Смеће?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да избришете 1 колекцију и преместите %d успомена у Смеће?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Желите ли да избришете %d колекцију и преместите 1 успомену у Смеће?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Желите ли да избришете %d колекције и преместите 1 успомену у Смеће?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Желите ли да избришете %d колекција и преместите 1 успомену у Смеће?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 колекција и %d успомена ће бити трајно избрисане.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 колекција и %d успомене ће бити трајно избрисане.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 колекција и %d успомена ће бити трајно избрисане.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колекција и 1 успомена ће бити трајно избрисане.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d колекције и 1 успомена ће бити трајно избрисане.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колекција и 1 успомена ће бити трајно избрисане.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">Пронађен је %d резултат</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">Пронађена су %d резултата</item>
+        <item quantity="many">N/А</item>
+        <item quantity="other">Пронађено је %d резултата</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d слика је сачувана у апликацију %2$s. Неки одабрани формати слика нису подржани.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d слике су сачуване у апликацију %2$s. Неки одабрани формати слика нису подржани.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d слика је сачувано у апликацију %2$s. Неки одабрани формати слика нису подржани.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">Желите ли да избришете %d успомену?</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">Желите ли да избришете %d успомене?</item>
+        <item quantity="many">N/А</item>
+        <item quantity="other">Желите ли да избришете %d успомена?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Успомене у Смећу ће бити трајно избрисане након %d дана.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Успомене у Смећу ће бити трајно избрисане након %d дана.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Успомене у Смећу ће бити трајно избрисане након %d дана.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d успомена је враћена.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d успомене су враћене.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d успомена је враћено.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ова успомена ће бити избрисана за %d дан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ова успомена ће бити избрисана за %d дана.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ова успомена ће бити избрисана за %d дана.</item>
+    </plurals>
+</resources>

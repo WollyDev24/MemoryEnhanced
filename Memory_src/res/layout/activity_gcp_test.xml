@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="32.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:text="GCP TEST" />
+        <TextView android:textSize="14.0sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="ai-application-storage에서 VersionCheck 및 APK 다운로드 후 설치" />
+        <Button android:id="@id/btn_memory_version_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="1. GCP - memory_status (VersionCheck)" />
+        <ProgressBar android:id="@id/pb_version_check" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="14.0sp" android:id="@id/tv_version_check_loading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="버전 확인 중 입니다..." />
+        <TextView android:textSize="14.0sp" android:id="@id/tv_memory_version_status" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:textIsSelectable="true" />
+        <Button android:enabled="false" android:id="@id/btn_gcp_download_from_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="2. GCP - fileName 다운로드 (VersionCheck 후)" />
+        <Button android:enabled="false" android:id="@id/btn_install_downloaded_apk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="3. 다운로드한 APK 설치" android:alpha="0.5" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios Ceanáin agus %d bhailiúchán eile?</item>
+        <item quantity="two">Scrios Ceanáin agus %d bhailiúchán eile?</item>
+        <item quantity="few">Scrios Ceanáin agus %d bhailiúchán eile?</item>
+        <item quantity="many">Scrios Ceanáin agus %d mbailiúchán eile?</item>
+        <item quantity="other">Scrios Ceanáin agus %d bailiúchán eile?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d bhailiúchán?</item>
+        <item quantity="two">Scrios %d bhailiúchán?</item>
+        <item quantity="few">Scrios %d bhailiúchán?</item>
+        <item quantity="many">Scrios %d mbailiúchán?</item>
+        <item quantity="other">Scrios %d bailiúchán?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chuimhne cinn</item>
+        <item quantity="two">%d chuimhne cinn</item>
+        <item quantity="few">%d chuimhne cinn</item>
+        <item quantity="many">%d gcuimhne cinn</item>
+        <item quantity="other">%d cuimhne cinn</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Le %d lá anuas</item>
+        <item quantity="two">Le %d lá anuas</item>
+        <item quantity="few">Le %d lá anuas</item>
+        <item quantity="many">Le %d lá anuas</item>
+        <item quantity="other">Le %d lá anuas</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhailiúchán</item>
+        <item quantity="two">%d bhailiúchán</item>
+        <item quantity="few">%d bhailiúchán</item>
+        <item quantity="many">%d mbailiúchán</item>
+        <item quantity="other">%d bailiúchán</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig</item>
+        <item quantity="two">%d uair an chloig</item>
+        <item quantity="few">%d uair an chloig</item>
+        <item quantity="many">%d n-uair an chloig</item>
+        <item quantity="other">%d uair an chloig</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóim</item>
+        <item quantity="two">%d nóim</item>
+        <item quantity="few">%d nóim</item>
+        <item quantity="many">%d nóim</item>
+        <item quantity="other">%d nóim</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">%d kcal</item>
+        <item quantity="few">%d kcal</item>
+        <item quantity="many">%d kcal</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d teachtaireacht</item>
+        <item quantity="two">%d theachtaireacht</item>
+        <item quantity="few">%d theachtaireacht</item>
+        <item quantity="many">%d dteachtaireacht</item>
+        <item quantity="other">%d teachtaireacht</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d duine</item>
+        <item quantity="two">%d dhuine</item>
+        <item quantity="few">%d dhuine</item>
+        <item quantity="many">%d nduine</item>
+        <item quantity="other">%d duine</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ghrianghraf</item>
+        <item quantity="two">%d ghrianghraf</item>
+        <item quantity="few">%d ghrianghraf</item>
+        <item quantity="many">%d ngrianghraf</item>
+        <item quantity="other">%d grianghraf</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair</item>
+        <item quantity="two">%d uair</item>
+        <item quantity="few">%d huaire</item>
+        <item quantity="many">%d n-uaire</item>
+        <item quantity="other">%d uair</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhíseán</item>
+        <item quantity="two">%d fhíseán</item>
+        <item quantity="few">%d fhíseán</item>
+        <item quantity="many">%d bhfíseán</item>
+        <item quantity="other">%d físeán</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leathanach gréasáin</item>
+        <item quantity="two">%d leathanach gréasáin</item>
+        <item quantity="few">%d leathanach gréasáin</item>
+        <item quantity="many">%d leathanach gréasáin</item>
+        <item quantity="other">%d leathanach gréasáin</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d bhuaicphointe ar an %2$s</item>
+        <item quantity="two">%1$d bhuaicphointe ar an %2$s</item>
+        <item quantity="few">%1$d bhuaicphointe ar an %2$s</item>
+        <item quantity="many">%1$d mbuaicphointe ar an %2$s</item>
+        <item quantity="other">%1$d buaicphointe ar an %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Folaigh %d ghníomhaíocht?</item>
+        <item quantity="two">Folaigh %d ghníomhaíocht?</item>
+        <item quantity="few">Folaigh %d ghníomhaíocht?</item>
+        <item quantity="many">Folaigh %d ngníomhaíocht?</item>
+        <item quantity="other">Folaigh %d gníomhaíocht?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Folaigh %d bhuaicphointe?</item>
+        <item quantity="two">Folaigh %d bhuaicphointe?</item>
+        <item quantity="few">Folaigh %d bhuaicphointe?</item>
+        <item quantity="many">Folaigh %d mbuaicphointe?</item>
+        <item quantity="other">Folaigh %d buaicphointe?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d chuimhne cinn?</item>
+        <item quantity="two">Scrios %d chuimhne cinn?</item>
+        <item quantity="few">Scrios %d chuimhne cinn?</item>
+        <item quantity="many">Scrios %d gcuimhne cinn?</item>
+        <item quantity="other">Scrios %d cuimhne cinn?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 bhailiúchán, %d chuimhne cinn</item>
+        <item quantity="two">1 bhailiúchán, %d chuimhne cinn</item>
+        <item quantity="few">1 bhailiúchán, %d chuimhne cinn</item>
+        <item quantity="many">1 bhailiúchán, %d gcuimhne cinn</item>
+        <item quantity="other">1 bhailiúchán, %d cuimhne cinn</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d chuimhne cinn?</item>
+        <item quantity="two">Scrios %d chuimhne cinn?</item>
+        <item quantity="few">Scrios %d chuimhne cinn?</item>
+        <item quantity="many">Scrios %d gcuimhne cinn?</item>
+        <item quantity="other">Scrios %d cuimhne cinn?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="two">Bog %d chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="few">Bog %d chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="many">Bog %d gcuimhne cinn chuig an mBruscar?</item>
+        <item quantity="other">Bog %d cuimhne cinn chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+        <item quantity="other">%d roghnaithe</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhailiúchán nua molta duitse</item>
+        <item quantity="two">%d bhailiúchán nua molta duitse</item>
+        <item quantity="few">%d bhailiúchán nua molta duitse</item>
+        <item quantity="many">%d mbailiúchán nua molta duitse</item>
+        <item quantity="other">%d bailiúchán nua molta duitse</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %d bliana d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %d mbliana d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %d bliain d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aon chuimhní cinn a scriosfaidh tú, fanfaidh siad sa Bhruscar go ceann %d lae sula scriosfar go buan iad.</item>
+        <item quantity="two">Aon chuimhní cinn a scriosfaidh tú, fanfaidh siad sa Bhruscar go ceann %d lá sula scriosfar go buan iad.</item>
+        <item quantity="few">Aon chuimhní cinn a scriosfaidh tú, fanfaidh siad sa Bhruscar go ceann %d lá sula scriosfar go buan iad.</item>
+        <item quantity="many">Aon chuimhní cinn a scriosfaidh tú, fanfaidh siad sa Bhruscar go ceann %d lá sula scriosfar go buan iad.</item>
+        <item quantity="other">Aon chuimhní cinn a scriosfaidh tú, fanfaidh siad sa Bhruscar go ceann %d lá sula scriosfar go buan iad.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d ghreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="two">Ní féidir níos mó ná %d ghreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="few">Ní féidir níos mó ná %d ghreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ngreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="other">Ní féidir níos mó ná %d greamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios 1 bhailiúchán agus bog %d chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="two">Scrios 1 bhailiúchán agus bog %d chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="few">Scrios 1 bhailiúchán agus bog %d chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="many">Scrios 1 bhailiúchán agus bog %d gcuimhne cinn chuig an mBruscar?</item>
+        <item quantity="other">Scrios 1 bhailiúchán agus bog %d cuimhne cinn chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d bhailiúchán agus bog 1 chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="two">Scrios %d bhailiúchán agus bog 1 chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="few">Scrios %d bhailiúchán agus bog 1 chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="many">Scrios %d mbailiúchán agus bog 1 chuimhne cinn chuig an mBruscar?</item>
+        <item quantity="other">Scrios %d bailiúchán agus bog 1 chuimhne cinn chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar 1 bhailiúchán agus %d chuimhne cinn go buan.</item>
+        <item quantity="two">Scriosfar 1 bhailiúchán agus %d chuimhne cinn go buan.</item>
+        <item quantity="few">Scriosfar 1 bhailiúchán agus %d chuimhne cinn go buan.</item>
+        <item quantity="many">Scriosfar 1 bhailiúchán agus %d gcuimhne cinn go buan.</item>
+        <item quantity="other">Scriosfar 1 bhailiúchán agus %d cuimhne cinn go buan.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar %d bhailiúchán agus 1 chuimhne cinn go buan.</item>
+        <item quantity="two">Scriosfar %d bhailiúchán agus 1 chuimhne cinn go buan.</item>
+        <item quantity="few">Scriosfar %d bhailiúchán agus 1 chuimhne cinn go buan.</item>
+        <item quantity="many">Scriosfar %d mbailiúchán agus 1 chuimhne cinn go buan.</item>
+        <item quantity="other">Scriosfar %d bailiúchán agus 1 chuimhne cinn go buan.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d toradh aimsithe</item>
+        <item quantity="two">%d thoradh aimsithe</item>
+        <item quantity="few">%d thoradh aimsithe</item>
+        <item quantity="many">%d dtoradh aimsithe</item>
+        <item quantity="other">%d toradh aimsithe</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d íomhá sábháilte chuig %2$s. Níl tacú ann do roinnt formáidí íomhá atá roghnaithe.</item>
+        <item quantity="two">%1$d íomhá sábháilte chuig %2$s. Níl tacú ann do roinnt formáidí íomhá atá roghnaithe.</item>
+        <item quantity="few">%1$d íomhá sábháilte chuig %2$s. Níl tacú ann do roinnt formáidí íomhá atá roghnaithe.</item>
+        <item quantity="many">%1$d n-íomhá sábháilte chuig %2$s. Níl tacú ann do roinnt formáidí íomhá atá roghnaithe.</item>
+        <item quantity="other">%1$d íomhá sábháilte chuig %2$s. Níl tacú ann do roinnt formáidí íomhá atá roghnaithe.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d chuimhne cinn?</item>
+        <item quantity="two">Scrios %d chuimhne cinn?</item>
+        <item quantity="few">Scrios %d chuimhne cinn?</item>
+        <item quantity="many">Scrios %d gcuimhne cinn?</item>
+        <item quantity="other">Scrios %d cuimhne cinn?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar cuimhní cinn sa Bhruscar go buan tar éis %d lae.</item>
+        <item quantity="two">Scriosfar cuimhní cinn sa Bhruscar go buan tar éis %d lá.</item>
+        <item quantity="few">Scriosfar cuimhní cinn sa Bhruscar go buan tar éis %d lá.</item>
+        <item quantity="many">Scriosfar cuimhní cinn sa Bhruscar go buan tar éis %d lá.</item>
+        <item quantity="other">Scriosfar cuimhní cinn sa Bhruscar go buan tar éis %d lá.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chuimhne cinn aischurtha.</item>
+        <item quantity="two">%d chuimhne cinn aischurtha.</item>
+        <item quantity="few">%d chuimhne cinn aischurtha.</item>
+        <item quantity="many">%d gcuimhne cinn aischurtha.</item>
+        <item quantity="other">%d cuimhne cinn aischurtha.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar an chuimhne cinn seo i gceann %d lae.</item>
+        <item quantity="two">Scriosfar an chuimhne cinn seo i gceann %d lá.</item>
+        <item quantity="few">Scriosfar an chuimhne cinn seo i gceann %d lá.</item>
+        <item quantity="many">Scriosfar an chuimhne cinn seo i gceann %d lá.</item>
+        <item quantity="other">Scriosfar an chuimhne cinn seo i gceann %d lá.</item>
+    </plurals>
+</resources>

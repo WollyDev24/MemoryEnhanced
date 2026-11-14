@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/about_page_content_margin_horizontal" android:layout_marginEnd="@dimen/about_page_content_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/about_page_appname_text_size" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:id="@id/about_app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="700" />
+    <TextView android:textSize="@dimen/about_page_versionname_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:id="@id/about_version" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_page_versionname_text_margin_top" android:fontFamily="sec" android:textAlignment="center" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_page_newversion_text_margin_top">
+        <TextView android:textSize="@dimen/about_page_newversion_text_size" android:textColor="@color/basic_token_sys_on_surface_container_high" android:id="@id/about_available" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:textAlignment="center" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/about_version_check_progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+    </FrameLayout>
+</LinearLayout>

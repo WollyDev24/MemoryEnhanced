@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/onboarding_title_area_min_height" android:paddingHorizontal="32.0dp">
+            <TextView android:textSize="@dimen/onboarding_title_text_size" android:textStyle="bold" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:gravity="center" android:layout_gravity="bottom" android:id="@id/onboarding_page_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:textFontWeight="700" />
+        </FrameLayout>
+        <ImageView android:id="@id/onboarding_page_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/onboarding_image_height" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/sys_text_size_xs" android:textColor="@color/basic_token_sys_on_surface_container_high" android:gravity="center" android:id="@id/onboarding_page_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:fontFamily="sec" android:paddingHorizontal="32.0dp" android:textFontWeight="400" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

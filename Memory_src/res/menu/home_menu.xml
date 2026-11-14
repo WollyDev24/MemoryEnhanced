@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/list_item_action">
+        <item android:icon="@drawable/ic_add_create_new_plus" android:id="@id/action_add" android:title="@string/home_menu_action_add" app:iconTint="?actionMenuTextColor" app:showAsAction="always">
+            <menu>
+                <group>
+                    <item android:icon="@drawable/ic_voice_rec_microphone" android:id="@id/action_voice_memo" android:title="@string/home_menu_add_voice_memo" app:iconTint="@color/basic_token_sys_on_surface_container" />
+                    <item android:icon="@drawable/ic_memo" android:id="@id/action_add_text" android:title="@string/home_menu_add_text" app:iconTint="@color/basic_token_sys_on_surface_container" />
+                    <item android:icon="@drawable/ic_home_empty_state_image_flower" android:id="@id/action_add_image" android:title="@string/home_menu_add_image" app:iconTint="@color/basic_token_sys_on_surface_container" />
+                    <item android:icon="@drawable/ic_camera" android:id="@id/action_add_camera" android:title="@string/home_menu_add_camera" app:iconTint="@color/basic_token_sys_on_surface_container" />
+                </group>
+            </menu>
+        </item>
+        <item android:id="@id/action_select" android:title="@string/home_menu_action_select" android:showAsAction="never" />
+        <item android:id="@id/action_view_by_test" android:title="@string/home_menu_action_view_by_test" android:showAsAction="never" />
+    </group>
+    <group android:id="@id/list_item_other">
+        <item android:id="@id/action_trash" android:title="@string/home_menu_action_trash" android:showAsAction="never" />
+        <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/action_settings" android:title="@string/home_menu_action_settings" android:showAsAction="never" />
+    </group>
+    <group android:id="@id/for_developer" android:visible="true">
+        <item android:id="@id/action_test_activity" android:title="@string/home_menu_action_test_activity" android:showAsAction="never" />
+        <item android:id="@id/go_to_down" android:title="@string/home_menu_action_go_to_bottom" />
+        <item android:id="@id/analysis_develop_options" android:title="@string/home_menu_action_analysis_develop_options" android:visible="true" android:showAsAction="never" />
+    </group>
+</menu>

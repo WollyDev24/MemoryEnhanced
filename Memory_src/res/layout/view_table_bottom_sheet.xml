@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@drawable/view_table_bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="56.0dp">
+            <View android:layout_gravity="center_horizontal" android:background="@drawable/view_table_expand_handle" android:layout_width="40.0dp" android:layout_height="4.0dp" android:layout_marginTop="8.0dp" />
+            <ImageView android:layout_gravity="end|top" android:id="@id/view_table_close_button" android:background="@drawable/view_table_close_button_background" android:padding="4.0dp" android:focusable="true" android:clickable="true" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="20.0dp" android:src="@drawable/view_table_close_icon" android:contentDescription="@string/lang_select_close" android:layout_marginEnd="24.0dp" />
+        </FrameLayout>
+        <com.samsung.android.app.sdk.deepsky.textextraction.capsule.viewtable.MaxHeightScrollView android:scrollbarSize="3.0dp" android:scrollbarThumbVertical="@drawable/view_table_scrollbar_thumb" android:scrollbarStyle="outsideInset" android:id="@id/view_table_scroll_container" android:paddingTop="8.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" android:layout_marginEnd="10.0dp" android:paddingHorizontal="16.0dp" app:maxHeight="480.0dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/view_table_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/view_table_section_divider" android:showDividers="middle" />
+        </com.samsung.android.app.sdk.deepsky.textextraction.capsule.viewtable.MaxHeightScrollView>
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/view_table_button_row" android:paddingTop="8.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp">
+            <Button android:textColor="@color/capsule_view_table_text_color" android:id="@id/view_table_copy_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy" android:textAllCaps="false" android:paddingHorizontal="12.0dp" />
+            <Button android:textColor="@color/capsule_view_table_text_color" android:id="@id/view_table_share_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" android:textAllCaps="false" android:paddingHorizontal="12.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

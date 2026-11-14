@@ -1,0 +1,19 @@
+# Compiled binaries
+*.apk
+*.idsig
+*.raw
+
+# Build artifacts
+Memory_src/build/
+signed_apk/
+
+# Standalone tools
+*.jar
+
+# Decompiled reference source
+jadx/
+
+# OS / Editor / Logs
+.DS_Store
+*.log
+.system_generated/

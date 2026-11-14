@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_player_root" android:background="@color/basic_token_sys_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/video_player_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.samsung.android.app.memory.feature.detail.component.TextureVideoView android:layout_gravity="center" android:id="@id/video_player_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:applyFloatingItemBackgroundBlur="true" app:showFloatingItemBackground="true">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" app:background="@android:color/transparent" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+</RelativeLayout>

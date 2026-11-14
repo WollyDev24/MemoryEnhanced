@@ -1,0 +1,196 @@
+.class public interface abstract Lcom/google/api/DocumentationOrBuilder;
+.super Ljava/lang/Object;
+.source "r8-map-id-e93a72792c972cad17e84e22058bc4948ad789ab8e61ec7b26e7bd8c8fdadfa3"
+
+# interfaces
+.implements Lcom/google/protobuf/sb;
+
+
+# virtual methods
+.method public abstract synthetic findInitializationErrors()Ljava/util/List;
+.end method
+
+.method public abstract synthetic getAllFields()Ljava/util/Map;
+.end method
+
+.method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/MessageLite;
+    .locals 0
+
+    .line 1
+    invoke-interface {p0}, Lcom/google/protobuf/sb;->getDefaultInstanceForType()Lcom/google/protobuf/ob;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/ob;
+.end method
+
+.method public abstract synthetic getDescriptorForType()Lcom/google/protobuf/u4;
+.end method
+
+.method public abstract getDocumentationRootUrl()Ljava/lang/String;
+.end method
+
+.method public abstract getDocumentationRootUrlBytes()Lcom/google/protobuf/a0;
+.end method
+
+.method public abstract synthetic getField(Lcom/google/protobuf/d5;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "field"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic getInitializationErrorString()Ljava/lang/String;
+.end method
+
+.method public abstract synthetic getOneofFieldDescriptor(Lcom/google/protobuf/j5;)Lcom/google/protobuf/d5;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "oneof"
+        }
+    .end annotation
+.end method
+
+.method public abstract getOverview()Ljava/lang/String;
+.end method
+
+.method public abstract getOverviewBytes()Lcom/google/protobuf/a0;
+.end method
+
+.method public abstract getPages(I)Lcom/google/api/Page;
+.end method
+
+.method public abstract getPagesCount()I
+.end method
+
+.method public abstract getPagesList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/api/Page;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getPagesOrBuilder(I)Lcom/google/api/PageOrBuilder;
+.end method
+
+.method public abstract getPagesOrBuilderList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/google/api/PageOrBuilder;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic getRepeatedField(Lcom/google/protobuf/d5;I)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "field",
+            "index"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic getRepeatedFieldCount(Lcom/google/protobuf/d5;)I
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "field"
+        }
+    .end annotation
+.end method
+
+.method public abstract getRules(I)Lcom/google/api/DocumentationRule;
+.end method
+
+.method public abstract getRulesCount()I
+.end method
+
+.method public abstract getRulesList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/api/DocumentationRule;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getRulesOrBuilder(I)Lcom/google/api/DocumentationRuleOrBuilder;
+.end method
+
+.method public abstract getRulesOrBuilderList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/google/api/DocumentationRuleOrBuilder;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getServiceRootUrl()Ljava/lang/String;
+.end method
+
+.method public abstract getServiceRootUrlBytes()Lcom/google/protobuf/a0;
+.end method
+
+.method public abstract getSummary()Ljava/lang/String;
+.end method
+
+.method public abstract getSummaryBytes()Lcom/google/protobuf/a0;
+.end method
+
+.method public abstract synthetic getUnknownFields()Lcom/google/protobuf/cf;
+.end method
+
+.method public abstract synthetic hasField(Lcom/google/protobuf/d5;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "field"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic hasOneof(Lcom/google/protobuf/j5;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "oneof"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

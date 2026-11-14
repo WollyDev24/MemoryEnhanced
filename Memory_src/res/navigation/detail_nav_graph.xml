@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/detail_nav_graph" app:startDestination="@id/detailPlaceholderFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="DetailPlaceholder" android:name="com.samsung.android.app.memory.feature.detail.host.DetailPlaceholderFragment" android:id="@id/detailPlaceholderFragment" />
+    <fragment android:label="Detail" android:name="com.samsung.android.app.memory.feature.detail.DetailFragment" android:id="@id/detailFragment">
+        <argument android:name="searchHighlightQuery" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="memoryId" app:argType="long" />
+        <argument android:name="fromTrash" android:defaultValue="false" app:argType="boolean" />
+        <action android:id="@id/action_detailFragment_to_detailSearchFragment" app:destination="@id/detailSearchFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+        <action android:id="@id/action_detailFragment_to_detailTextFragment" app:destination="@id/detailTextFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="DetailText" android:name="com.samsung.android.app.memory.feature.detail.DetailTextFragment" android:id="@id/detailTextFragment">
+        <argument android:name="searchHighlightQuery" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_body" android:defaultValue="" app:argType="string" />
+        <argument android:name="detail_text_audio_uri" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_memory_title" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_memory_id" android:defaultValue="-1L" app:argType="long" />
+        <argument android:name="detail_text_initial_memo" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_allow_edit_memo" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="detail_text_creation_type" android:defaultValue="-1" app:argType="integer" />
+        <argument android:name="detail_text_edit_mode" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="Search" android:name="com.samsung.android.app.memory.feature.search.SearchFragment" android:id="@id/detailSearchFragment">
+        <argument android:name="searchTagName" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_detailSearchFragment_to_detailFragment" app:destination="@id/detailFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+    </fragment>
+</navigation>

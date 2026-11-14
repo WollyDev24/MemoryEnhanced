@@ -1,0 +1,612 @@
+.class Lorg/bouncycastle/tsp/ers/ERSUtil;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field private static final hashComp:Ljava/util/Comparator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Comparator<",
+            "[B>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lorg/bouncycastle/tsp/ers/ByteArrayComparator;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lorg/bouncycastle/tsp/ers/ByteArrayComparator;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lorg/bouncycastle/tsp/ers/ERSUtil;->hashComp:Ljava/util/Comparator;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static buildHashList(Lorg/bouncycastle/operator/DigestCalculator;Ljava/util/List;[B)Ljava/util/List;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/bouncycastle/operator/DigestCalculator;",
+            "Ljava/util/List<",
+            "Lorg/bouncycastle/tsp/ers/ERSData;",
+            ">;[B)",
+            "Ljava/util/List<",
+            "[B>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lorg/bouncycastle/tsp/ers/SortedHashList;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lorg/bouncycastle/tsp/ers/SortedHashList;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v1, 0x0
+
+    .line 7
+    :goto_0
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v2
+
+    .line 11
+    if-eq v1, v2, :cond_0
+
+    .line 12
+    .line 13
+    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v2
+
+    .line 17
+    check-cast v2, Lorg/bouncycastle/tsp/ers/ERSData;
+
+    .line 18
+    .line 19
+    invoke-interface {v2, p0, p2}, Lorg/bouncycastle/tsp/ers/ERSData;->getHash(Lorg/bouncycastle/operator/DigestCalculator;[B)[B
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v2
+
+    .line 23
+    invoke-virtual {v0, v2}, Lorg/bouncycastle/tsp/ers/SortedHashList;->add([B)V
+
+    .line 24
+    .line 25
+    .line 26
+    add-int/lit8 v1, v1, 0x1
+
+    .line 27
+    .line 28
+    goto :goto_0
+
+    .line 29
+    :cond_0
+    invoke-virtual {v0}, Lorg/bouncycastle/tsp/ers/SortedHashList;->toList()Ljava/util/List;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p0
+
+    .line 33
+    return-object p0
+.end method
+
+.method public static buildIndexedHashList(Lorg/bouncycastle/operator/DigestCalculator;Ljava/util/List;[B)Ljava/util/List;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/bouncycastle/operator/DigestCalculator;",
+            "Ljava/util/List<",
+            "Lorg/bouncycastle/tsp/ers/ERSData;",
+            ">;[B)",
+            "Ljava/util/List<",
+            "Lorg/bouncycastle/tsp/ers/IndexedHash;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lorg/bouncycastle/tsp/ers/SortedIndexedHashList;
+
+    invoke-direct {v0}, Lorg/bouncycastle/tsp/ers/SortedIndexedHashList;-><init>()V
+
+    const/4 v1, 0x0
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v2
+
+    if-eq v1, v2, :cond_0
+
+    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lorg/bouncycastle/tsp/ers/ERSData;
+
+    invoke-interface {v2, p0, p2}, Lorg/bouncycastle/tsp/ers/ERSData;->getHash(Lorg/bouncycastle/operator/DigestCalculator;[B)[B
+
+    move-result-object v2
+
+    new-instance v3, Lorg/bouncycastle/tsp/ers/IndexedHash;
+
+    invoke-direct {v3, v1, v2}, Lorg/bouncycastle/tsp/ers/IndexedHash;-><init>(I[B)V
+
+    invoke-virtual {v0, v3}, Lorg/bouncycastle/tsp/ers/SortedIndexedHashList;->add(Lorg/bouncycastle/tsp/ers/IndexedHash;)V
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v0}, Lorg/bouncycastle/tsp/ers/SortedIndexedHashList;->toList()Ljava/util/List;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static buildIndexedHashList([[B)Ljava/util/List;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "([[B)",
+            "Ljava/util/List<",
+            "[B>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance v0, Lorg/bouncycastle/tsp/ers/SortedHashList;
+
+    invoke-direct {v0}, Lorg/bouncycastle/tsp/ers/SortedHashList;-><init>()V
+
+    const/4 v1, 0x0
+
+    :goto_0
+    array-length v2, p0
+
+    if-eq v1, v2, :cond_0
+
+    aget-object v2, p0, v1
+
+    invoke-virtual {v0, v2}, Lorg/bouncycastle/tsp/ers/SortedHashList;->add([B)V
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v0}, Lorg/bouncycastle/tsp/ers/SortedHashList;->toList()Ljava/util/List;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static calculateBranchHash(Lorg/bouncycastle/operator/DigestCalculator;[B[B)[B
+    .locals 1
+
+    .line 1
+    sget-object v0, Lorg/bouncycastle/tsp/ers/ERSUtil;->hashComp:Ljava/util/Comparator;
+
+    invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
+
+    move-result v0
+
+    if-gtz v0, :cond_0
+
+    invoke-static {p0, p1, p2}, Lorg/bouncycastle/tsp/ers/ERSUtil;->calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;[B[B)[B
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    invoke-static {p0, p2, p1}, Lorg/bouncycastle/tsp/ers/ERSUtil;->calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;[B[B)[B
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static calculateBranchHash(Lorg/bouncycastle/operator/DigestCalculator;[[B)[B
+    .locals 2
+
+    .line 2
+    array-length v0, p1
+
+    const/4 v1, 0x2
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x0
+
+    aget-object v0, p1, v0
+
+    const/4 v1, 0x1
+
+    aget-object p1, p1, v1
+
+    invoke-static {p0, v0, p1}, Lorg/bouncycastle/tsp/ers/ERSUtil;->calculateBranchHash(Lorg/bouncycastle/operator/DigestCalculator;[B[B)[B
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    invoke-static {p1}, Lorg/bouncycastle/tsp/ers/ERSUtil;->buildIndexedHashList([[B)Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    invoke-static {p0, p1}, Lorg/bouncycastle/tsp/ers/ERSUtil;->calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;Ljava/util/Iterator;)[B
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;Ljava/io/InputStream;)[B
+    .locals 1
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getOutputStream()Ljava/io/OutputStream;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lorg/bouncycastle/util/io/Streams;->pipeAll(Ljava/io/InputStream;Ljava/io/OutputStream;)V
+
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
+
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getDigest()[B
+
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "unable to calculate hash: "
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 1
+    invoke-static {p0, p1}, Lm9/p;->e(Ljava/io/IOException;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 2
+    invoke-static {p1, p0}, Lorg/bouncycastle/tsp/ers/ExpUtil;->createIllegalState(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalStateException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public static calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;Ljava/util/Iterator;)[B
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/bouncycastle/operator/DigestCalculator;",
+            "Ljava/util/Iterator<",
+            "[B>;)[B"
+        }
+    .end annotation
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getOutputStream()Ljava/io/OutputStream;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, [B
+
+    invoke-virtual {v0, v1}, Ljava/io/OutputStream;->write([B)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
+
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getDigest()[B
+
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "unable to calculate hash: "
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    invoke-static {p0, p1}, Lm9/p;->e(Ljava/io/IOException;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 7
+    invoke-static {p1, p0}, Lorg/bouncycastle/tsp/ers/ExpUtil;->createIllegalState(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalStateException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public static calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;[B)[B
+    .locals 1
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getOutputStream()Ljava/io/OutputStream;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V
+
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
+
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getDigest()[B
+
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "unable to calculate hash: "
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 11
+    invoke-static {p0, p1}, Lm9/p;->e(Ljava/io/IOException;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 12
+    invoke-static {p1, p0}, Lorg/bouncycastle/tsp/ers/ExpUtil;->createIllegalState(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalStateException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public static calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;[B[B)[B
+    .locals 1
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getOutputStream()Ljava/io/OutputStream;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V
+
+    invoke-virtual {v0, p2}, Ljava/io/OutputStream;->write([B)V
+
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
+
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getDigest()[B
+
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string p2, "unable to calculate hash: "
+
+    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 16
+    invoke-static {p0, p1}, Lm9/p;->e(Ljava/io/IOException;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 17
+    invoke-static {p1, p0}, Lorg/bouncycastle/tsp/ers/ExpUtil;->createIllegalState(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalStateException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public static computeNodeHash(Lorg/bouncycastle/operator/DigestCalculator;Lorg/bouncycastle/asn1/tsp/PartialHashtree;)[B
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Lorg/bouncycastle/asn1/tsp/PartialHashtree;->getValues()[[B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    array-length v0, p1
+
+    .line 6
+    const/4 v1, 0x1
+
+    .line 7
+    if-le v0, v1, :cond_0
+
+    .line 8
+    .line 9
+    invoke-static {p1}, Lorg/bouncycastle/tsp/ers/ERSUtil;->buildIndexedHashList([[B)Ljava/util/List;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
+
+    .line 13
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    invoke-static {p0, p1}, Lorg/bouncycastle/tsp/ers/ERSUtil;->calculateDigest(Lorg/bouncycastle/operator/DigestCalculator;Ljava/util/Iterator;)[B
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p0
+
+    .line 21
+    return-object p0
+
+    .line 22
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 23
+    aget-object p0, p1, p0
+
+    .line 24
+    .line 25
+    return-object p0
+.end method
+
+.method public static concatPreviousHashes(Lorg/bouncycastle/operator/DigestCalculator;[B[B)[B
+    .locals 1
+
+    .line 1
+    if-nez p1, :cond_0
+
+    .line 2
+    .line 3
+    return-object p2
+
+    .line 4
+    :cond_0
+    :try_start_0
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getOutputStream()Ljava/io/OutputStream;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object v0
+
+    .line 8
+    invoke-virtual {v0, p2}, Ljava/io/OutputStream;->write([B)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-interface {p0}, Lorg/bouncycastle/operator/DigestCalculator;->getDigest()[B
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 21
+    return-object p0
+
+    .line 22
+    :catch_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 23
+    .line 24
+    const-string p1, "unable to hash data"
+
+    .line 25
+    .line 26
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 27
+    .line 28
+    .line 29
+    throw p0
+.end method

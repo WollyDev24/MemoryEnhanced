@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="24.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:id="@id/move_to_trash_message" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <CheckBox android:textAppearance="@style/NewSec400FontStyle" android:textSize="17.0sp" android:textColor="@color/basic_token_sys_on_surface_container_highest" android:id="@id/include_protected_items" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" />
+</LinearLayout>

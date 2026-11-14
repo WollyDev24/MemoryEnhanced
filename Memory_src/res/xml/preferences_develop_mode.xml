@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:icon="@android:drawable/ic_menu_view" android:title="Generate AI Model" android:key="pref_key_generate_model_category">
+        <Preference android:title="Configurations" android:key="pref_key_configuration" />
+    </PreferenceCategory>
+    <PreferenceCategory android:icon="@android:drawable/ic_menu_view" android:title="Analysis Test Menu" android:key="pref_key_analysis_test_menu">
+        <Preference android:title="Analysis Verify Test" android:key="pref_key_analysis_verify_test" />
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/llm_collage_use" android:key="pref_key_use_llm_collage" android:summary="@string/llm_collage_use_summary" />
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/analysis_debug_show" android:key="pref_key_show_analysis_debug" />
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/analysis_ocr_use" android:key="pref_key_use_ocr" />
+        <Preference android:title="@string/llm_collage_view" android:key="pref_key_view_llm_collages" />
+    </PreferenceCategory>
+    <PreferenceCategory android:icon="@android:drawable/ic_menu_view" android:title="Detail Debug" android:key="pref_key_detail_debug_menu">
+        <SwitchPreferenceCompat android:persistent="false" android:title="Show category name" android:key="pref_key_detail_category_name" android:summaryOn="Memory detail feedback bar shows the stored category fields." android:summaryOff="Memory detail feedback bar hides the category." />
+    </PreferenceCategory>
+</PreferenceScreen>

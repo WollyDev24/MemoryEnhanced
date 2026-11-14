@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți colecția Preferate și %d altă colecție?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți colecția Preferate și %d alte colecții?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți colecția Preferate și %d alte colecții?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d colecție?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d colecții?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d colecții?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d amintire</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d amintiri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d amintiri</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ultima (%d) zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ultimele %d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ultimele %d zile</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d colecție</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d colecții</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d colecții</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcalorie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kcalorii</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcalorii</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d persoană</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d persoane</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d persoane</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fotografie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fotografii</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fotografii</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">De %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">De %d ori</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d videoclip</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d videoclipuri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d videoclipuri</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini web</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini web</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d evidențiere pe %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d evidențieri pe %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d evidențieri pe %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ascundeți %d activitate?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ascundeți %d activități?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ascundeți %d activități?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ascundeți %d evidențiere?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ascundeți %d evidențieri?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ascundeți %d evidențieri?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d amintire?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d amintiri?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d amintiri?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 colecție, %d amintire</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 colecție, %d amintiri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 colecție, %d amintiri</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d amintire?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d amintiri?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d amintiri?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d amintire în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d amintiri în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mutați %d amintiri în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S-au selectat %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d colecție nouă sugerată pentru dumneavoastră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d colecții noi sugerate pentru dumneavoastră</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d colecții noi sugerate pentru dumneavoastră</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Orice amintiri pe care le ștergeți vor rămâne în Coșul de gunoi timp de %d zi înainte de a fi șterse definitiv.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Orice amintiri pe care le ștergeți vor rămâne în Coșul de gunoi timp de %d zile înainte de a fi șterse definitiv.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Orice amintiri pe care le ștergeți vor rămâne în Coșul de gunoi timp de %d zile înainte de a fi șterse definitiv.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți adăuga mai mult de %d abțibild. Accesați editorul foto din Galerie pentru a elimina abțibilduri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți adăuga mai mult de %d abțibilduri. Accesați editorul foto din Galerie pentru a elimina abțibilduri.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți adăuga mai mult de %d abțibilduri. Accesați editorul foto din Galerie pentru a elimina abțibilduri.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți 1 colecție și mutați %d amintire în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți 1 colecție și mutați %d amintiri în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți 1 colecție și mutați %d amintiri în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d colecție și mutați 1 amintire în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d colecții și mutați 1 amintire în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d colecții și mutați 1 amintire în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 colecție și %d amintire vor fi șterse definitiv.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 colecție și %d amintiri vor fi șterse definitiv.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 colecție și %d amintiri vor fi șterse definitiv.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d colecție și 1 amintire vor fi șterse definitiv.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d colecții și 1 amintire vor fi șterse definitiv.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d colecții și 1 amintire vor fi șterse definitiv.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rezultat găsit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d rezultate găsite</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rezultate găsite</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d imagine salvată în aplicația %2$s. Unele formate de imagine selectate nu sunt acceptate.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d imagini salvate în aplicația %2$s. Unele formate de imagine selectate nu sunt acceptate.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d imagini salvate în aplicația %2$s. Unele formate de imagine selectate nu sunt acceptate.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d amintire?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d amintiri?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d amintiri?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Amintirile din Coșul de gunoi vor fi șterse definitiv după %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Amintirile din Coșul de gunoi vor fi șterse definitiv după %d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Amintirile din Coșul de gunoi vor fi șterse definitiv după %d zile.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d amintire restabilită.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d amintiri restabilite.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d amintiri restabilite.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Această amintire va fi ștearsă peste %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Această amintire va fi ștearsă peste %d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Această amintire va fi ștearsă peste %d zile.</item>
+    </plurals>
+</resources>

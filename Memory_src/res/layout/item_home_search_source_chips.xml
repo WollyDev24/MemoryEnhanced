@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/filterChipsScrollView" android:scrollbars="none" android:fadingEdgeLength="@dimen/home_source_chips_fading_edge" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never" android:requiresFadingEdge="horizontal" android:paddingVertical="10.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/filterChipsContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <ImageButton android:id="@id/sortButton" android:background="?actionBarItemBackground" android:layout_width="wrap_content" android:layout_height="48.0dp" android:src="@drawable/ic_sort_by_arrow_trianglehead_down_text_horizontal" android:contentDescription="@string/home_menu_action_sort" android:paddingStart="12.0dp" android:paddingEnd="@dimen/home_sort_button_padding_end" android:tooltipText="@string/home_menu_action_sort" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/capture_vi_test_execution_mode_entries" android:title="Baseline 실행 경로" android:key="capture_vi_test_execution_mode" android:defaultValue="capture_pipeline" android:entryValues="@array/capture_vi_test_execution_mode_values" />
+    <PreferenceCategory android:title="터치 추종 VI POC">
+        <ListPreference android:persistent="false" android:entries="@array/capture_vi_test_threshold_entries" android:title="@string/capture_vi_test_threshold_title" android:key="capture_vi_test_gesture_threshold_dp" android:entryValues="@array/capture_vi_test_threshold_values" />
+        <SwitchPreferenceCompat android:title="Warp VI POC" android:key="capture_vi_test_gesture_capture_warp" android:summary="ON이고 framework 터치 인계가 있으면 Warp가 추종합니다. OFF이거나 인계가 없으면 기존 Capture VI로 동작합니다. 140dp 하강 시 완료하며 그전에 손을 떼면 취소합니다." android:defaultValue="true" />
+    </PreferenceCategory>
+    <Preference android:title="효과 모두 끄기 (공통 CaptureVI baseline)" android:key="capture_vi_test_all_off" android:summary="Capture pipeline과 VI frame loop는 유지하고 선택 효과·OCR·저장을 끕니다." />
+    <Preference android:title="제품 기본값으로 초기화" android:key="capture_vi_test_reset" android:summary="현재 제품 동작과 같은 기본 설정으로 되돌립니다." />
+    <PreferenceCategory android:title="전체 화면 효과">
+        <SwitchPreferenceCompat android:title="화면 왜곡 (warp)" android:key="capture_vi_test_warp" android:summary="캡처 bitmap에 적용하는 전체 화면 RuntimeShader 왜곡" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="전체 gradient" android:key="capture_vi_test_gradient" android:summary="전체 화면 Add/Overlay gradient 두 pass" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="화면 dim" android:key="capture_vi_test_dim" android:summary="전체 화면 검은색 dim 레이어" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="텍스트 분석">
+        <SwitchPreferenceCompat android:title="OCR 텍스트 영역 인식" android:key="capture_vi_test_ocr" android:summary="DeepSky detector 생성, prepare, 텍스트 영역 검출" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="텍스트 영역 VI" android:key="capture_vi_test_text_region_effect" android:summary="OCR 결과 사각형 안에 gradient를 렌더링" android:dependency="capture_vi_test_ocr" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="저장 완료 Nudge">
+        <SwitchPreferenceCompat android:title="저장 완료 아이콘·문구" android:key="capture_vi_test_nudge" android:summary="Animated App icon, 원근 문구, 햅틱" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="Bottom Light shader" android:key="capture_vi_test_badge_lighting" android:summary="아이콘 위치에 맞춘 신규 Light·파티클" android:dependency="capture_vi_test_nudge" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="동시 실행 작업">
+        <SwitchPreferenceCompat android:title="메모리 저장 pipeline" android:key="capture_vi_test_memory_save" android:summary="OFF이면 DB·이미지 저장을 생략하고 nudge에는 테스트 완료 신호만 전달" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="햅틱 피드백" android:key="capture_vi_test_haptic" android:summary="VI 시작 및 저장 완료 시 진동 피드백" android:defaultValue="true" />
+    </PreferenceCategory>
+    <Preference android:title="측정 방법" android:selectable="false" android:summary="설정은 즉시 저장되며 다음 3-finger/side-button 캡처부터 적용됩니다. 정적 Capture는 VI 렌더링 없이 캡처 공통 비용을, Lifecycle-only는 투명 Activity의 시작·종료 비용을 측정합니다." />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_original_texts_edit" android:title="@string/detail_original_texts_menu_edit_texts" />
+    <item android:id="@id/menu_original_texts_cancel" android:visible="false" android:title="@string/cancel" android:contentDescription="@string/cancel" android:tooltipText="@string/cancel" app:showAsAction="always" />
+    <item android:id="@id/menu_original_texts_save" android:visible="false" android:title="@string/save" android:contentDescription="@string/save" android:tooltipText="@string/save" app:showAsAction="always" />
+</menu>

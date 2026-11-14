@@ -1,0 +1,31 @@
+.class public final Lorg/bouncycastle/jcajce/provider/asymmetric/compositekem/KeyPairGeneratorSpi$MLKEM1024_ECDH_P521_SHA3_256;
+.super Lorg/bouncycastle/jcajce/provider/asymmetric/compositekem/KeyPairGeneratorSpi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/bouncycastle/jcajce/provider/asymmetric/compositekem/KeyPairGeneratorSpi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "MLKEM1024_ECDH_P521_SHA3_256"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lorg/bouncycastle/asn1/iana/IANAObjectIdentifiers;->id_MLKEM1024_ECDH_P521_SHA3_256:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lorg/bouncycastle/jcajce/provider/asymmetric/compositekem/KeyPairGeneratorSpi;-><init>(Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

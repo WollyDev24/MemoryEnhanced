@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="32.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:text="TEST" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <Button android:id="@id/btn_create_bulk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="대용량 데이터 만들기" />
+            <EditText android:id="@id/et_bulk_count" android:layout_width="150.0dp" android:layout_height="wrap_content" android:hint="개수 (기본 100)" android:layout_weight="1.0" android:inputType="number" android:layout_marginStart="8.0dp" />
+            <EditText android:id="@id/bulk_collection_id" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="collectionId" android:layout_weight="1.0" android:inputType="number" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+        <Button android:id="@id/btn_start_fw_craft_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Start FwCraftActivity" />
+        <Button android:id="@id/btn_capture_vi_test" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Capture VI 소모전류 테스트" />
+        <Button android:id="@id/btn_detail_test_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Detail 테스트 데이터 만들기" />
+        <Button android:id="@id/btn_create" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="생성" />
+        <Button android:id="@id/btn_id_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="ID 목록" />
+        <Button android:id="@id/btn_trash_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="휴지통 목록" />
+        <Button android:id="@id/btn_tag_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="태그 목록" />
+        <Button android:id="@id/btn_top_search_tag_filters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="상위 태그 필터 Top 10" />
+        <Button android:id="@id/btn_top_search_source_filters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="상위 출처 필터 Top 10" />
+        <Button android:id="@id/btn_sync_memory_hints_from_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Memory Hint 0초부터 다시 가져오기" />
+        <Button android:id="@id/btn_create_collection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="컬렉션 생성" />
+        <Button android:id="@id/btn_collection_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="컬렉션 목록" />
+        <Button android:id="@id/btn_creation_stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="생성 통계 확인" />
+        <Button android:id="@id/btn_test_get_document" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Extract Web Content" />
+        <Button android:id="@id/btn_apply_batch_all_memories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="ActiveMemory 전체 동기화" />
+        <Button android:id="@id/btn_extract_images" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Extract Images to Download" />
+        <Button android:id="@id/btn_extract_collection_trace_logs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Extract Trace Logs to Download" />
+        <Button android:id="@id/btn_extract_db" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Extract DB to Download" />
+        <Button android:id="@id/btn_restore_collection_trace_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Collection Trace Log 복원" />
+        <Button android:id="@id/btn_collection_scoring_config" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="컬렉션 라우팅 설정" />
+        <Button android:id="@id/btn_open_gcp_test" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="GCP 테스트 (GcpTestActivity)" />
+        <Button android:id="@id/btn_recalculate_collection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="컬렉션 재계산" />
+        <Button android:id="@id/btn_retry_analysis_by_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="상태별 재분석 요청" />
+        <Button android:id="@id/btn_add_images_and_analyze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="이미지 추가 및 분석" />
+        <Button android:id="@id/btn_select_xlsx_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="엑셀 파일 선택 및 검색" />
+        <Button android:id="@id/btn_update_memory_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Update Memory Time" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_collection_auto_create" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="컬렉션 자동 생성" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_collection_auto_create" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_analysis_auto_save" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="AI 분석 결과 자동 저장" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_analysis_auto_save" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_video_analysis" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_video_analysis_switch" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="비디오 분석 (Instagram video)" android:layout_weight="1.0" android:textAllCaps="true" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_video_analysis" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <RadioGroup android:orientation="vertical" android:id="@id/radio_group_video_analysis_evidence" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="8.0dp">
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radio_video_evidence_stt_ocr" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="STT + OCR (Frame 미전달)" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radio_video_evidence_stt_only" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="STT Only (Frame/OCR 미전달)" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radio_video_evidence_frame_stt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Frame + STT" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radio_video_evidence_frame_only" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Frame only" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radio_video_evidence_all" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Full Analysis (Frame + STT + OCR)" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radio_video_evidence_web_content_threshold" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="WebContent Threshold Mode" />
+            </RadioGroup>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_video_web_content_threshold" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="32.0dp">
+                <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Frame + STT fallback threshold (characters)" android:layout_weight="1.0" />
+                <EditText android:gravity="end" android:id="@id/et_video_web_content_threshold_chars" android:layout_width="96.0dp" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="5" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_save_uuid_with_file_name" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="UUID를 파일명으로 저장" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_save_uuid_with_file_name" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_source_chip_test_menu" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="출처 필터 Home에서 보여주기" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/source_chip_test_menu" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_feedback" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Feedback 기능" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_feedback" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_memory_hint" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Memory Hint 화면 표시" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_memory_hint" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_force_account_checks" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="삼성계정 / FTU / Galaxy AI 체크 (DEBUG)" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_force_account_checks" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_assist_structure" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="캡처 시 AssistStructure 텍스트 사용" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_assist_structure" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_home_view_by_test_menu" android:background="?selectableItemBackground" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Home 리스트 View by(UT) 메뉴 표시" android:layout_weight="1.0" android:textAllCaps="true" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_home_view_by_test_menu" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings.Secure 값 설정" android:textAllCaps="true" />
+            <TextView android:textColor="?android:textColorPrimary" android:id="@id/tv_secure_onboarding_completed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="memory_app_onboarding_completed = null" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_secure_onboarding_completed_null" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="null" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_secure_onboarding_completed_0" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_secure_onboarding_completed_1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textColor="?android:textColorPrimary" android:id="@id/tv_secure_three_finger_gesture" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="memory_three_finger_gesture = null" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_secure_three_finger_gesture_null" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="null" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_secure_three_finger_gesture_0" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_secure_three_finger_gesture_1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:id="@id/btn_secure_settings_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="새로고침" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

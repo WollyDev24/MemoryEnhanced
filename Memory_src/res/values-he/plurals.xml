@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזין יותר מ-%d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזין יותר מ-%d תווים.</item>
+        <item quantity="other">לא ניתן להזין יותר מ-%d תווים.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזין יותר מ-%d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזין יותר מ-%d תווים.</item>
+        <item quantity="other">לא ניתן להזין יותר מ-%d תווים.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"למחוק את 'מועדפים' ועוד %d אוסף?"</item>
+        <item quantity="two">"למחוק את 'מועדפים' ועוד %d אוספים?"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"למחוק את 'מועדפים' ועוד %d אוספים?"</item>
+        <item quantity="other">"למחוק את 'מועדפים' ועוד %d אוספים?"</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק %d אוסף?</item>
+        <item quantity="two">למחוק %d אוספים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d אוספים?</item>
+        <item quantity="other">למחוק %d אוספים?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זיכרון %d</item>
+        <item quantity="two">%d זיכרונות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d זיכרונות</item>
+        <item quantity="other">%d זיכרונות</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d היום האחרון</item>
+        <item quantity="two">%d הימים האחרונים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הימים האחרונים</item>
+        <item quantity="other">%d הימים האחרונים</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אוסף %d</item>
+        <item quantity="two">%d אוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אוספים</item>
+        <item quantity="other">%d אוספים</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d שע'"</item>
+        <item quantity="two">"%d שע'"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d שע'"</item>
+        <item quantity="other">"%d שע'"</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d דק'"</item>
+        <item quantity="two">"%d דק'"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d דק'"</item>
+        <item quantity="other">"%d דק'"</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%dקילו-קל'"</item>
+        <item quantity="two">"%dקילו-קל'"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%dקילו-קל'"</item>
+        <item quantity="other">"%dקילו-קל'"</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הודעה %d</item>
+        <item quantity="two">%d הודעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות</item>
+        <item quantity="other">%d הודעות</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אדם %d</item>
+        <item quantity="two">%d אנשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשים</item>
+        <item quantity="other">%d אנשים</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תמונה %d</item>
+        <item quantity="two">%d תמונות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תמונות</item>
+        <item quantity="other">%d תמונות</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d פעם</item>
+        <item quantity="two">%d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פעמים</item>
+        <item quantity="other">%d פעמים</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">וידאו %d</item>
+        <item quantity="two">%d סרטוני וידאו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d סרטוני וידאו</item>
+        <item quantity="other">%d סרטוני וידאו</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דף אינטרנט %d</item>
+        <item quantity="two">%d דפי אינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דפי אינטרנט</item>
+        <item quantity="other">%d דפי אינטרנט</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הדגש של %1$d ב-%2$s</item>
+        <item quantity="two">הדגשים של %1$d ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הדגשים של %1$d ב-%2$s</item>
+        <item quantity="other">הדגשים של %1$d ב-%2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזין יותר מ-%d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזין יותר מ-%d תווים.</item>
+        <item quantity="other">לא ניתן להזין יותר מ-%d תווים.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להסתיר פעילות %d?</item>
+        <item quantity="two">להסתיר %d פעילויות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להסתיר %d פעילויות?</item>
+        <item quantity="other">להסתיר %d פעילויות?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להסתיר קטע נבחר %d?</item>
+        <item quantity="two">להסתיר %d קטעים נבחרים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להסתיר %d קטעים נבחרים?</item>
+        <item quantity="other">להסתיר %d קטעים נבחרים?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק %d זיכרון?</item>
+        <item quantity="two">למחוק %d זיכרונות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d זיכרונות?</item>
+        <item quantity="other">למחוק %d זיכרונות?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אוסף 1, זיכרון %d</item>
+        <item quantity="two">אוסף 1, %d זיכרונות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אוסף 1, %d זיכרונות</item>
+        <item quantity="other">אוסף 1, %d זיכרונות</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק %d זיכרון?</item>
+        <item quantity="two">למחוק %d זיכרונות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d זיכרונות?</item>
+        <item quantity="other">למחוק %d זיכרונות?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר זיכרון %d לסל המיחזור?</item>
+        <item quantity="two">האם להעביר %d זיכרונות לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d זיכרונות לסל המיחזור?</item>
+        <item quantity="other">האם להעביר %d זיכרונות לסל המיחזור?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d אוסף חדש מוצע בשבילך</item>
+        <item quantity="two">%d אוספים חדשים מוצעים בשבילך</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אוספים חדשים מוצעים בשבילך</item>
+        <item quantity="other">%d אוספים חדשים מוצעים בשבילך</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות לפחות בן %d שנה כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="two">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="other">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זיכרונות שתמחק יישארו בסל המיחזור יום %d ולאחר מכן יימחקו לצמיתות.</item>
+        <item quantity="two">זיכרונות שתמחק יישארו בסל המיחזור %d ימים ולאחר מכן יימחקו לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זיכרונות שתמחק יישארו בסל המיחזור %d ימים ולאחר מכן יימחקו לצמיתות.</item>
+        <item quantity="other">זיכרונות שתמחק יישארו בסל המיחזור %d ימים ולאחר מכן יימחקו לצמיתות.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר ממדבקה %d. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d מדבקות. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d מדבקות. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d מדבקות. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק אוסף אחד וזיכרון %d ולהעביר לסל המיחזור?</item>
+        <item quantity="two">למחוק אוסף אחד וזיכרונות %d ולהעביר לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק אוסף אחד וזיכרונות %d ולהעביר לסל המיחזור?</item>
+        <item quantity="other">למחוק אוסף אחד וזיכרונות %d ולהעביר לסל המיחזור?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק אוסף %d וזיכרון אחד ולהעביר לסל המיחזור?</item>
+        <item quantity="two">למחוק %d אוספים וזיכרון אחד ולהעביר לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d אוספים וזיכרון אחד ולהעביר לסל המיחזור?</item>
+        <item quantity="other">למחוק %d אוספים וזיכרון אחד ולהעביר לסל המיחזור?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אוסף אחד וזיכרון %d יימחקו לצמיתות.</item>
+        <item quantity="two">אוסף אחד וזיכרונות %d יימחקו לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אוסף אחד וזיכרונות %d יימחקו לצמיתות.</item>
+        <item quantity="other">אוסף אחד וזיכרונות %d יימחקו לצמיתות.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אוסף %d וזיכרון אחד יימחקו לצמיתות.</item>
+        <item quantity="two">%d אוספים וזיכרון אחד יימחקו לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אוספים וזיכרון אחד יימחקו לצמיתות.</item>
+        <item quantity="other">%d אוספים וזיכרון אחד יימחקו לצמיתות.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תוצאה %d נמצאה</item>
+        <item quantity="two">%d תוצאות נמצאו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תוצאות נמצאו</item>
+        <item quantity="other">%d תוצאות נמצאו</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d תמונה נשמרה ביישום %2$s. חלק מהפורמטים הנבחרים של התמונה לא נתמכים.</item>
+        <item quantity="two">%1$d תמונות נשמרו ביישום %2$s. חלק מהפורמטים הנבחרים של התמונות לא נתמכים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d תמונות נשמרו ביישום %2$s. חלק מהפורמטים הנבחרים של התמונות לא נתמכים.</item>
+        <item quantity="other">%1$d תמונות נשמרו ביישום %2$s. חלק מהפורמטים הנבחרים של התמונות לא נתמכים.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק זיכרון %d?</item>
+        <item quantity="two">למחוק %d זיכרונות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d זיכרונות?</item>
+        <item quantity="other">למחוק %d זיכרונות?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זיכרונות בסל המיחזור יימחקו לצמיתות לאחר יום %d.</item>
+        <item quantity="two">זיכרונות בסל המיחזור יימחקו לצמיתות לאחר %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זיכרונות בסל המיחזור יימחקו לצמיתות לאחר %d ימים.</item>
+        <item quantity="other">זיכרונות בסל המיחזור יימחקו לצמיתות לאחר %d ימים.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זיכרון %d שוחזר.</item>
+        <item quantity="two">%d זיכרונות שוחזרו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d זיכרונות שוחזרו.</item>
+        <item quantity="other">%d זיכרונות שוחזרו.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זיכרון זה יימחק בעוד יום %d.</item>
+        <item quantity="two">זיכרון זה יימחק בעוד %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זיכרון זה יימחק בעוד %d ימים.</item>
+        <item quantity="other">זיכרון זה יימחק בעוד %d ימים.</item>
+    </plurals>
+</resources>

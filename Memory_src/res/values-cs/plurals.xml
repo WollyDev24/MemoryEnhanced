@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit kolekci Oblíbené a %d další kolekci?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit kolekci Oblíbené a %d další kolekce?</item>
+        <item quantity="many">Odstranit kolekci Oblíbené a %d dalších kolekcí?</item>
+        <item quantity="other">Odstranit kolekci Oblíbené a %d dalších kolekcí?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d kolekci?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d kolekce?</item>
+        <item quantity="many">Odstranit %d kolekcí?</item>
+        <item quantity="other">Odstranit %d kolekcí?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vzpomínka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d vzpomínky</item>
+        <item quantity="many">%d vzpomínek</item>
+        <item quantity="other">%d vzpomínek</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poslední %d den</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Poslední %d dny</item>
+        <item quantity="many">Posledních %d dnů</item>
+        <item quantity="other">Posledních %d dnů</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolekce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kolekce</item>
+        <item quantity="many">%d kolekcí</item>
+        <item quantity="other">%d kolekcí</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d h</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kcal</item>
+        <item quantity="many">%d kcal</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zpráva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zprávy</item>
+        <item quantity="many">%d zpráv</item>
+        <item quantity="other">%d zpráv</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osoby</item>
+        <item quantity="many">%d osob</item>
+        <item quantity="other">%d osob</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fotografie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fotografie</item>
+        <item quantity="many">%d fotografií</item>
+        <item quantity="other">%d fotografií</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dkrát</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%dkrát</item>
+        <item quantity="many">%dkrát</item>
+        <item quantity="other">%dkrát</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d video</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d videa</item>
+        <item quantity="many">%d videí</item>
+        <item quantity="other">%d videí</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d webová stránka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d webové stránky</item>
+        <item quantity="many">%d webových stránek</item>
+        <item quantity="other">%d webových stránek</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d nejdůležitější moment %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d nejdůležitější momenty %2$s</item>
+        <item quantity="many">%1$d nejdůležitějších momentů %2$s</item>
+        <item quantity="other">%1$d nejdůležitějších momentů %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skrýt %d aktivitu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Skrýt %d aktivity?</item>
+        <item quantity="many">Skrýt %d aktivit?</item>
+        <item quantity="other">Skrýt %d aktivit?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skrýt %d nejdůležitější moment?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Skrýt %d nejdůležitější momenty?</item>
+        <item quantity="many">Skrýt %d nejdůležitějších momentů?</item>
+        <item quantity="other">Skrýt %d nejdůležitějších momentů?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d vzpomínku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d vzpomínky?</item>
+        <item quantity="many">Odstranit %d vzpomínek?</item>
+        <item quantity="other">Odstranit %d vzpomínek?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 kolekce, %d vzpomínka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 kolekce, %d vzpomínky</item>
+        <item quantity="many">1 kolekce, %d vzpomínek</item>
+        <item quantity="other">1 kolekce, %d vzpomínek</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d vzpomínku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d vzpomínky?</item>
+        <item quantity="many">Odstranit %d vzpomínek?</item>
+        <item quantity="other">Odstranit %d vzpomínek?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d vzpomínku do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d vzpomínky do Koše?</item>
+        <item quantity="many">Přesunout %d vzpomínek do Koše?</item>
+        <item quantity="other">Přesunout %d vzpomínek do Koše?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybráno: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybráno: %d</item>
+        <item quantity="many">Vybráno: %d</item>
+        <item quantity="other">Vybráno: %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nová kolekce navržená pro vás</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nové kolekce navržené pro vás</item>
+        <item quantity="many">%d nových kolekcí navržených pro vás</item>
+        <item quantity="other">%d nových kolekcí navržených pro vás</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d roky.</item>
+        <item quantity="many">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d let.</item>
+        <item quantity="other">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d let.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+        <item quantity="other">%d nových oznámení</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Všechny odstraněné vzpomínky zůstanou v Koši %d den, než budou trvale odstraněny.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Všechny odstraněné vzpomínky zůstanou v Koši %d dny, než budou trvale odstraněny.</item>
+        <item quantity="many">Všechny odstraněné vzpomínky zůstanou v Koši %d dnů, než budou trvale odstraněny.</item>
+        <item quantity="other">Všechny odstraněné vzpomínky zůstanou v Koši %d dnů, než budou trvale odstraněny.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze přidat více než %d nálepku. Přejděte do Editoru fotografií v Galerii a odeberte nálepky.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze přidat více než %d nálepky. Přejděte do Editoru fotografií v Galerii a odeberte nálepky.</item>
+        <item quantity="many">Nelze přidat více než %d nálepek. Přejděte do Editoru fotografií v Galerii a odeberte nálepky.</item>
+        <item quantity="other">Nelze přidat více než %d nálepek. Přejděte do Editoru fotografií v Galerii a odeberte nálepky.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit 1 kolekci a přesunout %d vzpomínku do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit 1 kolekci a přesunout %d vzpomínky do Koše?</item>
+        <item quantity="many">Odstranit 1 kolekci a přesunout %d vzpomínek do Koše?</item>
+        <item quantity="other">Odstranit 1 kolekci a přesunout %d vzpomínek do Koše?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d kolekci a přesunout 1 vzpomínku do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d kolekce a přesunout 1 vzpomínku do Koše?</item>
+        <item quantity="many">Odstranit %d kolekcí a přesunout 1 vzpomínku do Koše?</item>
+        <item quantity="other">Odstranit %d kolekcí a přesunout 1 vzpomínku do Koše?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 kolekce a %d vzpomínka budou trvale odstraněny.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 kolekce a %d vzpomínky budou trvale odstraněny.</item>
+        <item quantity="many">1 kolekce a %d vzpomínek budou trvale odstraněny.</item>
+        <item quantity="other">1 kolekce a %d vzpomínek budou trvale odstraněny.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolekce a 1 vzpomínka budou trvale odstraněny.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kolekce a 1 vzpomínka budou trvale odstraněny.</item>
+        <item quantity="many">%d kolekcí a 1 vzpomínka budou trvale odstraněny.</item>
+        <item quantity="other">%d kolekcí a 1 vzpomínka budou trvale odstraněny.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nalezen %d výsledek</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nalezeny %d výsledky</item>
+        <item quantity="many">Nalezeno %d výsledků</item>
+        <item quantity="other">Nalezeno %d výsledků</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do aplikace %2$s byl uložen %1$d obrázek. Formáty některých vybraných obrázků nejsou podporovány.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do aplikace %2$s byly uloženy %1$d obrázky. Formáty některých vybraných obrázků nejsou podporovány.</item>
+        <item quantity="many">Do aplikace %2$s bylo uloženo %1$d obrázků. Formáty některých vybraných obrázků nejsou podporovány.</item>
+        <item quantity="other">Do aplikace %2$s bylo uloženo %1$d obrázků. Formáty některých vybraných obrázků nejsou podporovány.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d vzpomínku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d vzpomínky?</item>
+        <item quantity="many">Odstranit %d vzpomínek?</item>
+        <item quantity="other">Odstranit %d vzpomínek?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vzpomínky v Koši budou trvale odstraněny po uplynutí %d dne.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vzpomínky v Koši budou trvale odstraněny po uplynutí %d dnů.</item>
+        <item quantity="many">Vzpomínky v Koši budou trvale odstraněny po uplynutí %d dnů.</item>
+        <item quantity="other">Vzpomínky v Koši budou trvale odstraněny po uplynutí %d dnů.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vzpomínka byla obnovena.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d vzpomínky byly obnoveny.</item>
+        <item quantity="many">%d vzpomínek bylo obnoveno.</item>
+        <item quantity="other">%d vzpomínek bylo obnoveno.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vzpomínka bude odstraněna za %d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vzpomínka bude odstraněna za %d dny.</item>
+        <item quantity="many">Vzpomínka bude odstraněna za %d dnů.</item>
+        <item quantity="other">Vzpomínka bude odstraněna za %d dnů.</item>
+    </plurals>
+</resources>

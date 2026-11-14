@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_voice" android:enabled="true" android:shortcutId="add_voice_memory" android:shortcutShortLabel="@string/shortcut_add_voice_memory" android:shortcutLongLabel="@string/shortcut_add_voice_memory">
+        <intent android:targetPackage="com.samsung.android.app.memory" android:action="com.samsung.android.app.memory.action.ADD_MEMORY_VOICE" android:targetClass="com.samsung.android.app.memory.feature.main.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_text" android:enabled="true" android:shortcutId="add_text_memory" android:shortcutShortLabel="@string/shortcut_add_text_memory" android:shortcutLongLabel="@string/shortcut_add_text_memory">
+        <intent android:targetPackage="com.samsung.android.app.memory" android:action="com.samsung.android.app.memory.action.ADD_MEMORY_TEXT" android:targetClass="com.samsung.android.app.memory.feature.main.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_camera" android:enabled="true" android:shortcutId="add_camera_memory" android:shortcutShortLabel="@string/shortcut_capture_memory_with_camera" android:shortcutLongLabel="@string/shortcut_capture_memory_with_camera">
+        <intent android:targetPackage="com.samsung.android.app.memory" android:action="com.samsung.android.app.memory.action.ADD_MEMORY_CAMERA" android:targetClass="com.samsung.android.app.memory.feature.main.MainActivity" />
+    </shortcut>
+</shortcuts>

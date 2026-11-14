@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টাতকৈ অধিক বৰ্ণ প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টাতকৈ অধিক বৰ্ণ প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টাতকৈ অধিক বৰ্ণ প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টাতকৈ অধিক বৰ্ণ প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">প্ৰিয়সমূহ আৰু অন্য %d টা সংগ্ৰহণ বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">প্ৰিয়সমূহ আৰু অন্য %d টা সংগ্ৰহণ বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সংগ্ৰহণ বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সংগ্ৰহণ বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d মেম'ৰি"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d মেম'ৰি"</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">যোৱা %d দিন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">যোৱা %d দিন</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সংগ্ৰহ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সংগ্ৰহ</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ঘ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ঘ</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d মিনিট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d মিনিট</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা মেচেজ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা মেচেজ</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জন ব্যক্তি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d জন ব্যক্তি</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d খন ফটো</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d খন ফটো</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d বাৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d বাৰ</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা ভিডিঅ'"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা ভিডিঅ'"</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৱেবপৃষ্ঠা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ৱেবপৃষ্ঠা</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ত %1$d টা হাইলাইট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ত %1$d টা হাইলাইট</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টাতকৈ অধিক বৰ্ণ প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টাতকৈ অধিক বৰ্ণ প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা কাৰ্যকলাপ লুকুৱাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা কাৰ্যকলাপ লুকুৱাবনে?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা হাইলাইট লুকুৱাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা হাইলাইট লুকুৱাবনে?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা স্মৃতি বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা স্মৃতি বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"1 টা সংগ্ৰহণ, %d মেম'ৰি"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"1 টা সংগ্ৰহণ, %d মেম'ৰি"</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা স্মৃতি বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা স্মৃতি বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ট্ৰেচলৈ %d মেম'ৰি লৈ যাবনে?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ট্ৰেচলৈ %d মেম'ৰি লৈ যাবনে?"</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা চয়ন কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা চয়ন কৰা হৈছে</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা নতুন সংগ্ৰহণ আপোনাৰ বাবে পৰামৰ্শ দিয়া হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা নতুন সংগ্ৰহণ আপোনাৰ বাবে পৰামৰ্শ দিয়া হৈছে</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Galaxy AI-ৰ অগ্ৰণী ইণ্টেলিজেন্স সুবিধাসমূহ ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Galaxy AI-ৰ অগ্ৰণী ইণ্টেলিজেন্স সুবিধাসমূহ ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপুনি বিলোপ কৰা যিকোনো মেম'ৰি চিৰদিনৰ বাবে বিলোপ কৰাৰ পূৰ্বে সেইবোৰ %d দিনৰ বাবে ট্ৰেচত থাকিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপুনি বিলোপ কৰা যিকোনো মেম'ৰি চিৰদিনৰ বাবে বিলোপ কৰাৰ পূৰ্বে সেইবোৰ %d দিনৰ বাবে ট্ৰেচত থাকিব।"</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ষ্টিকাৰতকৈ অধিক যোগ কৰিব নোৱাৰে। ষ্টিকাৰসমূহ আঁতৰাবলৈ গেলাৰীত ফটো সম্পাদকলৈ যাওক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ষ্টিকাৰতকৈ অধিক যোগ কৰিব নোৱাৰে। ষ্টিকাৰসমূহ আঁতৰাবলৈ গেলাৰীত ফটো সম্পাদকলৈ যাওক।</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 টা সংগ্ৰহণ বিলোপ কৰি %d টা স্মৃতি ট্ৰেচলৈ লৈ যাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 টা সংগ্ৰহণ বিলোপ কৰি %d টা স্মৃতি ট্ৰেচলৈ লৈ যাবনে?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সংগ্ৰহণ বিলোপ কৰি 1 টা স্মৃতি ট্ৰেচলৈ লৈ যাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সংগ্ৰহণ বিলোপ কৰি 1 টা স্মৃতি ট্ৰেচলৈ লৈ যাবনে?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"1 টা সংগ্ৰহণ আৰু %d টা স্মৃতি স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"1 টা সংগ্ৰহণ আৰু %d টা স্মৃতি স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা সংগ্ৰহণ আৰু 1 টা স্মৃতি স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা সংগ্ৰহণ আৰু 1 টা স্মৃতি স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা ফলাফল বিচাৰি পোৱা গ'ল"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা ফলাফল বিচাৰি পোৱা গ'ল"</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d খন প্ৰতিচ্ছবি %2$s-ত সংৰক্ষণ কৰা হৈছে। কিছুমান বাছনি কৰা প্ৰতিচ্ছবিৰ ফৰ্মেট সমৰ্থিত নহয়।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d খন প্ৰতিচ্ছবি %2$s-ত সংৰক্ষণ কৰা হৈছে। কিছুমান বাছনি কৰা প্ৰতিচ্ছবিৰ ফৰ্মেট সমৰ্থিত নহয়।</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা স্মৃতি বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা স্মৃতি বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ট্ৰেচৰ মেম'ৰি %d দিনৰ পিছত স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ট্ৰেচৰ মেম'ৰি %d দিনৰ পিছত স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d মেম'ৰি পুনঃস্থাপন কৰা হ'ল।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d মেম'ৰি পুনঃস্থাপন কৰা হ'ল।"</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"এই মেম'ৰি %d দিনৰ পিছত বিলোপ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"এই মেম'ৰি %d দিনৰ পিছত বিলোপ কৰা হ'ব।"</item>
+    </plurals>
+</resources>

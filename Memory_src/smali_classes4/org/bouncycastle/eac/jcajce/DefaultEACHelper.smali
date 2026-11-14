@@ -1,0 +1,36 @@
+.class Lorg/bouncycastle/eac/jcajce/DefaultEACHelper;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lorg/bouncycastle/eac/jcajce/EACHelper;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public createKeyFactory(Ljava/lang/String;)Ljava/security/KeyFactory;
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

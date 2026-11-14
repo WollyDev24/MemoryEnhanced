@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.memory.feature.detail.component.DetailTagsView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/basic_token_sys_on_surface_container_high" android:gravity="center_vertical" android:id="@id/detail_tags_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_filter_tags" android:textFontWeight="600" />
+    <com.google.android.material.chip.ChipGroup android:id="@id/chip_group_tags" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" app:chipSpacingHorizontal="8.0dp" app:chipSpacingVertical="10.0dp" />
+</com.samsung.android.app.memory.feature.detail.component.DetailTagsView>

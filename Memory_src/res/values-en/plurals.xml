@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+        <item quantity="other">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+        <item quantity="other">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">Delete Favourites and %d other collections?</item>
+        <item quantity="one">Delete Favourites and %d other collection?</item>
+        <item quantity="two">Delete Favourites and %d other collections?</item>
+        <item quantity="few">Delete Favourites and %d other collections?</item>
+        <item quantity="many">Delete Favourites and %d other collections?</item>
+        <item quantity="other">Delete Favourites and %d other collections?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">Delete %d collections?</item>
+        <item quantity="one">Delete %d collection?</item>
+        <item quantity="two">Delete %d collections?</item>
+        <item quantity="few">Delete %d collections?</item>
+        <item quantity="many">Delete %d collections?</item>
+        <item quantity="other">Delete %d collections?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">%d memories</item>
+        <item quantity="one">%d memory</item>
+        <item quantity="two">%d memories</item>
+        <item quantity="few">%d memories</item>
+        <item quantity="many">%d memories</item>
+        <item quantity="other">%d memories</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">Last %d days</item>
+        <item quantity="one">Last %d day</item>
+        <item quantity="two">Last %d days</item>
+        <item quantity="few">Last %d days</item>
+        <item quantity="many">Last %d days</item>
+        <item quantity="other">Last %d days</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">%d collections</item>
+        <item quantity="one">%d collection</item>
+        <item quantity="two">%d collections</item>
+        <item quantity="few">%d collections</item>
+        <item quantity="many">%d collections</item>
+        <item quantity="other">%d collections</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">%d hrs</item>
+        <item quantity="one">%d hr</item>
+        <item quantity="two">%d hrs</item>
+        <item quantity="few">%d hrs</item>
+        <item quantity="many">%d hrs</item>
+        <item quantity="other">%d hrs</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">%d mins</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d mins</item>
+        <item quantity="few">%d mins</item>
+        <item quantity="many">%d mins</item>
+        <item quantity="other">%d mins</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">%d kcal</item>
+        <item quantity="one">%d kcal</item>
+        <item quantity="two">%d kcal</item>
+        <item quantity="few">%d kcal</item>
+        <item quantity="many">%d kcal</item>
+        <item quantity="other">%d kcal</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">%d messages</item>
+        <item quantity="one">%d message</item>
+        <item quantity="two">%d messages</item>
+        <item quantity="few">%d messages</item>
+        <item quantity="many">%d messages</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">%d people</item>
+        <item quantity="one">%d person</item>
+        <item quantity="two">%d people</item>
+        <item quantity="few">%d people</item>
+        <item quantity="many">%d people</item>
+        <item quantity="other">%d people</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">%d photos</item>
+        <item quantity="one">%d photo</item>
+        <item quantity="two">%d photos</item>
+        <item quantity="few">%d photos</item>
+        <item quantity="many">%d photos</item>
+        <item quantity="other">%d photos</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">%d times</item>
+        <item quantity="one">%d time</item>
+        <item quantity="two">%d times</item>
+        <item quantity="few">%d times</item>
+        <item quantity="many">%d times</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">%d videos</item>
+        <item quantity="one">%d video</item>
+        <item quantity="two">%d videos</item>
+        <item quantity="few">%d videos</item>
+        <item quantity="many">%d videos</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">%d webpages</item>
+        <item quantity="one">%d webpage</item>
+        <item quantity="two">%d webpages</item>
+        <item quantity="few">%d webpages</item>
+        <item quantity="many">%d webpages</item>
+        <item quantity="other">%d webpages</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">%1$d highlights on %2$s</item>
+        <item quantity="one">%1$d highlight on %2$s</item>
+        <item quantity="two">%1$d highlights on %2$s</item>
+        <item quantity="few">%1$d highlights on %2$s</item>
+        <item quantity="many">%1$d highlights on %2$s</item>
+        <item quantity="other">%1$d highlights on %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+        <item quantity="other">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">Hide %d activities?</item>
+        <item quantity="one">Hide %d activity?</item>
+        <item quantity="two">Hide %d activities?</item>
+        <item quantity="few">Hide %d activities?</item>
+        <item quantity="many">Hide %d activities?</item>
+        <item quantity="other">Hide %d activities?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">Hide %d highlights?</item>
+        <item quantity="one">Hide %d highlight?</item>
+        <item quantity="two">Hide %d highlights?</item>
+        <item quantity="few">Hide %d highlights?</item>
+        <item quantity="many">Hide %d highlights?</item>
+        <item quantity="other">Hide %d highlights?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">Delete %d memories?</item>
+        <item quantity="one">Delete %d memory?</item>
+        <item quantity="two">Delete %d memories?</item>
+        <item quantity="few">Delete %d memories?</item>
+        <item quantity="many">Delete %d memories?</item>
+        <item quantity="other">Delete %d memories?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">1 collection, %d memories</item>
+        <item quantity="one">1 collection, %d memory</item>
+        <item quantity="two">1 collection, %d memories</item>
+        <item quantity="few">1 collection, %d memories</item>
+        <item quantity="many">1 collection, %d memories</item>
+        <item quantity="other">1 collection, %d memories</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">Delete %d memories?</item>
+        <item quantity="one">Delete %d memory?</item>
+        <item quantity="two">Delete %d memories?</item>
+        <item quantity="few">Delete %d memories?</item>
+        <item quantity="many">Delete %d memories?</item>
+        <item quantity="other">Delete %d memories?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">Move %d memories to the Recycle bin?</item>
+        <item quantity="one">Move %d memory to the Recycle bin?</item>
+        <item quantity="two">Move %d memories to the Recycle bin?</item>
+        <item quantity="few">Move %d memories to the Recycle bin?</item>
+        <item quantity="many">Move %d memories to the Recycle bin?</item>
+        <item quantity="other">Move %d memories to the Recycle bin?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">%d new collections suggested for you</item>
+        <item quantity="one">%d new collection suggested for you</item>
+        <item quantity="two">%d new collections suggested for you</item>
+        <item quantity="few">%d new collections suggested for you</item>
+        <item quantity="many">%d new collections suggested for you</item>
+        <item quantity="other">%d new collections suggested for you</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">"You need to be at least %d years old to use Galaxy AI's advanced intelligence features."</item>
+        <item quantity="one">"You need to be at least %d year old to use Galaxy AI's advanced intelligence features."</item>
+        <item quantity="two">"You need to be at least %d years old to use Galaxy AI's advanced intelligence features."</item>
+        <item quantity="few">"You need to be at least %d years old to use Galaxy AI's advanced intelligence features."</item>
+        <item quantity="many">"You need to be at least %d years old to use Galaxy AI's advanced intelligence features."</item>
+        <item quantity="other">"You need to be at least %d years old to use Galaxy AI's advanced intelligence features."</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">"Any memories you delete will stay in the Recycle bin for %d days before they're deleted forever."</item>
+        <item quantity="one">"Any memories you delete will stay in the Recycle bin for %d day before they're deleted forever."</item>
+        <item quantity="two">"Any memories you delete will stay in the Recycle bin for %d days before they're deleted forever."</item>
+        <item quantity="few">"Any memories you delete will stay in the Recycle bin for %d days before they're deleted forever."</item>
+        <item quantity="many">"Any memories you delete will stay in the Recycle bin for %d days before they're deleted forever."</item>
+        <item quantity="other">"Any memories you delete will stay in the Recycle bin for %d days before they're deleted forever."</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="one">"Can't add more than %d sticker. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="two">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="few">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="many">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+        <item quantity="other">"Can't add more than %d stickers. Go to the photo editor in Gallery to remove stickers."</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">Delete 1 collection and move %d memories to the Recycle bin?</item>
+        <item quantity="one">Delete 1 collection and move %d memory to the Recycle bin?</item>
+        <item quantity="two">Delete 1 collection and move %d memories to the Recycle bin?</item>
+        <item quantity="few">Delete 1 collection and move %d memories to the Recycle bin?</item>
+        <item quantity="many">Delete 1 collection and move %d memories to the Recycle bin?</item>
+        <item quantity="other">Delete 1 collection and move %d memories to the Recycle bin?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">Delete %d collections and move 1 memory to the Recycle bin?</item>
+        <item quantity="one">Delete %d collection and move 1 memory to the Recycle bin?</item>
+        <item quantity="two">Delete %d collections and move 1 memory to the Recycle bin?</item>
+        <item quantity="few">Delete %d collections and move 1 memory to the Recycle bin?</item>
+        <item quantity="many">Delete %d collections and move 1 memory to the Recycle bin?</item>
+        <item quantity="other">Delete %d collections and move 1 memory to the Recycle bin?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">1 collection and %d memories will be permanently deleted.</item>
+        <item quantity="one">1 collection and %d memory will be permanently deleted.</item>
+        <item quantity="two">1 collection and %d memories will be permanently deleted.</item>
+        <item quantity="few">1 collection and %d memories will be permanently deleted.</item>
+        <item quantity="many">1 collection and %d memories will be permanently deleted.</item>
+        <item quantity="other">1 collection and %d memories will be permanently deleted.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">%d collections and 1 memory will be permanently deleted.</item>
+        <item quantity="one">%d collection and 1 memory will be permanently deleted.</item>
+        <item quantity="two">%d collections and 1 memory will be permanently deleted.</item>
+        <item quantity="few">%d collections and 1 memory will be permanently deleted.</item>
+        <item quantity="many">%d collections and 1 memory will be permanently deleted.</item>
+        <item quantity="other">%d collections and 1 memory will be permanently deleted.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">%d results found</item>
+        <item quantity="one">%d result found</item>
+        <item quantity="two">%d results found</item>
+        <item quantity="few">%d results found</item>
+        <item quantity="many">%d results found</item>
+        <item quantity="other">%d results found</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">%1$d images saved to %2$s. Some selected image formats not supported.</item>
+        <item quantity="one">%1$d image saved to %2$s. Some selected image formats not supported.</item>
+        <item quantity="two">%1$d images saved to %2$s. Some selected image formats not supported.</item>
+        <item quantity="few">%1$d images saved to %2$s. Some selected image formats not supported.</item>
+        <item quantity="many">%1$d images saved to %2$s. Some selected image formats not supported.</item>
+        <item quantity="other">%1$d images saved to %2$s. Some selected image formats not supported.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">Delete %d memories?</item>
+        <item quantity="one">Delete %d memory?</item>
+        <item quantity="two">Delete %d memories?</item>
+        <item quantity="few">Delete %d memories?</item>
+        <item quantity="many">Delete %d memories?</item>
+        <item quantity="other">Delete %d memories?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">Memories in the Recycle bin will be permanently deleted after %d days.</item>
+        <item quantity="one">Memories in the Recycle bin will be permanently deleted after %d day.</item>
+        <item quantity="two">Memories in the Recycle bin will be permanently deleted after %d days.</item>
+        <item quantity="few">Memories in the Recycle bin will be permanently deleted after %d days.</item>
+        <item quantity="many">Memories in the Recycle bin will be permanently deleted after %d days.</item>
+        <item quantity="other">Memories in the Recycle bin will be permanently deleted after %d days.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">%d memories restored.</item>
+        <item quantity="one">%d memory restored.</item>
+        <item quantity="two">%d memories restored.</item>
+        <item quantity="few">%d memories restored.</item>
+        <item quantity="many">%d memories restored.</item>
+        <item quantity="other">%d memories restored.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">This memory will be deleted in %d days.</item>
+        <item quantity="one">This memory will be deleted in %d day.</item>
+        <item quantity="two">This memory will be deleted in %d days.</item>
+        <item quantity="few">This memory will be deleted in %d days.</item>
+        <item quantity="many">This memory will be deleted in %d days.</item>
+        <item quantity="other">This memory will be deleted in %d days.</item>
+    </plurals>
+</resources>

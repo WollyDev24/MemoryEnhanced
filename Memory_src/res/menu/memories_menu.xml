@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/list_item_action">
+        <item android:id="@id/action_existed_memory" android:title="@string/memories_menu_existed_memory" android:showAsAction="never" />
+        <item android:id="@id/action_select" android:title="@string/home_menu_action_select" android:showAsAction="never" />
+        <item android:id="@id/action_rename" android:title="@string/collections_rename_collection" android:showAsAction="never" />
+        <item android:id="@id/action_delete" android:title="@string/collections_delete_collection" android:showAsAction="never" />
+    </group>
+</menu>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="17.0sp" android:textColor="@color/basic_token_sys_on_surface_container_fixed" android:background="@drawable/bg_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_analysis_retry_button" android:paddingHorizontal="32.0dp" android:paddingVertical="12.0dp" android:textFontWeight="600"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

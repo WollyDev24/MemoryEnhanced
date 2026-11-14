@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/browse_nav_graph" app:startDestination="@id/homeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="Home" android:name="com.samsung.android.app.memory.feature.home.HomeFragment" android:id="@id/homeFragment">
+        <action android:id="@id/action_homeFragment_to_collectionsFragment" app:destination="@id/collectionsFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+        <action android:id="@id/action_homeFragment_to_memoriesFragment" app:destination="@id/memoriesFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+        <action android:id="@id/action_homeFragment_to_detailTextFragment" app:destination="@id/detailTextFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+        <action android:id="@id/action_homeFragment_to_searchFragment" app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment android:label="Trash" android:name="com.samsung.android.app.memory.feature.trash.TrashFragment" android:id="@id/trashFragment" />
+    <fragment android:label="DetailText" android:name="com.samsung.android.app.memory.feature.detail.DetailTextFragment" android:id="@id/detailTextFragment">
+        <argument android:name="detail_text_body" android:defaultValue="" app:argType="string" />
+        <argument android:name="detail_text_audio_uri" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_memory_title" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_memory_id" android:defaultValue="-1L" app:argType="long" />
+        <argument android:name="detail_text_initial_memo" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="detail_text_allow_edit_memo" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="detail_text_creation_type" android:defaultValue="-1" app:argType="integer" />
+        <argument android:name="detail_text_edit_mode" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="Search" android:name="com.samsung.android.app.memory.feature.search.SearchFragment" android:id="@id/searchFragment">
+        <argument android:name="search_presentation_mode" android:defaultValue="DESKTOP_EMBEDDED" app:argType="string" />
+        <action android:id="@id/action_searchFragment_to_searchResultsSelectionFragment" app:destination="@id/searchResultsSelectionFragment" />
+        <action android:id="@id/action_searchFragment_to_memoriesFragment" app:destination="@id/memoriesFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="Search feedback selection" android:name="com.samsung.android.app.memory.feature.search.SearchResultsSelectionFragment" android:id="@id/searchResultsSelectionFragment">
+        <argument android:name="searchInputText" app:argType="string" app:nullable="true" />
+        <argument android:name="status" app:argType="integer" />
+        <argument android:name="searchedMemoryIds" app:argType="long[]" />
+        <argument android:name="freeText" app:argType="string" />
+    </fragment>
+    <fragment android:label="Collections" android:name="com.samsung.android.app.memory.feature.collections.CollectionsFragment" android:id="@id/collectionsFragment">
+        <action android:id="@id/action_collectionsFragment_to_memoriesFragment" app:destination="@id/memoriesFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+        <action android:id="@id/action_collectionsFragment_to_collectionSuggestionPreviewFragment" app:destination="@id/collectionSuggestionPreviewFragment" app:enterAnim="@anim/nav_depth_in_enter_token" app:exitAnim="@anim/nav_depth_in_exit_token" app:popEnterAnim="@animator/sesl_fragment_close_enter" app:popExitAnim="@animator/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="Memories" android:name="com.samsung.android.app.memory.feature.memories.MemoriesFragment" android:id="@id/memoriesFragment">
+        <argument android:name="collectionId" app:argType="long" />
+    </fragment>
+    <fragment android:label="Existed Memories" android:name="com.samsung.android.app.memory.feature.existedmemories.ExistedMemoriesFragment" android:id="@id/existedMemoriesFragment">
+        <argument android:name="collectionId" app:argType="long" />
+    </fragment>
+    <fragment android:label="Collection Suggestion Preview" android:name="com.samsung.android.app.memory.feature.collectionsuggestionpreview.CollectionSuggestionPreviewFragment" android:id="@id/collectionSuggestionPreviewFragment">
+        <argument android:name="suggestionId" app:argType="long" />
+    </fragment>
+</navigation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/detail_content_frame_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/detail_content_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_content_pager_text_margin_top" android:layout_marginBottom="@dimen/detail_content_pager_text_margin_bottom" layout="@layout/view_detail_description" />
+</FrameLayout>

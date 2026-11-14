@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/detail_image_page_chip_radius" />
+    <solid android:color="@color/go_to_source_floating_bg" />
+    <stroke android:width="@dimen/detail_memory_preview_card_border_width" android:color="@color/color_white_opacity_20" />
+</shape>

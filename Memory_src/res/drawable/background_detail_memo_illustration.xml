@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/detail_memory_preview_card_radius" />
+    <gradient android:startColor="@color/basic_token_sys_surface_container_low" android:endColor="@color/basic_token_sys_surface_container_high" android:angle="270.0" />
+    <stroke android:width="@dimen/detail_memory_preview_card_border_width" android:color="@color/detail_preview_card_border" />
+</shape>

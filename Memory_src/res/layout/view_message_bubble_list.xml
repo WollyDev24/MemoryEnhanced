@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_message_bubble_slot_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_message_bubble_1" style="@style/Widget.Memory.MessageBubble" />
+        <include android:id="@id/inc_message_attachment_1" layout="@layout/view_message_attachment_bubble" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_message_bubble_slot_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <TextView android:id="@id/tv_message_bubble_2" style="@style/Widget.Memory.MessageBubble" />
+        <include android:id="@id/inc_message_attachment_2" layout="@layout/view_message_attachment_bubble" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_message_bubble_slot_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <TextView android:id="@id/tv_message_bubble_3" style="@style/Widget.Memory.MessageBubble" />
+        <include android:id="@id/inc_message_attachment_3" layout="@layout/view_message_attachment_bubble" />
+    </FrameLayout>
+</merge>

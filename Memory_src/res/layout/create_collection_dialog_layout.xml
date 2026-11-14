@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/collections_create_collection_dialog_et_margin" app:counterMaxLength="50" app:errorEnabled="true" app:hintEnabled="false">
+        <androidx.appcompat.widget.AppCompatEditText android:ellipsize="end" android:id="@id/create_collection_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/collections_create_collection_hint_text" android:singleLine="true" android:maxLength="50" android:privateImeOptions="disableSticker=true;disableGifKeyboard=true" android:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</ScrollView>

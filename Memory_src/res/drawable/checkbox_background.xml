@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="5.25dp" android:insetRight="5.25dp" android:insetTop="5.25dp" android:insetBottom="5.25dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <size android:height="21.5dp" android:width="21.5dp" />
+        <solid android:color="@color/selector_checkbox_background" />
+    </shape>
+</inset>

@@ -1,0 +1,21 @@
+.class public final Lfl/o0;
+.super Ljava/lang/Exception;
+.source "r8-map-id-e93a72792c972cad17e84e22058bc4948ad789ab8e61ec7b26e7bd8c8fdadfa3"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    const-string v0, "Not enough storage space to save the image."
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

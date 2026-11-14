@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_memo_cancel" android:title="@string/menu_action_cancel" android:contentDescription="@string/menu_action_cancel" android:showAsAction="always" android:tooltipText="@string/menu_action_cancel" />
+    <item android:id="@id/action_memo_save" android:title="@string/menu_action_save" android:contentDescription="@string/menu_action_save" android:showAsAction="always" android:tooltipText="@string/menu_action_save" />
+</menu>

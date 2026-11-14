@@ -1,0 +1,3 @@
+{"id":"staying_1788400800000","type":"staying","startTimestamp":1788393600000,"endTimestamp":1788400800000,"payloadVersion":1,"payload":{"latitude":37.5665,"longitude":126.9780,"label":"HOME","visitCount":1}}
+{"id":"unknownActivity_1788404400000","type":"unknownActivity","startTimestamp":1788404400000,"endTimestamp":1788404400000,"payloadVersion":1,"payload":{"source":"unknown-type-test","detail":"This item must not appear in Days."}}
+{"id":"sleeping_1788444000000","type":"sleeping","startTimestamp":1788429600000,"endTimestamp":1788444000000,"payloadVersion":1,"payload":{"sleepScore":80,"confidence":0.9}}

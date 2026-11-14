@@ -1,0 +1,5 @@
+{"id":"browsing_1788411600000","type":"webBrowsing","startTimestamp":1788411600000,"endTimestamp":1788411600000,"payloadVersion":1,"payload":{"url":"https://example.com/day-one","title":"Day 1 browsing","keyword":"day 1"}}
+{"id":"staying_1788477000000","type":"staying","startTimestamp":1788438600000,"endTimestamp":1788477000000,"payloadVersion":1,"payload":{"latitude":37.5665,"longitude":126.9780,"label":"HOME","visitCount":42}}
+{"id":"sleeping_1788472200000","type":"sleeping","startTimestamp":1788445200000,"endTimestamp":1788472200000,"payloadVersion":1,"payload":{"sleepScore":82,"confidence":0.9}}
+{"id":"webBrowsing_1788474000000","type":"webBrowsing","startTimestamp":1788474000000,"endTimestamp":1788474000000,"payloadVersion":1,"payload":{"url":"https://example.com/day-two","title":"Day 2 browsing","keyword":"day 2"}}
+{"id":"listeningToMusic_1788492600000","type":"listeningToMusic","startTimestamp":1788490800000,"endTimestamp":1788492600000,"payloadVersion":1,"payload":{"appPackage":"com.sec.android.app.music","title":"Morning music","artist":"Test artist"}}

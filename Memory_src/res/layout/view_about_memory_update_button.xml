@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/about_update_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_page_newversion_btn_margin_top" android:text="@string/about_memory_update" style="@style/Widget.Memory.AboutPage.UpdateButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

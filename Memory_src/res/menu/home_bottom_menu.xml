@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_favorite" android:id="@id/menu_favorite" android:title="@string/favorites" app:contentDescription="@string/favorites" app:showAsAction="always" app:tooltipText="@string/favorites" />
+    <item android:icon="@drawable/ic_unfavorite" android:id="@id/menu_unfavorite" android:visible="false" android:title="@string/bottom_menu_unfavorites" app:contentDescription="@string/bottom_menu_unfavorites" app:showAsAction="always" app:tooltipText="@string/bottom_menu_unfavorites" />
+    <item android:icon="@drawable/ic_add_collection" android:id="@id/menu_add_collection" android:title="@string/bottom_menu_add_collection" app:contentDescription="@string/bottom_menu_add_collection" app:showAsAction="always" app:tooltipText="@string/bottom_menu_add_collection" />
+    <item android:icon="@drawable/ic_lock" android:id="@id/menu_lock" android:title="@string/bottom_menu_lock" app:contentDescription="@string/bottom_menu_lock" app:showAsAction="always" app:tooltipText="@string/bottom_menu_lock" />
+    <item android:icon="@drawable/ic_unlock" android:id="@id/menu_unlock" android:visible="false" android:title="@string/bottom_menu_unlock" app:contentDescription="@string/bottom_menu_unlock" app:showAsAction="always" app:tooltipText="@string/bottom_menu_unlock" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/menu_delete" android:title="@string/bottom_menu_delete" app:contentDescription="@string/bottom_menu_delete" app:showAsAction="always" app:tooltipText="@string/bottom_menu_delete" />
+</menu>

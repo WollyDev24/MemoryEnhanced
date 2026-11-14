@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/collection_insight_card_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/guiding_effect_target" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.samsung.android.app.memory.feature.collections.CollectionInsightCardView android:id="@id/collection_insight_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

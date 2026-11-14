@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_DELETE_FAVORITES_AND_PD_OTHER_COLLECTIONS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_DELETE_FAVORITES_AND_PD_OTHER_COLLECTIONS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_DELETE_FAVORITES_AND_PD_OTHER_COLLECTIONS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_DELETE_FAVORITES_AND_PD_OTHER_COLLECTIONS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_DELETE_FAVORITES_AND_PD_OTHER_COLLECTIONS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_DELETE_FAVORITES_AND_PD_OTHER_COLLECTIONS_Q %d</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_DELETE_PD_COLLECTIONS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_DELETE_PD_COLLECTIONS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_DELETE_PD_COLLECTIONS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_DELETE_PD_COLLECTIONS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_DELETE_PD_COLLECTIONS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_DELETE_PD_COLLECTIONS_Q %d</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">PLURAL_ZERO_CP_OPT_PD_MEMORIES_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_CP_OPT_PD_MEMORIES_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_CP_OPT_PD_MEMORIES_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_CP_OPT_PD_MEMORIES_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_CP_OPT_PD_MEMORIES_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_OPT_PD_MEMORIES_ABB %d</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">PLURAL_ZERO_BIX_HEADER_LAST_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_BIX_HEADER_LAST_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_BIX_HEADER_LAST_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_BIX_HEADER_LAST_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_BIX_HEADER_LAST_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_BIX_HEADER_LAST_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">PLURAL_ZERO_CP_OPT_PD_COLLECTIONS %d</item>
+        <item quantity="one">PLURAL_ONE_CP_OPT_PD_COLLECTIONS %d</item>
+        <item quantity="two">PLURAL_TWO_CP_OPT_PD_COLLECTIONS %d</item>
+        <item quantity="few">PLURAL_FEW_CP_OPT_PD_COLLECTIONS %d</item>
+        <item quantity="many">PLURAL_MANY_CP_OPT_PD_COLLECTIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_OPT_PD_COLLECTIONS %d</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">PLURAL_ZERO_REMINDER_BODY_PD_HRS %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_BODY_PD_HRS %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_BODY_PD_HRS %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_BODY_PD_HRS %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_BODY_PD_HRS %d</item>
+        <item quantity="other">PLURAL_OTHER_REMINDER_BODY_PD_HRS %d</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">PLURAL_ZERO_REMINDER_BODY_PD_MINS %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_BODY_PD_MINS %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_BODY_PD_MINS %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_BODY_PD_MINS %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_BODY_PD_MINS %d</item>
+        <item quantity="other">PLURAL_OTHER_REMINDER_BODY_PD_MINS %d</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">PLURAL_ZERO_HEALTH_OPT_PD_KCAL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_HEALTH_OPT_PD_KCAL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_HEALTH_OPT_PD_KCAL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_HEALTH_OPT_PD_KCAL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_HEALTH_OPT_PD_KCAL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_HEALTH_OPT_PD_KCAL_ABB %d</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_MESSAGES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_MESSAGES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_MESSAGES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_MESSAGES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_MESSAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_MESSAGES %d</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">PLURAL_ZERO_GALLERY_STATUS_PD_PEOPLE %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_STATUS_PD_PEOPLE %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_STATUS_PD_PEOPLE %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_STATUS_PD_PEOPLE %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_STATUS_PD_PEOPLE %d</item>
+        <item quantity="other">PLURAL_OTHER_GALLERY_STATUS_PD_PEOPLE %d</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">PLURAL_ZERO_GALLERY_OPT_PD_PHOTOS %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_OPT_PD_PHOTOS %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_OPT_PD_PHOTOS %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_OPT_PD_PHOTOS %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_OPT_PD_PHOTOS %d</item>
+        <item quantity="other">PLURAL_OTHER_GALLERY_OPT_PD_PHOTOS %d</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">PLURAL_ZERO_AB_HEADER_PD_TIMES %d</item>
+        <item quantity="one">PLURAL_ONE_AB_HEADER_PD_TIMES %d</item>
+        <item quantity="two">PLURAL_TWO_AB_HEADER_PD_TIMES %d</item>
+        <item quantity="few">PLURAL_FEW_AB_HEADER_PD_TIMES %d</item>
+        <item quantity="many">PLURAL_MANY_AB_HEADER_PD_TIMES %d</item>
+        <item quantity="other">PLURAL_OTHER_AB_HEADER_PD_TIMES %d</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">PLURAL_ZERO_GALLERY_OPT_PD_VIDEOS %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_OPT_PD_VIDEOS %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_OPT_PD_VIDEOS %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_OPT_PD_VIDEOS %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_OPT_PD_VIDEOS %d</item>
+        <item quantity="other">PLURAL_OTHER_GALLERY_OPT_PD_VIDEOS %d</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_WEBPAGES %d</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">PLURAL_ZERO_CP_OPT_P1SD_HIGHLIGHTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CP_OPT_P1SD_HIGHLIGHTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CP_OPT_P1SD_HIGHLIGHTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CP_OPT_P1SD_HIGHLIGHTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CP_OPT_P1SD_HIGHLIGHTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_CP_OPT_P1SD_HIGHLIGHTS_ON_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_HIDE_PD_ACTIVITIES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_HIDE_PD_ACTIVITIES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_HIDE_PD_ACTIVITIES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_HIDE_PD_ACTIVITIES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_HIDE_PD_ACTIVITIES_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_HIDE_PD_ACTIVITIES_Q %d</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_HIDE_PD_HIGHLIGHTS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_HIDE_PD_HIGHLIGHTS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_HIDE_PD_HIGHLIGHTS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_HIDE_PD_HIGHLIGHTS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_HIDE_PD_HIGHLIGHTS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_HIDE_PD_HIGHLIGHTS_Q %d</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">PLURAL_ZERO_CP_OPT_1_COLLECTION_PD_MEMORIES %d</item>
+        <item quantity="one">PLURAL_ONE_CP_OPT_1_COLLECTION_PD_MEMORIES %d</item>
+        <item quantity="two">PLURAL_TWO_CP_OPT_1_COLLECTION_PD_MEMORIES %d</item>
+        <item quantity="few">PLURAL_FEW_CP_OPT_1_COLLECTION_PD_MEMORIES %d</item>
+        <item quantity="many">PLURAL_MANY_CP_OPT_1_COLLECTION_PD_MEMORIES %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_OPT_1_COLLECTION_PD_MEMORIES %d</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_DELETE_PD_MEMORIES_Q_M_CLIP %d</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_PD_NEW_COLLECTIONS_SUGGESTED_FOR_YOU %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_PD_NEW_COLLECTIONS_SUGGESTED_FOR_YOU %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_PD_NEW_COLLECTIONS_SUGGESTED_FOR_YOU %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_PD_NEW_COLLECTIONS_SUGGESTED_FOR_YOU %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_PD_NEW_COLLECTIONS_SUGGESTED_FOR_YOU %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_PD_NEW_COLLECTIONS_SUGGESTED_FOR_YOU %d</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">PLURAL_ZERO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_ANY_MEMORIES_YOU_DELETE_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_ANY_MEMORIES_YOU_DELETE_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_ANY_MEMORIES_YOU_DELETE_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_ANY_MEMORIES_YOU_DELETE_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_ANY_MEMORIES_YOU_DELETE_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_ANY_MEMORIES_YOU_DELETE_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">PLURAL_ZERO_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="other">PLURAL_OTHER_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_DELETE_1_COLLECTION_AND_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_DELETE_1_COLLECTION_AND_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_DELETE_1_COLLECTION_AND_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_DELETE_1_COLLECTION_AND_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_DELETE_1_COLLECTION_AND_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_DELETE_1_COLLECTION_AND_MOVE_PD_MEMORIES_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_DELETE_PD_COLLECTIONS_AND_MOVE_1_MEMORY_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_DELETE_PD_COLLECTIONS_AND_MOVE_1_MEMORY_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_DELETE_PD_COLLECTIONS_AND_MOVE_1_MEMORY_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_DELETE_PD_COLLECTIONS_AND_MOVE_1_MEMORY_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_DELETE_PD_COLLECTIONS_AND_MOVE_1_MEMORY_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_DELETE_PD_COLLECTIONS_AND_MOVE_1_MEMORY_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_1_COLLECTION_AND_PD_MEMORIES_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_1_COLLECTION_AND_PD_MEMORIES_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_1_COLLECTION_AND_PD_MEMORIES_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_1_COLLECTION_AND_PD_MEMORIES_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_1_COLLECTION_AND_PD_MEMORIES_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_1_COLLECTION_AND_PD_MEMORIES_WILL_BE_PERMANENTLY_DELETED %d</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_PD_COLLECTIONS_AND_1_MEMORY_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_PD_COLLECTIONS_AND_1_MEMORY_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_PD_COLLECTIONS_AND_1_MEMORY_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_PD_COLLECTIONS_AND_1_MEMORY_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_PD_COLLECTIONS_AND_1_MEMORY_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_PD_COLLECTIONS_AND_1_MEMORY_WILL_BE_PERMANENTLY_DELETED %d</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">PLURAL_ZERO_REMINDER_HEADER_PD_RESULTS_FOUND %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_HEADER_PD_RESULTS_FOUND %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_HEADER_PD_RESULTS_FOUND %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_HEADER_PD_RESULTS_FOUND %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_HEADER_PD_RESULTS_FOUND %d</item>
+        <item quantity="other">PLURAL_OTHER_REMINDER_HEADER_PD_RESULTS_FOUND %d</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_P1SD_IMAGES_SAVED_TO_P2SS_SOME_SELECTED_IMAGE_FORMATS_NOT_SUPPORTED %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_P1SD_IMAGES_SAVED_TO_P2SS_SOME_SELECTED_IMAGE_FORMATS_NOT_SUPPORTED %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_P1SD_IMAGES_SAVED_TO_P2SS_SOME_SELECTED_IMAGE_FORMATS_NOT_SUPPORTED %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_P1SD_IMAGES_SAVED_TO_P2SS_SOME_SELECTED_IMAGE_FORMATS_NOT_SUPPORTED %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_P1SD_IMAGES_SAVED_TO_P2SS_SOME_SELECTED_IMAGE_FORMATS_NOT_SUPPORTED %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_P1SD_IMAGES_SAVED_TO_P2SS_SOME_SELECTED_IMAGE_FORMATS_NOT_SUPPORTED %1$d %2$s</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">PLURAL_ZERO_CP_HEADER_DELETE_PD_MEMORIES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CP_HEADER_DELETE_PD_MEMORIES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CP_HEADER_DELETE_PD_MEMORIES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CP_HEADER_DELETE_PD_MEMORIES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CP_HEADER_DELETE_PD_MEMORIES_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_HEADER_DELETE_PD_MEMORIES_Q %d</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_MEMORIES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_MEMORIES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_MEMORIES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_MEMORIES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_MEMORIES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_MEMORIES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_PD_MEMORIES_RESTORED %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_PD_MEMORIES_RESTORED %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_PD_MEMORIES_RESTORED %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_PD_MEMORIES_RESTORED %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_PD_MEMORIES_RESTORED %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_PD_MEMORIES_RESTORED %d</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">PLURAL_ZERO_CP_BODY_THIS_MEMORY_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_CP_BODY_THIS_MEMORY_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_CP_BODY_THIS_MEMORY_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_CP_BODY_THIS_MEMORY_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_CP_BODY_THIS_MEMORY_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_CP_BODY_THIS_MEMORY_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+    </plurals>
+</resources>

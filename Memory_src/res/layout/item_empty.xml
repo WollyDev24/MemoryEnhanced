@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.memory.core.ui.view.RecyclerViewportSyncLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="45.0dp">
+        <TextView android:textSize="17.0sp" android:textColor="@color/basic_token_sys_on_surface_container" android:gravity="center" android:id="@id/empty_text_view" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textFontWeight="400" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/basic_token_sys_on_surface_container_lowest" android:gravity="center" android:id="@id/empty_description" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textFontWeight="400" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/basic_token_sys_on_surface_container_lowest" android:gravity="center" android:id="@id/empty_settings_guide" android:paddingBottom="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textFontWeight="400" />
+    </LinearLayout>
+</com.samsung.android.app.memory.core.ui.view.RecyclerViewportSyncLayout>

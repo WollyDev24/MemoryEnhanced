@@ -1,0 +1,2690 @@
+[
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790117400000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810060,
+      "identifier": "message_conversations-SMS-810060",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770003",
+        "id": 810060,
+        "normalizedAddress": "+821099770003",
+        "recipientName": "동료 민준"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "출근 일정 확인 (810060)",
+      "threadId": 910002
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810060",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810060",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790117400000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790118000000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810000,
+      "identifier": "message_conversations-SMS-810000",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770006",
+        "id": 810000,
+        "normalizedAddress": "+821099770006",
+        "recipientName": "동료 하린"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "업무 일정 조율 (810000)",
+      "threadId": 910005
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810000",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810000",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790118000000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790118360000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810001,
+      "identifier": "message_conversations-SMS-810001",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770006",
+        "id": 810001,
+        "normalizedAddress": "+821099770006",
+        "recipientName": "동료 하린"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "업무 일정 조율 (810001)",
+      "threadId": 910005
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810001",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810001",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790118360000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790118720000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810002,
+      "identifier": "message_conversations-SMS-810002",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770006",
+        "id": 810002,
+        "normalizedAddress": "+821099770006",
+        "recipientName": "동료 하린"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "업무 일정 조율 (810002)",
+      "threadId": 910005
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810002",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810002",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790118720000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790119080000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810003,
+      "identifier": "message_conversations-SMS-810003",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770006",
+        "id": 810003,
+        "normalizedAddress": "+821099770006",
+        "recipientName": "동료 하린"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "업무 일정 조율 (810003)",
+      "threadId": 910005
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810003",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810003",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790119080000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790119800000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810004,
+      "identifier": "message_conversations-SMS-810004",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770007",
+        "id": 810004,
+        "normalizedAddress": "+821099770007",
+        "recipientName": "친구 유진"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "이번 주말에 뭐 할거야? 할거 없으면 나랑 영화보러 가자! 🎬",
+      "threadId": 910006
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810004",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810004",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790119800000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790120160000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810005,
+      "identifier": "message_conversations-SMS-810005",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770007",
+        "id": 810005,
+        "normalizedAddress": "+821099770007",
+        "recipientName": "친구 유진"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "오! 좋은데? 무슨 영화 볼까? 😆",
+      "threadId": 910006
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810005",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810005",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790120160000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790120520000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810006,
+      "identifier": "message_conversations-SMS-810006",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770007",
+        "id": 810006,
+        "normalizedAddress": "+821099770007",
+        "recipientName": "친구 유진"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "나는 타짜 새로나온거 보고싶은데 넌?",
+      "threadId": 910006
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810006",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810006",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790120520000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790120880000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810007,
+      "identifier": "message_conversations-SMS-810007",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770007",
+        "id": 810007,
+        "normalizedAddress": "+821099770007",
+        "recipientName": "친구 유진"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "난 너가 보고싶다면 어떤거든 좋아~! 😊",
+      "threadId": 910006
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810007",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810007",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790120880000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790121240000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810008,
+      "identifier": "message_conversations-SMS-810008",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770007",
+        "id": 810008,
+        "normalizedAddress": "+821099770007",
+        "recipientName": "친구 유진"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "그래 그럼 주말에 보자! 🍿",
+      "threadId": 910006
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810008",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810008",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790121240000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790125200000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810014,
+      "identifier": "message_conversations-SMS-810014",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810014,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "오늘 저녁 9시에 러닝 시간 돼요? 🏃",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810014",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810014",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790125200000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790125260000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810015,
+      "identifier": "message_conversations-SMS-810015",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810015,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "네! 가능합니다!",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810015",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810015",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790125260000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790125320000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810016,
+      "identifier": "message_conversations-SMS-810016",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810016,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "오 그럼 광교 호수공원이나 돌까요?",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810016",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810016",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790125320000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790125380000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810017,
+      "identifier": "message_conversations-SMS-810017",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810017,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "좋아요! 몇바퀴 뛸까요?",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810017",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810017",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790125380000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790125440000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810018,
+      "identifier": "message_conversations-SMS-810018",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810018,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "전 뭐 10바퀴도 가능하죠! 💪",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810018",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810018",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790125440000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790127240000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810019,
+      "identifier": "message_conversations-SMS-810019",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810019,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "우와 10바퀴요 ?? 😳",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810019",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810019",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790127240000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790127300000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810020,
+      "identifier": "message_conversations-SMS-810020",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810020,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "네 ㅋㅋ 못 뛰세요?",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810020",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810020",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790127300000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790127360000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810021,
+      "identifier": "message_conversations-SMS-810021",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810021,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "네.. 전 3바퀴만 뛰고 쉴께요 ㅠㅠ",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810021",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810021",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790127360000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790127420000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810022,
+      "identifier": "message_conversations-SMS-810022",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810022,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "농담이에요~ 있다가 봬요! 👋",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810022",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810022",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790127420000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790127480000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810023,
+      "identifier": "message_conversations-SMS-810023",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810023,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "넵!",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810023",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810023",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790127480000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790129280001,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810024,
+      "identifier": "message_conversations-SMS-810024",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810024,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "저 갑자기 일이 생겨서 오늘 못뛸거 같아요 ㅠ",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810024",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810024",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790129280001,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790129340001,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810025,
+      "identifier": "message_conversations-SMS-810025",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810025,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "앗; 그럼 어쩔수 없죠...",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810025",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810025",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790129340001,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790129400001,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810026,
+      "identifier": "message_conversations-SMS-810026",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810026,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "정말 죄송해요 ㅠㅠ 주말에 뛸수 있으면 같이 뛰어요! 🙏",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810026",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810026",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790129400001,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790129460001,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810027,
+      "identifier": "message_conversations-SMS-810027",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810027,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "흐엉 저도 주말에 일이 있어서.. ㅠ",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810027",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810027",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790129460001,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790129520001,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810028,
+      "identifier": "message_conversations-SMS-810028",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770008",
+        "id": 810028,
+        "normalizedAddress": "+821099770008",
+        "recipientName": "러닝 모임 민서"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "그럼 다음엔 꼭...ㅎㅎ",
+      "threadId": 910007
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810028",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810028",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790129520001,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790132400000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810029,
+      "identifier": "message_conversations-SMS-810029",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810029,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "야야야 토요일 홍대 놀러가자 🎉",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810029",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810029",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790132400000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790132760000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810030,
+      "identifier": "message_conversations-SMS-810030",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810030,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "홍대? 그럴까 재밌겠다 오랜만에!",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810030",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810030",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790132760000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790133120000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810031,
+      "identifier": "message_conversations-SMS-810031",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810031,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "응응 내 친구까지 셋이서 놀자!",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810031",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810031",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790133120000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790133480000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810032,
+      "identifier": "message_conversations-SMS-810032",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810032,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810032)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810032",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810032",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790133480000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790133840000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810033,
+      "identifier": "message_conversations-SMS-810033",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810033,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810033)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810033",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810033",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790133840000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790134200000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810034,
+      "identifier": "message_conversations-SMS-810034",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810034,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810034)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810034",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810034",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790134200000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790134560000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810035,
+      "identifier": "message_conversations-SMS-810035",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810035,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810035)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810035",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810035",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790134560000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790134920000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810036,
+      "identifier": "message_conversations-SMS-810036",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810036,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810036)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810036",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810036",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790134920000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790135280000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810037,
+      "identifier": "message_conversations-SMS-810037",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810037,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810037)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810037",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810037",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790135280000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790135640000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810038,
+      "identifier": "message_conversations-SMS-810038",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810038,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810038)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810038",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810038",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790135640000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790136000000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810039,
+      "identifier": "message_conversations-SMS-810039",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810039,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810039)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810039",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810039",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790136000000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790136360000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810040,
+      "identifier": "message_conversations-SMS-810040",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810040,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810040)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810040",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810040",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790136360000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790136720000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810041,
+      "identifier": "message_conversations-SMS-810041",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810041,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810041)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810041",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810041",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790136720000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790137080000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810042,
+      "identifier": "message_conversations-SMS-810042",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810042,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810042)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810042",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810042",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790137080000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790137440000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810043,
+      "identifier": "message_conversations-SMS-810043",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810043,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810043)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810043",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810043",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790137440000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790137800000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810044,
+      "identifier": "message_conversations-SMS-810044",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810044,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810044)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810044",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810044",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790137800000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790138160000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810045,
+      "identifier": "message_conversations-SMS-810045",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810045,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810045)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810045",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810045",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790138160000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790138520000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810046,
+      "identifier": "message_conversations-SMS-810046",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810046,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810046)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810046",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810046",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790138520000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790138880000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810047,
+      "identifier": "message_conversations-SMS-810047",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810047,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810047)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810047",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810047",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790138880000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790139240000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810048,
+      "identifier": "message_conversations-SMS-810048",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810048,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810048)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810048",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810048",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790139240000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790139600000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810049,
+      "identifier": "message_conversations-SMS-810049",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810049,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810049)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810049",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810049",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790139600000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790139960000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810050,
+      "identifier": "message_conversations-SMS-810050",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810050,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "뭐하냐 지민아",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810050",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810050",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790139960000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790140320000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810051,
+      "identifier": "message_conversations-SMS-810051",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810051,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "나 그냥 네일하고 있는데 왜? 💅",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810051",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810051",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790140320000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790140680000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810052,
+      "identifier": "message_conversations-SMS-810052",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810052,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "아니 그냥 심심해서 그렇지 ㅎㅎ",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810052",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810052",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790140680000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790141040000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810053,
+      "identifier": "message_conversations-SMS-810053",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810053,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810053)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810053",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810053",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790141040000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790141400000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810054,
+      "identifier": "message_conversations-SMS-810054",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770002",
+        "id": 810054,
+        "normalizedAddress": "+821099770002",
+        "recipientName": "친구 지민"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "토요일 홍대 나들이 약속 (810054)",
+      "threadId": 910001
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810054",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810054",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790141400000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790251200000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810055,
+      "identifier": "message_conversations-SMS-810055",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770001",
+        "id": 810055,
+        "normalizedAddress": "+821099770001",
+        "recipientName": "어머니"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "딸~ 밥은 먹었니~? 🍚",
+      "threadId": 910000
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810055",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810055",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790251200000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790251380000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810056,
+      "identifier": "message_conversations-SMS-810056",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770001",
+        "id": 810056,
+        "normalizedAddress": "+821099770001",
+        "recipientName": "어머니"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "아니 아직 안먹었어 엄마는 먹었어?",
+      "threadId": 910000
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810056",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810056",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790251380000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790252040000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810057,
+      "identifier": "message_conversations-SMS-810057",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770001",
+        "id": 810057,
+        "normalizedAddress": "+821099770001",
+        "recipientName": "어머니"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "먹었지~ 아빠랑 삼겹살 먹었어 🥓",
+      "threadId": 910000
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810057",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810057",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790252040000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790252220000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810058,
+      "identifier": "message_conversations-SMS-810058",
+      "isIncoming": false,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770001",
+        "id": 810058,
+        "normalizedAddress": "+821099770001",
+        "recipientName": "어머니"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "우와 맛있겠다! 엄마, 나도 먹고싶어ㅠ 🤤",
+      "threadId": 910000
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810058",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810058",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790252220000,
+      "tag": "message_conversations"
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "contentUriAttachment": "",
+      "conversationType": 1,
+      "createTime": 1790252880000,
+      "currentPhoneNumber": "",
+      "fileName": "",
+      "fileSource": "",
+      "id": 810059,
+      "identifier": "message_conversations-SMS-810059",
+      "isIncoming": true,
+      "messageType": "SMS",
+      "recipient": {
+        "address": "+821099770001",
+        "id": 810059,
+        "normalizedAddress": "+821099770001",
+        "recipientName": "어머니"
+      },
+      "simSlot": -1,
+      "subId": -1,
+      "text": "그럼 와서 먹고가 😊",
+      "threadId": 910000
+    },
+    "rawDataSignatureEntity": {
+      "activeMemoryAnalysisStatus": -1,
+      "analysisRetryCount": 0,
+      "analysisStatus": "NONE",
+      "basicDomainAnalysisStatus": -1,
+      "contentUri": "content://messages/conversations/message_conversations-SMS-810059",
+      "createdAt": 1790564400000,
+      "dataStatuses": [
+        "ADDED"
+      ],
+      "fingerprint": 0,
+      "fingerprintVersion": 0,
+      "fourWEventAnalysisStatus": -1,
+      "identifier": "message_conversations-SMS-810059",
+      "inferenceAnalysisStatus": -1,
+      "memoryAnalysisStatus": -1,
+      "modifiedAt": 1790564400000,
+      "preferencesAnalysisStatus": -1,
+      "providerPackageName": "com.samsung.android.moneta",
+      "sourcePackageName": "com.android.providers.telephony",
+      "sourceTimestamp": 1790252880000,
+      "tag": "message_conversations"
+    }
+  }
+]

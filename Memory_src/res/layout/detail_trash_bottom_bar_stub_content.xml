@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/detail_trash_bottom_bar" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="?actionBarSize" app:menu="@menu/detail_trash_bottom_menu" style="@style/Widget.Memory.BottomNavigationView.Floating.IconText"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

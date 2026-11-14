@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/collection_insight_card_background_radius" />
+            <solid android:color="@color/collection_insight_background_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/collection_insight_card_background_radius" />
+            <gradient android:startColor="@color/home_suggestion_appbar_gradation_purple" android:endColor="@color/home_suggestion_appbar_gradation_purple_transparent" android:type="radial" android:centerX="0.1" android:centerY="0.1" android:gradientRadius="79.99999%p" android:centerColor="@color/home_suggestion_appbar_gradation_purple" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/collection_insight_card_background_radius" />
+            <gradient android:startColor="@color/home_suggestion_appbar_gradation_skyblue" android:endColor="@color/home_suggestion_appbar_gradation_skyblue_transparent" android:type="radial" android:centerX="0.95" android:centerY="0.15" android:gradientRadius="70.00001%p" android:centerColor="@color/home_suggestion_appbar_gradation_skyblue" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/collection_insight_card_background_radius" />
+            <gradient android:startColor="@color/home_suggestion_appbar_gradation_blue" android:endColor="@color/home_suggestion_appbar_gradation_blue_transparent" android:type="radial" android:centerX="1.0" android:centerY="0.8" android:gradientRadius="65.0%p" android:centerColor="@color/home_suggestion_appbar_gradation_blue" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/collection_insight_card_background_radius" />
+            <gradient android:startColor="@color/home_suggestion_appbar_gradation_yellow" android:endColor="@color/home_suggestion_appbar_gradation_yellow_transparent" android:type="radial" android:centerX="0.8" android:centerY="1.0" android:gradientRadius="55.000008%p" android:centerColor="@color/home_suggestion_appbar_gradation_yellow" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_open" android:title="@string/context_menu_open" />
+    <item android:id="@id/menu_favorite" android:visible="false" android:title="@string/menu_add_to_favorites" />
+    <item android:id="@id/menu_unfavorite" android:visible="false" android:title="@string/menu_remove_from_favorites" />
+    <item android:id="@id/menu_add_collection" android:visible="false" android:title="@string/home_add_to_collection_title" />
+    <item android:id="@id/menu_lock" android:visible="false" android:title="@string/bottom_menu_lock" />
+    <item android:id="@id/menu_unlock" android:visible="false" android:title="@string/bottom_menu_unlock" />
+    <item android:id="@id/menu_delete" android:visible="false" android:title="@string/bottom_menu_delete" />
+    <item android:id="@id/menu_remove" android:visible="false" android:title="@string/bottom_menu_remove" />
+</menu>

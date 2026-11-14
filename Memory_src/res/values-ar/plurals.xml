@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفًا.</item>
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفًا.</item>
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">هل تريد حذف المفضلة و%d مجموعة أخرى؟</item>
+        <item quantity="one">هل تريد حذف المفضلة ومجموعة واحدة أخرى؟</item>
+        <item quantity="two">هل تريد حذف المفضلة ومجموعتين أخريين؟</item>
+        <item quantity="few">هل تريد حذف المفضلة و%d مجموعات أخرى؟</item>
+        <item quantity="many">هل تريد حذف المفضلة و%d مجموعة أخرى؟</item>
+        <item quantity="other">هل تريد حذف المفضلة و%d مجموعة أخرى؟</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">هل تريد حذف %d مجموعة؟</item>
+        <item quantity="one">هل تريد حذف مجموعة واحدة؟</item>
+        <item quantity="two">هل تريد حذف مجموعتين؟</item>
+        <item quantity="few">هل تريد حذف %d مجموعات؟</item>
+        <item quantity="many">هل تريد حذف %d مجموعةً؟</item>
+        <item quantity="other">هل تريد حذف %d مجموعة؟</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">%d ذكرى</item>
+        <item quantity="one">ذكرى واحدة</item>
+        <item quantity="two">ذكريان</item>
+        <item quantity="few">%d ذكريات</item>
+        <item quantity="many">%d ذكرىً</item>
+        <item quantity="other">%d ذكرى</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">آخر %d يوم</item>
+        <item quantity="one">آخر يوم</item>
+        <item quantity="two">آخر يومَين</item>
+        <item quantity="few">آخر %d أيام</item>
+        <item quantity="many">آخر %d يوماً</item>
+        <item quantity="other">آخر %d يوم</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">%d مجموعة</item>
+        <item quantity="one">مجموعة واحدة</item>
+        <item quantity="two">مجموعتان</item>
+        <item quantity="few">%d مجموعات</item>
+        <item quantity="many">%d مجموعةً</item>
+        <item quantity="other">%d مجموعة</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">%d سعرة</item>
+        <item quantity="one">سعرة</item>
+        <item quantity="two">سعرتان</item>
+        <item quantity="few">%d سعرات</item>
+        <item quantity="many">%d سعرةً</item>
+        <item quantity="other">%d سعرة</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">%d رسالة</item>
+        <item quantity="one">رسالة واحدة</item>
+        <item quantity="two">رسالتان</item>
+        <item quantity="few">%d رسائل</item>
+        <item quantity="many">%d رسالةً</item>
+        <item quantity="other">%d رسالة</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">%d شخص</item>
+        <item quantity="one">شخص واحد</item>
+        <item quantity="two">شخصان</item>
+        <item quantity="few">%d أشخاص</item>
+        <item quantity="many">%d شخصاً</item>
+        <item quantity="other">%d شخص</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">%d صورة</item>
+        <item quantity="one">صورة واحدة</item>
+        <item quantity="two">صورتان</item>
+        <item quantity="few">%d صور</item>
+        <item quantity="many">%d صورةً</item>
+        <item quantity="other">%d صورة</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">%d مرة</item>
+        <item quantity="one">مرة واحدة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">%d مرات</item>
+        <item quantity="many">%d مرة</item>
+        <item quantity="other">%d مرة</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">%d مقطع فيديو</item>
+        <item quantity="one">مقطع فيديو واحد</item>
+        <item quantity="two">مقطعا فيديو</item>
+        <item quantity="few">%d مقاطع فيديو</item>
+        <item quantity="many">%d مقطع فيديو</item>
+        <item quantity="other">%d مقطع فيديو</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">%d صفحة ويب</item>
+        <item quantity="one">صفحة ويب واحدة</item>
+        <item quantity="two">صفحتا ويب</item>
+        <item quantity="few">%d صفحات ويب</item>
+        <item quantity="many">%d صفحة ويب</item>
+        <item quantity="other">%d صفحة ويب</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">%1$d جزء مميز في %2$s</item>
+        <item quantity="one">جزء واحد مميز في %2$s</item>
+        <item quantity="two">جزءان مميزان في %2$s</item>
+        <item quantity="few">%1$d أجزاء مميزة في %2$s</item>
+        <item quantity="many">%1$d جزءاً مميزاً في %2$s</item>
+        <item quantity="other">%1$d جزء مميز في %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفًا.</item>
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">هل تريد إخفاء %d نشاط؟</item>
+        <item quantity="one">هل تريد إخفاء نشاط واحد؟</item>
+        <item quantity="two">هل تريد إخفاء نشاطين؟</item>
+        <item quantity="few">هل تريد إخفاء %d أنشطة؟</item>
+        <item quantity="many">هل تريد إخفاء %d نشاطاً؟</item>
+        <item quantity="other">هل تريد إخفاء %d نشاط؟</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">هل تريد إخفاء %d جزء مميز؟</item>
+        <item quantity="one">هل تريد إخفاء جزء مميز واحد؟</item>
+        <item quantity="two">هل تريد إخفاء جزءين مميزين؟</item>
+        <item quantity="few">هل تريد إخفاء %d أجزاء مميزة؟</item>
+        <item quantity="many">هل تريد إخفاء %d جزءاً مميزاً؟</item>
+        <item quantity="other">هل تريد إخفاء %d جزء مميز؟</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">هل تريد حذف %d ذكرى؟</item>
+        <item quantity="one">هل تريد حذف ذكرى واحدة؟</item>
+        <item quantity="two">هل تريد حذف ذكرتين؟</item>
+        <item quantity="few">هل تريد حذف %d ذكريات؟</item>
+        <item quantity="many">هل تريد حذف %d ذكرىً؟</item>
+        <item quantity="other">هل تريد حذف %d ذكرى؟</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">مجموعة واحدة، %d ذكرى</item>
+        <item quantity="one">مجموعة واحدة، ذكرى واحدة</item>
+        <item quantity="two">مجموعة واحدة، ذكريان</item>
+        <item quantity="few">مجموعة واحدة، %d ذكريات</item>
+        <item quantity="many">مجموعة واحدة، %d ذكرىً</item>
+        <item quantity="other">مجموعة واحدة، %d ذكرى</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">هل تريد حذف %d ذكرى؟</item>
+        <item quantity="one">هل تريد حذف ذكرى واحدة؟</item>
+        <item quantity="two">هل تريد حذف ذكرتين؟</item>
+        <item quantity="few">هل تريد حذف %d ذكريات؟</item>
+        <item quantity="many">هل تريد حذف %d ذكرىً؟</item>
+        <item quantity="other">هل تريد حذف %d ذكرى؟</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">هل تريد نقل %d ذكرى إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد نقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد نقل ذكريين إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد نقل %d ذكريات إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد نقل %d ذكرىً إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد نقل %d ذكرى إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">%d مجموعة جديدة مقترحة لك</item>
+        <item quantity="one">مجموعة جديدة واحدة مقترحة لك</item>
+        <item quantity="two">مجموعتان جديدتان مقترحتان لك</item>
+        <item quantity="few">%d مجموعات جديدة مقترحة لك</item>
+        <item quantity="many">%d مجموعةً جديدةً مقترحة لك</item>
+        <item quantity="other">%d مجموعة جديدة مقترحة لك</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="one">يجب أن يكون عمرك سنة واحدة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="two">يجب أن يكون عمرك سنتين على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="few">يجب أن يكون عمرك %d سنوات على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="many">يجب أن يكون عمرك %d سنةً على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="other">يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">ستبقى أي ذكريات تقوم بحذفها في سلة المحذوفات لمدة %d يوم قبل حذفها نهائياً.</item>
+        <item quantity="one">ستبقى أي ذكريات تقوم بحذفها في سلة المحذوفات لمدة يوم واحد قبل حذفها نهائياً.</item>
+        <item quantity="two">ستبقى أي ذكريات تقوم بحذفها في سلة المحذوفات لمدة يومين قبل حذفها نهائياً.</item>
+        <item quantity="few">ستبقى أي ذكريات تقوم بحذفها في سلة المحذوفات لمدة %d أيام قبل حذفها نهائياً.</item>
+        <item quantity="many">ستبقى أي ذكريات تقوم بحذفها في سلة المحذوفات لمدة %d يوماً قبل حذفها نهائياً.</item>
+        <item quantity="other">ستبقى أي ذكريات تقوم بحذفها في سلة المحذوفات لمدة %d يوم قبل حذفها نهائياً.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">‏‫تتعذر إضافة أكثر من %d ملصق.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="one">‏‫تتعذر إضافة أكثر من ملصق واحد.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="two">‏‫تتعذر إضافة أكثر من ملصقين.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="few">‏‫تتعذر إضافة أكثر من %d ملصقات.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="many">‏‫تتعذر إضافة أكثر من %d ملصقاً.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="other">‏‫تتعذر إضافة أكثر من %d ملصق.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">هل تريد حذف مجموعة واحدة ونقل %d ذكرى إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد حذف مجموعة واحدة ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد حذف مجموعة واحدة ونقل ذكريين إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد حذف مجموعة واحدة ونقل %d ذكريات إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد حذف مجموعة واحدة ونقل %d ذكرى إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد حذف مجموعة واحدة ونقل %d ذكرى إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">هل تريد حذف %d مجموعة ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد حذف مجموعة واحدة ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد حذف مجموعتين ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد حذف %d مجموعات ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد حذف %d مجموعةً ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد حذف %d مجموعة ونقل ذكرى واحدة إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">سيتم حذف مجموعة واحدة و%d ذكرى نهائياً.</item>
+        <item quantity="one">سيتم حذف مجموعة واحدة وذكرى واحدة نهائياً.</item>
+        <item quantity="two">سيتم حذف مجموعة واحدة وذكريين نهائياً.</item>
+        <item quantity="few">سيتم حذف مجموعة واحدة و%d ذكريات نهائياً.</item>
+        <item quantity="many">سيتم حذف مجموعة واحدة و%d ذكرى نهائياً.</item>
+        <item quantity="other">سيتم حذف مجموعة واحدة و%d ذكرى نهائياً.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">سيتم حذف %d مجموعة وذكرى واحدة نهائياً.</item>
+        <item quantity="one">سيتم حذف مجموعة واحدة وذكرى واحدة نهائياً.</item>
+        <item quantity="two">سيتم حذف مجموعتين وذكرى واحدة نهائياً.</item>
+        <item quantity="few">سيتم حذف %d مجموعات وذكرى واحدة نهائياً.</item>
+        <item quantity="many">سيتم حذف %d مجموعةً وذكرى واحدة نهائياً.</item>
+        <item quantity="other">سيتم حذف %d مجموعة وذكرى واحدة نهائياً.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">تم العثور على %d نتيجة</item>
+        <item quantity="one">تم العثور على نتيجة واحدة</item>
+        <item quantity="two">تم العثور على نتيجتين</item>
+        <item quantity="few">تم العثور على %d نتائج</item>
+        <item quantity="many">تم العثور على %d نتيجةً</item>
+        <item quantity="other">تم العثور على %d نتيجة</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">تم حفظ %1$d صورة في %2$s. بعض تنسيقات الصور المحددة غير مدعومة.</item>
+        <item quantity="one">تم حفظ صورة واحدة في %2$s. بعض تنسيقات الصور المحددة غير مدعومة.</item>
+        <item quantity="two">تم حفظ صورتين في %2$s. بعض تنسيقات الصور المحددة غير مدعومة.</item>
+        <item quantity="few">تم حفظ %1$d صور في %2$s. بعض تنسيقات الصور المحددة غير مدعومة.</item>
+        <item quantity="many">تم حفظ %1$d صورةً في %2$s. بعض تنسيقات الصور المحددة غير مدعومة.</item>
+        <item quantity="other">تم حفظ %1$d صورة في %2$s. بعض تنسيقات الصور المحددة غير مدعومة.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">هل تريد حذف %d ذكرى؟</item>
+        <item quantity="one">هل تريد حذف ذكرى واحدة؟</item>
+        <item quantity="two">هل تريد حذف ذكريين؟</item>
+        <item quantity="few">هل تريد حذف %d ذكريات؟</item>
+        <item quantity="many">هل تريد حذف %d ذكرى؟</item>
+        <item quantity="other">هل تريد حذف %d ذكرى؟</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">سيتم حذف الذكريات الموجودة في سلة المحذوفات نهائياً بعد %d يوم.</item>
+        <item quantity="one">سيتم حذف الذكريات الموجودة في سلة المحذوفات نهائياً بعد يوم واحد.</item>
+        <item quantity="two">سيتم حذف الذكريات الموجودة في سلة المحذوفات نهائياً بعد يومين.</item>
+        <item quantity="few">سيتم حذف الذكريات الموجودة في سلة المحذوفات نهائياً بعد %d أيام.</item>
+        <item quantity="many">سيتم حذف الذكريات الموجودة في سلة المحذوفات نهائياً بعد %d يوماً.</item>
+        <item quantity="other">سيتم حذف الذكريات الموجودة في سلة المحذوفات نهائياً بعد %d يوم.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">تم استعادة %d ذكرى.</item>
+        <item quantity="one">تم استعادة ذكرى واحدة.</item>
+        <item quantity="two">تم استعادة ذكريين.</item>
+        <item quantity="few">تم استعادة %d ذكريات.</item>
+        <item quantity="many">تم استعادة %d ذكرىً.</item>
+        <item quantity="other">تم استعادة %d ذكرى.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">سيتم حذف هذه الذكرى خلال %d يوم.</item>
+        <item quantity="one">سيتم حذف هذه الذكرى خلال يوم واحد.</item>
+        <item quantity="two">سيتم حذف هذه الذكرى خلال يومين.</item>
+        <item quantity="few">سيتم حذف هذه الذكرى خلال %d أيام.</item>
+        <item quantity="many">سيتم حذف هذه الذكرى خلال %d يوماً.</item>
+        <item quantity="other">سيتم حذف هذه الذكرى خلال %d يوم.</item>
+    </plurals>
+</resources>

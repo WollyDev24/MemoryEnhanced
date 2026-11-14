@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="basic_divider_height">3.0px</dimen>
+    <dimen name="sesl_list_divider_height">3.0px</dimen>
+    <dimen name="sesl_switch_divider_height">2.0px</dimen>
+    <dimen name="settings_divider_weight">2.0px</dimen>
+    <dimen name="textextraction_entity_underline_width">1.5dp</dimen>
+</resources>

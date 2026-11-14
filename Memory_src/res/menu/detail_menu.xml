@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_favorite_star_off" android:id="@id/action_favorite" android:title="@string/menu_add_to_favorites" app:showAsAction="always" />
+    <group android:id="@id/group_edit">
+        <item android:id="@id/action_lock" android:title="@string/bottom_menu_lock" android:showAsAction="never" />
+        <item android:id="@id/action_rename" android:title="@string/menu_edit_title" android:showAsAction="never" />
+        <item android:id="@id/action_delete" android:title="@string/bottom_menu_delete" android:showAsAction="never" />
+    </group>
+    <group android:id="@id/group_memo_edit">
+        <item android:id="@id/action_memo_cancel" android:visible="false" android:title="@string/menu_action_cancel" android:contentDescription="@string/menu_action_cancel" android:tooltipText="@string/menu_action_cancel" app:showAsAction="always" />
+        <item android:id="@id/action_memo_save" android:visible="false" android:title="@string/menu_action_save" android:contentDescription="@string/menu_action_save" android:tooltipText="@string/menu_action_save" app:showAsAction="always" />
+    </group>
+</menu>

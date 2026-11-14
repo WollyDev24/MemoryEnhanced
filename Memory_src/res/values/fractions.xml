@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="about_page_update_button_width_max">75.0%</fraction>
+    <fraction name="textextraction_dialog_animation_enter_end_translate">0.0%</fraction>
+    <fraction name="textextraction_dialog_animation_enter_start_translate">50.0%</fraction>
+    <fraction name="textextraction_dialog_animation_exit_end_translate">50.0%</fraction>
+    <fraction name="textextraction_dialog_animation_exit_start_translate">0.0%</fraction>
+</resources>

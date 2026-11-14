@@ -1,0 +1,244 @@
+.class public final Lp3/a;
+.super Lp3/d;
+.source "r8-map-id-e93a72792c972cad17e84e22058bc4948ad789ab8e61ec7b26e7bd8c8fdadfa3"
+
+
+# instance fields
+.field public h:I
+
+.field public j:I
+
+.field public k:Lm3/a;
+
+
+# virtual methods
+.method public getAllowsGoneWidget()Z
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lp3/a;->k:Lm3/a;
+
+    .line 2
+    .line 3
+    iget-boolean p0, p0, Lm3/a;->t0:Z
+
+    .line 4
+    .line 5
+    return p0
+.end method
+
+.method public getMargin()I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lp3/a;->k:Lm3/a;
+
+    .line 2
+    .line 3
+    iget p0, p0, Lm3/a;->u0:I
+
+    .line 4
+    .line 5
+    return p0
+.end method
+
+.method public getType()I
+    .locals 0
+
+    .line 1
+    iget p0, p0, Lp3/a;->h:I
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+.method public final i(Lm3/g;Z)V
+    .locals 5
+
+    .line 1
+    iget v0, p0, Lp3/a;->h:I
+
+    .line 2
+    .line 3
+    iput v0, p0, Lp3/a;->j:I
+
+    .line 4
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    const/4 v2, 0x6
+
+    .line 7
+    const/4 v3, 0x1
+
+    .line 8
+    const/4 v4, 0x5
+
+    .line 9
+    if-eqz p2, :cond_1
+
+    .line 10
+    .line 11
+    if-ne v0, v4, :cond_0
+
+    .line 12
+    .line 13
+    iput v3, p0, Lp3/a;->j:I
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    if-ne v0, v2, :cond_3
+
+    .line 17
+    .line 18
+    iput v1, p0, Lp3/a;->j:I
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_1
+    if-ne v0, v4, :cond_2
+
+    .line 22
+    .line 23
+    iput v1, p0, Lp3/a;->j:I
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_2
+    if-ne v0, v2, :cond_3
+
+    .line 27
+    .line 28
+    iput v3, p0, Lp3/a;->j:I
+
+    .line 29
+    .line 30
+    :cond_3
+    :goto_0
+    instance-of p2, p1, Lm3/a;
+
+    .line 31
+    .line 32
+    if-eqz p2, :cond_4
+
+    .line 33
+    .line 34
+    check-cast p1, Lm3/a;
+
+    .line 35
+    .line 36
+    iget p0, p0, Lp3/a;->j:I
+
+    .line 37
+    .line 38
+    iput p0, p1, Lm3/a;->s0:I
+
+    .line 39
+    .line 40
+    :cond_4
+    return-void
+.end method
+
+.method public setAllowsGoneWidget(Z)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lp3/a;->k:Lm3/a;
+
+    .line 2
+    .line 3
+    iput-boolean p1, p0, Lm3/a;->t0:Z
+
+    .line 4
+    .line 5
+    return-void
+.end method
+
+.method public setDpMargin(I)V
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    iget v0, v0, Landroid/util/DisplayMetrics;->density:F
+
+    .line 10
+    .line 11
+    int-to-float p1, p1
+
+    .line 12
+    mul-float/2addr p1, v0
+
+    .line 13
+    const/high16 v0, 0x3f000000    # 0.5f
+
+    .line 14
+    .line 15
+    add-float/2addr p1, v0
+
+    .line 16
+    float-to-int p1, p1
+
+    .line 17
+    iget-object p0, p0, Lp3/a;->k:Lm3/a;
+
+    .line 18
+    .line 19
+    iput p1, p0, Lm3/a;->u0:I
+
+    .line 20
+    .line 21
+    return-void
+.end method
+
+.method public setMargin(I)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lp3/a;->k:Lm3/a;
+
+    .line 2
+    .line 3
+    iput p1, p0, Lm3/a;->u0:I
+
+    .line 4
+    .line 5
+    return-void
+.end method
+
+.method public setType(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lp3/a;->h:I
+
+    .line 2
+    .line 3
+    return-void
+.end method

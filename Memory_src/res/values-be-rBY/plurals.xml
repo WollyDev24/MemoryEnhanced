@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_memo_dialog_cant_enter_more_then_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d сімвала.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="other">Немагчыма ўвесці больш %d сімвалаў.</item>
+    </plurals>
+    <plurals name="collections_create_error_limit_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d сімвала.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="other">Немагчыма ўвесці больш %d сімвалаў.</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_favorites_and_others">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць Упадабаныя і яшчэ %d калекцыю?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць Упадабаныя і яшчэ %d калекцыі?</item>
+        <item quantity="many">Выдаліць Упадабаныя і яшчэ %d калекцый?</item>
+        <item quantity="other">Выдаліць Упадабаныя і яшчэ %d калекцый?</item>
+    </plurals>
+    <plurals name="collections_delete_confirm_title_multiple">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d калекцыю?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d калекцыі?</item>
+        <item quantity="many">Выдаліць %d калекцый?</item>
+        <item quantity="other">Выдаліць %d калекцый?</item>
+    </plurals>
+    <plurals name="collections_pd_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d успамін</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d успаміны</item>
+        <item quantity="many">%d успамінаў</item>
+        <item quantity="other">%d успамінаў</item>
+    </plurals>
+    <plurals name="date_group_past_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Апошні %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Апошнія %d дні</item>
+        <item quantity="many">Апошнія %d дзён</item>
+        <item quantity="other">Апошнія %d дзён</item>
+    </plurals>
+    <plurals name="days_activity_collections">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d калекцыя</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d калекцыі</item>
+        <item quantity="many">%d калекцый</item>
+        <item quantity="other">%d калекцый</item>
+    </plurals>
+    <plurals name="days_activity_duration_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гадзін: %d</item>
+        <item quantity="many">Гадзін: %d</item>
+        <item quantity="other">Гадзін: %d</item>
+    </plurals>
+    <plurals name="days_activity_duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Хвілін: %d</item>
+        <item quantity="many">Хвілін: %d</item>
+        <item quantity="other">Хвілін: %d</item>
+    </plurals>
+    <plurals name="days_activity_kcal">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ккал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ккал</item>
+        <item quantity="many">%d ккал</item>
+        <item quantity="other">%d ккал</item>
+    </plurals>
+    <plurals name="days_activity_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d паведамленне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d паведамленні</item>
+        <item quantity="many">%d паведамленняў</item>
+        <item quantity="other">%d паведамленняў</item>
+    </plurals>
+    <plurals name="days_activity_people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d чалавек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d чалавекі</item>
+        <item quantity="many">%d чалавек</item>
+        <item quantity="other">%d чалавек</item>
+    </plurals>
+    <plurals name="days_activity_photos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d фота</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d фота</item>
+        <item quantity="many">%d фота</item>
+        <item quantity="other">%d фота</item>
+    </plurals>
+    <plurals name="days_activity_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d разы</item>
+        <item quantity="many">%d разоў</item>
+        <item quantity="other">%d разоў</item>
+    </plurals>
+    <plurals name="days_activity_videos">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d відэа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+        <item quantity="other">%d відэа</item>
+    </plurals>
+    <plurals name="days_activity_webpages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d вэб-старонка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d вэб-старонкі</item>
+        <item quantity="many">%d вэб-старонак</item>
+        <item quantity="other">%d вэб-старонак</item>
+    </plurals>
+    <plurals name="days_appbar_subtitle_highlights">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d галоўны момант для %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d галоўныя моманты для %2$s</item>
+        <item quantity="many">%1$d галоўных момантаў для %2$s</item>
+        <item quantity="other">%1$d галоўных момантаў для %2$s</item>
+    </plurals>
+    <plurals name="days_edit_highlight_error_no_changes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d сімвала.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="other">Немагчыма ўвесці больш %d сімвалаў.</item>
+    </plurals>
+    <plurals name="days_hide_activities_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Схаваць %d дзеянне?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Схаваць %d дзеянні?</item>
+        <item quantity="many">Схаваць %d дзеянняў?</item>
+        <item quantity="other">Схаваць %d дзеянняў?</item>
+    </plurals>
+    <plurals name="days_hide_highlights_confirm_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Схаваць %d вылучаны фрагмент?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Схаваць %d вылучаныя фрагменты?</item>
+        <item quantity="many">Схаваць %d вылучаных фрагментаў?</item>
+        <item quantity="other">Схаваць %d вылучаных фрагментаў?</item>
+    </plurals>
+    <plurals name="detail_delete_confirm_message_permanent">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d успамін?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d успаміны?</item>
+        <item quantity="many">Выдаліць %d успамінаў?</item>
+        <item quantity="other">Выдаліць %d успамінаў?</item>
+    </plurals>
+    <plurals name="home_appbar_subtitle_single_collection_memories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 калекцыя, %d успамін</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 калекцыя, %d успаміны</item>
+        <item quantity="many">1 калекцыя, %d успамінаў</item>
+        <item quantity="other">1 калекцыя, %d успамінаў</item>
+    </plurals>
+    <plurals name="home_delete_items_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d успамін?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d успаміны?</item>
+        <item quantity="many">Выдаліць %d успамінаў?</item>
+        <item quantity="other">Выдаліць %d успамінаў?</item>
+    </plurals>
+    <plurals name="home_move_to_trash_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d успамін у Сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d успаміны ў Сметніцу?</item>
+        <item quantity="many">Перамясціць %d успамінаў у Сметніцу?</item>
+        <item quantity="other">Перамясціць %d успамінаў у Сметніцу?</item>
+    </plurals>
+    <plurals name="home_selection_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="home_suggestion_appbar_title_for_multi_suggest">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вам прапанавана %d новая калекцыя</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вам прапанаваны %d новыя калекцыі</item>
+        <item quantity="many">Вам прапанаваны %d новых калекцый</item>
+        <item quantity="other">Вам прапанаваны %d новых калекцый</item>
+    </plurals>
+    <plurals name="kids_account_minor_age_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі штучнага інтэлекту Galaxy, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі Galaxy AI, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі Galaxy AI, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі Galaxy AI, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="no_memories_trash_added">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усе ўспаміны, якія вы выдаліце, застануцца ў Сметніцы на %d дзень, перш чым будуць выдалены назаўсёды.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усе ўспаміны, якія вы выдаліце, застануцца ў Сметніцы на %d дні, перш чым будуць выдалены назаўсёды.</item>
+        <item quantity="many">Усе ўспаміны, якія вы выдаліце, застануцца ў Сметніцы на %d дзён, перш чым будуць выдалены назаўсёды.</item>
+        <item quantity="other">Усе ўспаміны, якія вы выдаліце, застануцца ў Сметніцы на %d дзён, перш чым будуць выдалены назаўсёды.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d стыкер. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d стыкеры. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d стыкераў. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+        <item quantity="other">Немагчыма дадаць больш за %d стыкераў. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць 1 калекцыю і перамясціць %d успамін у Сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць 1 калекцыю і перамясціць %d успаміны ў Сметніцу?</item>
+        <item quantity="many">Выдаліць 1 калекцыю і перамясціць %d успамінаў у Сметніцу?</item>
+        <item quantity="other">Выдаліць 1 калекцыю і перамясціць %d успамінаў у Сметніцу?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_move_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d калекцыю і перамясціць 1 успамін у Сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d калекцыі і перамясціць 1 успамін у Сметніцу?</item>
+        <item quantity="many">Выдаліць %d калекцый і перамясціць 1 успамін у Сметніцу?</item>
+        <item quantity="other">Выдаліць %d калекцый і перамясціць 1 успамін у Сметніцу?</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_collection">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 калекцыя і %d успамін будуць назаўсёды выдалены.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 калекцыя і %d успаміны будуць назаўсёды выдалены.</item>
+        <item quantity="many">1 калекцыя і %d успамінаў будуць назаўсёды выдалены.</item>
+        <item quantity="other">1 калекцыя і %d успамінаў будуць назаўсёды выдалены.</item>
+    </plurals>
+    <plurals name="search_delete_confirm_body_permanent_1_memory">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d калекцыя і 1 успамін будуць назаўсёды выдалены.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d калекцыі і 1 успамін будуць назаўсёды выдалены.</item>
+        <item quantity="many">%d калекцый і 1 успамін будуць назаўсёды выдалены.</item>
+        <item quantity="other">%d калекцый і 1 успамін будуць назаўсёды выдалены.</item>
+    </plurals>
+    <plurals name="search_result_found">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Знойдзены %d вынік</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Знойдзены %d вынікі</item>
+        <item quantity="many">Знойдзена %d вынікаў</item>
+        <item quantity="other">Знойдзена %d вынікаў</item>
+    </plurals>
+    <plurals name="share_images_saved_except_unsupported_format">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d відарыс захаваны ў праграме «%2$s». Некаторыя выбраныя фарматы відарысаў не падтрымліваюцца.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d відарысы захаваныя ў праграме «%2$s». Некаторыя выбраныя фарматы відарысаў не падтрымліваюцца.</item>
+        <item quantity="many">%1$d відарысаў захаваныя ў праграме «%2$s». Некаторыя выбраныя фарматы відарысаў не падтрымліваюцца.</item>
+        <item quantity="other">%1$d відарысаў захаваныя ў праграме «%2$s». Некаторыя выбраныя фарматы відарысаў не падтрымліваюцца.</item>
+    </plurals>
+    <plurals name="trash_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d успамін?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d успаміны?</item>
+        <item quantity="many">Выдаліць %d успамінаў?</item>
+        <item quantity="other">Выдаліць %d успамінаў?</item>
+    </plurals>
+    <plurals name="trash_header_notice_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Успаміны ў Сметніцы будуць выдалены назаўсёды праз %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Успаміны ў Сметніцы будуць выдалены назаўсёды праз %d дні.</item>
+        <item quantity="many">Успаміны ў Сметніцы будуць выдалены назаўсёды праз %d дзён.</item>
+        <item quantity="other">Успаміны ў Сметніцы будуць выдалены назаўсёды праз %d дзён.</item>
+    </plurals>
+    <plurals name="trash_restore_success_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адноўлены %d успамін.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адноўлены %d успаміны.</item>
+        <item quantity="many">Адноўлены %d успамінаў.</item>
+        <item quantity="other">Адноўлены %d успаміны.</item>
+    </plurals>
+    <plurals name="trash_retention_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты ўспамін будзе выдалены праз %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты ўспамін будзе выдалены праз %d дні.</item>
+        <item quantity="many">Гэты ўспамін будзе выдалены праз %d дзён.</item>
+        <item quantity="other">Гэты ўспамін будзе выдалены праз %d дзён.</item>
+    </plurals>
+</resources>

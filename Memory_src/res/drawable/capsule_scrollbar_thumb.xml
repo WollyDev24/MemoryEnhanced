@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/capsule_entity_expander_scrollbar_margin" android:insetRight="@dimen/capsule_entity_expander_scrollbar_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/expandable_capsule_scrollbar_color" />
+    </shape>
+</inset>
