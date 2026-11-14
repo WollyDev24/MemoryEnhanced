@@ -230,7 +230,12 @@
             </intent-filter>
         </activity>
         <activity android:configChanges="locale|layoutDirection" android:exported="false" android:name="com.samsung.android.app.memory.feature.language.AppLanguageSettingsActivity" android:theme="@style/Theme.Memory.Settings"/>
-        <activity android:configChanges="orientation|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.app.memory.feature.settings.about.AboutMemoryActivity" android:theme="@style/Theme.Memory"/>
+        <activity android:configChanges="orientation|screenSize|smallestScreenSize" android:exported="true" android:name="com.samsung.android.app.memory.feature.settings.about.AboutMemoryActivity" android:theme="@style/Theme.Memory">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.memory.action.ABOUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
         <activity android:configChanges="orientation|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.app.memory.feature.settings.assist.MemoryAssistActivity" android:theme="@style/Theme.Memory">
             <intent-filter>
                 <action android:name="com.samsung.android.app.shealth.intent.action.HEALTH_ASSIST"/>

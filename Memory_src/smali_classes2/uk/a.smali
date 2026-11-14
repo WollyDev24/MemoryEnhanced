@@ -2676,8 +2676,12 @@
     .line 792
     check-cast v13, Landroid/content/Context;
 
-    .line 793
-    .line 794
+    invoke-static {v13}, Lcom/samsung/android/app/memory/feature/update/GithubUpdateHelper;->checkUpdate(Landroid/content/Context;)Lwn/k;
+
+    move-result-object v10
+
+    goto/16 :goto_14
+
     const-string v1, "fetchMemoryVersionStatus: HTTP "
 
     .line 795

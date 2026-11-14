@@ -36,148 +36,10 @@
 
 # virtual methods
 .method public final a(Lj5/q;Landroid/content/Context;Ljava/lang/String;)V
-    .locals 11
+    .locals 0
 
-    .line 1
-    const-string v0, "context"
+    invoke-static {p2, p3}, Lcom/samsung/android/app/memory/feature/update/GithubUpdateHelper;->openUpdate(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
-    .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    const-string v0, "gcsObjectName"
-
-    .line 7
-    .line 8
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    new-instance v0, Lkotlin/jvm/internal/y;
-
-    .line 12
-    .line 13
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
-
-    .line 14
-    .line 15
-    .line 16
-    new-instance v1, Lwn/i;
-
-    .line 17
-    .line 18
-    const v2, 0x7f14004a
-
-    .line 19
-    .line 20
-    .line 21
-    invoke-virtual {p2, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 22
-    .line 23
-    .line 24
-    move-result-object v2
-
-    .line 25
-    const-string v3, "getString(...)"
-
-    .line 26
-    .line 27
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/m;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 28
-    .line 29
-    .line 30
-    const v4, 0x7f1400c7
-
-    .line 31
-    .line 32
-    .line 33
-    invoke-virtual {p2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object v4
-
-    .line 37
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/m;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 38
-    .line 39
-    .line 40
-    invoke-direct {v1, v2, v4, p3}, Lwn/i;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 41
-    .line 42
-    .line 43
-    new-instance v2, Ltm/u2;
-
-    .line 44
-    .line 45
-    const/4 v3, 0x0
-
-    .line 46
-    invoke-direct {v2, v0, v3}, Ltm/u2;-><init>(Lkotlin/jvm/internal/y;I)V
-
-    .line 47
-    .line 48
-    .line 49
-    invoke-static {p2, v1, v2}, Lrc/p;->f(Landroid/content/Context;Lwn/i;Lb30/a;)Lwb/e;
-
-    .line 50
-    .line 51
-    .line 52
-    move-result-object v5
-
-    .line 53
-    new-instance v4, Lbj/p;
-
-    .line 54
-    .line 55
-    const/4 v9, 0x0
-
-    .line 56
-    const/16 v10, 0x1c
-
-    .line 57
-    .line 58
-    move-object v6, p0
-
-    .line 59
-    move-object v7, p2
-
-    .line 60
-    move-object v8, p3
-
-    .line 61
-    invoke-direct/range {v4 .. v10}, Lbj/p;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lr20/c;I)V
-
-    .line 62
-    .line 63
-    .line 64
-    const/4 p0, 0x3
-
-    .line 65
-    const/4 p2, 0x0
-
-    .line 66
-    invoke-static {p1, p2, p2, v4, p0}, Lw50/e0;->y(Lw50/b0;Lr20/h;Lw50/d0;Lb30/n;I)Lw50/u1;
-
-    .line 67
-    .line 68
-    .line 69
-    move-result-object p0
-
-    .line 70
-    iput-object p0, v0, Lkotlin/jvm/internal/y;->a:Ljava/lang/Object;
-
-    .line 71
-    .line 72
     return-void
 .end method
 
@@ -440,6 +302,8 @@
     .line 123
     .line 124
     .line 125
+    const-wide/16 p1, 0x0
+
     cmp-long p1, v0, p1
 
     .line 126

@@ -25,25 +25,27 @@ fi
 
 # 2. Build APK
 echo "Building APK from Memory_src..."
-$APKTOOL_CMD b Memory_src -o Memory_patched_unsigned.apk
+rm -rf Memory_src/build
+$APKTOOL_CMD b -f Memory_src -o Memory_patched_unsigned.apk
 
 # 3. Sign APK
 echo "Signing APK..."
-$SIGNER_CMD --apks Memory_patched_unsigned.apk --out signed_apk --overwrite
+rm -rf signed_apk
+$SIGNER_CMD --apks Memory_patched_unsigned.apk --out signed_apk --allowResign
 
 # 4. Finalize
-SIGNED_FILE=$(find signed_apk -name "*debugSigned.apk" | head -n 1)
-if [ -n "$SIGNED_FILE" ]; then
+SIGNED_FILE="signed_apk/Memory_patched_unsigned-aligned-debugSigned.apk"
+if [ -f "$SIGNED_FILE" ]; then
     cp "$SIGNED_FILE" Memory_patched.apk
     echo "Build complete: Memory_patched.apk"
 else
-    echo "Error: Signed APK not found in signed_apk/"
+    echo "Error: Signed APK not found: $SIGNED_FILE"
     exit 1
 fi
 
 # 5. Optional install
 if [[ "$*" == *"--install"* ]] || [[ "$*" == *"-i"* ]]; then
     echo "Installing to connected device via ADB..."
-    adb install -r Memory_patched.apk
+    adb install -r -d Memory_patched.apk
     echo "Installation complete!"
 fi
